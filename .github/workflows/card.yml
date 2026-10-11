@@ -1,4 +1,4 @@
-name: console
+name: fiche
 
 # Le profil se redessine tout seul : une fois par jour, et à la demande.
 on:
@@ -13,7 +13,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: console
+  group: fiche
   cancel-in-progress: true
 
 jobs:
@@ -39,5 +39,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets
           git diff --cached --quiet && echo "rien n'a bougé" && exit 0
-          git commit -m "Console du $(date -u +%F)"
+          git commit -m "Fiche du $(date -u +%F)"
           git push
