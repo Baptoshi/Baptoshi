@@ -25,7 +25,7 @@ jobs:
         with:
           node-version: 22
 
-      - name: Dessiner les deux écrans
+      - name: Dessiner la fiche
         # CARD_TOKEN (jeton personnel, lecture seule) fait entrer les contributions privées
         # quand le profil les publie ; sans lui, le jeton de l'exécution suffit pour le public.
         env:
