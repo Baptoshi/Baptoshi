@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="428" height="190" viewBox="0 0 428 190" role="img" aria-label="Profil hebdomadaire : MON 21, TUE 11, WED 0, THU 1, FRI 12, SAT 0, SUN 33.">
+<svg xmlns="http://www.w3.org/2000/svg" width="428" height="190" viewBox="0 0 428 190" role="img" aria-label="Profil hebdomadaire : MON 21, TUE 11, WED 0, THU 1, FRI 12, SAT 0, SUN 34.">
   <title>WEEKDAY PROFILE</title>
-  <desc>Ce que pèse chaque jour de la semaine sur douze mois : mon 21, tue 11, wed 0, thu 1, fri 12, sat 0, sun 33. Source : API GraphQL de GitHub, arrêté au 2026-10-11 21:57Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>Ce que pèse chaque jour de la semaine sur douze mois : mon 21, tue 11, wed 0, thu 1, fri 12, sat 0, sun 34. Source : API GraphQL de GitHub, arrêté au 2026-10-11 21:58Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
@@ -54,14 +54,14 @@
   <line x1="0" y1="42" x2="428" y2="42" stroke="#1a1c1f"/>
   <line x1="20" y1="148" x2="408" y2="148" stroke="#2a2d32"/>
   <g>
-    <rect class="grow" x="27.0" y="100.9" width="41.4" height="47.1" rx="2" fill="#17622b" style="animation-delay:0s"/>
+    <rect class="grow" x="27.0" y="102.3" width="41.4" height="45.7" rx="2" fill="#17622b" style="animation-delay:0s"/>
     <text x="47.7" y="162" class="tiny" text-anchor="middle">MON</text>
-    <text x="47.7" y="94.9" class="tiny" text-anchor="middle">21</text>
+    <text x="47.7" y="96.3" class="tiny" text-anchor="middle">21</text>
   </g>
   <g>
-    <rect class="grow" x="82.4" y="123.3" width="41.4" height="24.7" rx="2" fill="#17622b" style="animation-delay:0.3s"/>
+    <rect class="grow" x="82.4" y="124.1" width="41.4" height="23.9" rx="2" fill="#17622b" style="animation-delay:0.3s"/>
     <text x="103.1" y="162" class="tiny" text-anchor="middle">TUE</text>
-    <text x="103.1" y="117.3" class="tiny" text-anchor="middle">11</text>
+    <text x="103.1" y="118.1" class="tiny" text-anchor="middle">11</text>
   </g>
   <g>
     <rect class="grow" x="137.9" y="146.0" width="41.4" height="2.0" rx="2" fill="#17622b" style="animation-delay:0.6s"/>
@@ -74,9 +74,9 @@
     <text x="214.0" y="139.0" class="tiny" text-anchor="middle">1</text>
   </g>
   <g>
-    <rect class="grow" x="248.7" y="121.1" width="41.4" height="26.9" rx="2" fill="#17622b" style="animation-delay:1.2s"/>
+    <rect class="grow" x="248.7" y="121.9" width="41.4" height="26.1" rx="2" fill="#17622b" style="animation-delay:1.2s"/>
     <text x="269.4" y="162" class="tiny" text-anchor="middle">FRI</text>
-    <text x="269.4" y="115.1" class="tiny" text-anchor="middle">12</text>
+    <text x="269.4" y="115.9" class="tiny" text-anchor="middle">12</text>
   </g>
   <g>
     <rect class="grow" x="304.1" y="146.0" width="41.4" height="2.0" rx="2" fill="#17622b" style="animation-delay:1.5s"/>
@@ -86,7 +86,7 @@
   <g>
     <rect class="grow" x="359.6" y="74.0" width="41.4" height="74.0" rx="2" fill="#00c805" style="animation-delay:1.7999999999999998s"/>
     <text x="380.3" y="162" class="tiny" text-anchor="middle">SUN</text>
-    <text x="380.3" y="68.0" class="tiny" text-anchor="middle">33</text>
+    <text x="380.3" y="68.0" class="tiny" text-anchor="middle">34</text>
   </g>
-  <text x="20" y="180" class="foot">BUSIEST SUN · 33 CONTRIBUTIONS</text>
+  <text x="20" y="180" class="foot">BUSIEST SUN · 34 CONTRIBUTIONS</text>
 </svg>

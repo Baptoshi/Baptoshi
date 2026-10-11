@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="428" height="190" viewBox="0 0 428 190" role="img" aria-label="Répartition par langage : TypeScript 56.2%, JavaScript 30.8%, Python 12.6%, CSS 0.4%.">
   <title>LANGUAGE ALLOCATION</title>
-  <desc>Les octets de code des dépôts publics, par langage : TypeScript 56.2%, JavaScript 30.8%, Python 12.6%, CSS 0.4%. Source : API GraphQL de GitHub, arrêté au 2026-10-11 21:57Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>Les octets de code des dépôts publics, par langage : TypeScript 56.2%, JavaScript 30.8%, Python 12.6%, CSS 0.4%. Source : API GraphQL de GitHub, arrêté au 2026-10-11 21:58Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
