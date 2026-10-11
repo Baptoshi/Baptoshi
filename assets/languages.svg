@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="428" height="212" viewBox="0 0 428 212" role="img" aria-label="Répartition par langage : TypeScript 56.2%, JavaScript 30.8%, Python 12.6%, CSS 0.4%.">
+<svg xmlns="http://www.w3.org/2000/svg" width="428" height="212" viewBox="0 0 428 212" role="img" aria-label="Répartition par langage : TypeScript 50.5%, JavaScript 37.8%, Python 11.3%, CSS 0.4%.">
   <title>LANGUAGE ALLOCATION</title>
-  <desc>Les octets de code des dépôts publics, par langage : TypeScript 56.2%, JavaScript 30.8%, Python 12.6%, CSS 0.4%. Source : API GraphQL de GitHub, arrêté au 2026-10-11 22:07Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>Les octets de code des dépôts publics, par langage : TypeScript 50.5%, JavaScript 37.8%, Python 11.3%, CSS 0.4%. Source : API GraphQL de GitHub, arrêté au 2026-10-11 22:08Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
@@ -55,26 +55,26 @@
   <text x="408" y="28" class="lab" text-anchor="end">BY BYTES</text>
   <line x1="0" y1="42" x2="428" y2="42" stroke="#1a1c1f"/>
   <g clip-path="url(#alloc)">
-    <rect x="20.0" y="60" width="217.1" height="18" fill="#00c805"/>
-    <rect x="238.1" y="60" width="118.3" height="18" fill="#06a830"/>
-    <rect x="357.5" y="60" width="47.8" height="18" fill="#0c8b3c"/>
-    <rect x="406.3" y="60" width="0.7" height="18" fill="#2a7248"/>
+    <rect x="20.0" y="60" width="194.9" height="18" fill="#00c805"/>
+    <rect x="215.9" y="60" width="145.7" height="18" fill="#06a830"/>
+    <rect x="362.6" y="60" width="42.9" height="18" fill="#0c8b3c"/>
+    <rect x="406.5" y="60" width="0.5" height="18" fill="#2a7248"/>
     <rect class="gloss" x="20" y="60" width="110" height="18" fill="url(#gloss)"/>
   </g>
   <g>
     <rect x="20" y="96" width="9" height="9" rx="2" fill="#00c805"/>
     <text x="36" y="104" class="leg">TYPESCRIPT</text>
-    <text x="176" y="104" class="num" text-anchor="end">56.2%</text>
+    <text x="176" y="104" class="num" text-anchor="end">50.5%</text>
   </g>
   <g>
     <rect x="216" y="96" width="9" height="9" rx="2" fill="#06a830"/>
     <text x="232" y="104" class="leg">JAVASCRIPT</text>
-    <text x="372" y="104" class="num" text-anchor="end">30.8%</text>
+    <text x="372" y="104" class="num" text-anchor="end">37.8%</text>
   </g>
   <g>
     <rect x="20" y="118" width="9" height="9" rx="2" fill="#0c8b3c"/>
     <text x="36" y="126" class="leg">PYTHON</text>
-    <text x="176" y="126" class="num" text-anchor="end">12.6%</text>
+    <text x="176" y="126" class="num" text-anchor="end">11.3%</text>
   </g>
   <g>
     <rect x="216" y="118" width="9" height="9" rx="2" fill="#2a7248"/>
