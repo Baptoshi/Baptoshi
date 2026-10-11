@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="1020" viewBox="0 0 880 1020" role="img"
-     aria-label="Baptoshi — fiche GitHub : 75 contributions sur douze mois, 3 pull requests fusionnées, 5 dépôts publics, 4 langages.">
+     aria-label="Baptoshi — fiche GitHub : 76 contributions sur douze mois, 3 pull requests fusionnées, 5 dépôts publics, 4 langages.">
   <title>Baptoshi — GitHub</title>
-  <desc>Chiffres publics GitHub de Baptiste Castiglione, arrêtés au 2026-10-11 21:49Z : 75 contributions sur douze mois (24 commits, 22 pull requests, 4 tickets, 0 revues), 3 pull requests fusionnées, 5 dépôts publics, 2 étoiles, 0 forks, 0 Mo. Les dépôts ne sont lus qu'en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>Chiffres publics GitHub de Baptiste Castiglione, arrêtés au 2026-10-11 21:50Z : 76 contributions sur douze mois (25 commits, 22 pull requests, 4 tickets, 0 revues), 3 pull requests fusionnées, 5 dépôts publics, 2 étoiles, 0 forks, 0 Mo. Les dépôts ne sont lus qu'en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bars" x1="0" y1="100" x2="0" y2="182" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
@@ -77,7 +77,7 @@
   <circle class="ping" cx="342" cy="42" r="3" fill="#00c805"/>
   <circle class="pulse" cx="342" cy="42" r="3" fill="#00c805"/>
   <text x="352" y="46" class="live">LIVE</text>
-  <text x="840" y="46" class="sub" text-anchor="end">2026-10-11 21:49Z</text>
+  <text x="840" y="46" class="sub" text-anchor="end">2026-10-11 21:50Z</text>
 
   <g>
     <line x1="0" y1="76" x2="880" y2="76" stroke="#1a1c1f"/>
@@ -85,9 +85,9 @@
   </g>
 
   <!-- la mesure principale, et la série hebdomadaire -->
-  <text x="40" y="146" class="big">75</text>
+  <text x="40" y="146" class="big">76</text>
   <text x="40" y="166" class="lab">CONTRIBUTIONS · TRAILING 12M</text>
-  <text x="40" y="192" class="chg mono">▲ +65 <tspan class="lab">7D VS PRIOR 7D</tspan></text>
+  <text x="40" y="192" class="chg mono">▲ +66 <tspan class="lab">7D VS PRIOR 7D</tspan></text>
   <line x1="460" y1="76" x2="460" y2="216" stroke="#141619"/>
   <line x1="500" y1="120.5" x2="840" y2="120.5" stroke="#141619"/>
   <line x1="500" y1="141.0" x2="840" y2="141.0" stroke="#141619"/>
@@ -144,7 +144,7 @@
     <rect x="813.8" y="180.5" width="4.5" height="1.5" rx="1" fill="#1e2126"/>
     <rect x="820.4" y="180.5" width="4.5" height="1.5" rx="1" fill="#1e2126"/>
     <rect x="826.9" y="100.0" width="4.5" height="82.0" rx="1" fill="url(#bars)"/>
-    <rect x="833.5" y="111.7" width="4.5" height="70.3" rx="1" fill="url(#bars)"/>
+    <rect x="833.5" y="109.4" width="4.5" height="72.6" rx="1" fill="url(#bars)"/>
     <rect class="scan" x="500" y="94" width="2" height="88" fill="url(#cursor)"/>
   </g>
   <line x1="500" y1="182" x2="840" y2="182" stroke="#2a2d32"/>
@@ -192,43 +192,43 @@
   <line x1="40" y1="341.0" x2="430" y2="341.0" stroke="#141619"/>
   <line x1="40" y1="366.0" x2="430" y2="366.0" stroke="#141619"/>
   <line x1="40" y1="391.0" x2="430" y2="391.0" stroke="#141619"/>
-  <path d="M40.0 416.0 L47.6 409.3 L55.3 409.3 L62.9 409.3 L70.6 409.3 L78.2 409.3 L85.9 409.3 L93.5 409.3 L101.2 409.3 L108.8 409.3 L116.5 409.3 L124.1 409.3 L131.8 409.3 L139.4 409.3 L147.1 409.3 L154.7 409.3 L162.4 409.3 L170.0 409.3 L177.6 409.3 L185.3 409.3 L192.9 409.3 L200.6 409.3 L208.2 409.3 L215.9 409.3 L223.5 409.3 L231.2 409.3 L238.8 409.3 L246.5 409.3 L254.1 409.3 L261.8 409.3 L269.4 409.3 L277.1 409.3 L284.7 409.3 L292.4 402.7 L300.0 402.7 L307.6 402.7 L315.3 402.7 L322.9 402.7 L330.6 402.7 L338.2 402.7 L345.9 402.7 L353.5 402.7 L361.2 402.7 L368.8 402.7 L376.5 402.7 L384.1 402.7 L391.8 402.7 L399.4 402.7 L407.1 402.7 L414.7 402.7 L422.4 356.0 L430.0 316.0 L430.0 416 L40 416 Z" fill="url(#curve)"/>
-  <path d="M40.0 416.0 L47.6 409.3 L55.3 409.3 L62.9 409.3 L70.6 409.3 L78.2 409.3 L85.9 409.3 L93.5 409.3 L101.2 409.3 L108.8 409.3 L116.5 409.3 L124.1 409.3 L131.8 409.3 L139.4 409.3 L147.1 409.3 L154.7 409.3 L162.4 409.3 L170.0 409.3 L177.6 409.3 L185.3 409.3 L192.9 409.3 L200.6 409.3 L208.2 409.3 L215.9 409.3 L223.5 409.3 L231.2 409.3 L238.8 409.3 L246.5 409.3 L254.1 409.3 L261.8 409.3 L269.4 409.3 L277.1 409.3 L284.7 409.3 L292.4 402.7 L300.0 402.7 L307.6 402.7 L315.3 402.7 L322.9 402.7 L330.6 402.7 L338.2 402.7 L345.9 402.7 L353.5 402.7 L361.2 402.7 L368.8 402.7 L376.5 402.7 L384.1 402.7 L391.8 402.7 L399.4 402.7 L407.1 402.7 L414.7 402.7 L422.4 356.0 L430.0 316.0" fill="none" stroke="#00c805" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M40.0 416.0 L47.6 409.4 L55.3 409.4 L62.9 409.4 L70.6 409.4 L78.2 409.4 L85.9 409.4 L93.5 409.4 L101.2 409.4 L108.8 409.4 L116.5 409.4 L124.1 409.4 L131.8 409.4 L139.4 409.4 L147.1 409.4 L154.7 409.4 L162.4 409.4 L170.0 409.4 L177.6 409.4 L185.3 409.4 L192.9 409.4 L200.6 409.4 L208.2 409.4 L215.9 409.4 L223.5 409.4 L231.2 409.4 L238.8 409.4 L246.5 409.4 L254.1 409.4 L261.8 409.4 L269.4 409.4 L277.1 409.4 L284.7 409.4 L292.4 402.8 L300.0 402.8 L307.6 402.8 L315.3 402.8 L322.9 402.8 L330.6 402.8 L338.2 402.8 L345.9 402.8 L353.5 402.8 L361.2 402.8 L368.8 402.8 L376.5 402.8 L384.1 402.8 L391.8 402.8 L399.4 402.8 L407.1 402.8 L414.7 402.8 L422.4 356.8 L430.0 316.0 L430.0 416 L40 416 Z" fill="url(#curve)"/>
+  <path d="M40.0 416.0 L47.6 409.4 L55.3 409.4 L62.9 409.4 L70.6 409.4 L78.2 409.4 L85.9 409.4 L93.5 409.4 L101.2 409.4 L108.8 409.4 L116.5 409.4 L124.1 409.4 L131.8 409.4 L139.4 409.4 L147.1 409.4 L154.7 409.4 L162.4 409.4 L170.0 409.4 L177.6 409.4 L185.3 409.4 L192.9 409.4 L200.6 409.4 L208.2 409.4 L215.9 409.4 L223.5 409.4 L231.2 409.4 L238.8 409.4 L246.5 409.4 L254.1 409.4 L261.8 409.4 L269.4 409.4 L277.1 409.4 L284.7 409.4 L292.4 402.8 L300.0 402.8 L307.6 402.8 L315.3 402.8 L322.9 402.8 L330.6 402.8 L338.2 402.8 L345.9 402.8 L353.5 402.8 L361.2 402.8 L368.8 402.8 L376.5 402.8 L384.1 402.8 L391.8 402.8 L399.4 402.8 L407.1 402.8 L414.7 402.8 L422.4 356.8 L430.0 316.0" fill="none" stroke="#00c805" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
   <rect class="trace" x="40" y="316" width="2" height="100" fill="url(#cursor)"/>
   <circle class="ping" cx="430.0" cy="316.0" r="3" fill="#00c805"/>
   <circle cx="430.0" cy="316.0" r="2.6" fill="#00c805"/>
   <line x1="40" y1="416" x2="430" y2="416" stroke="#2a2d32"/>
   <text x="40" y="431" class="lab">0</text>
-  <text x="430" y="431" class="lab" text-anchor="end">75</text>
+  <text x="430" y="431" class="lab" text-anchor="end">76</text>
 
   <text x="450" y="300" class="sec">ACTIVITY MIX</text><text x="840" y="300" class="lab" text-anchor="end">12M</text>
   <circle cx="522" cy="370" r="46" fill="none" stroke="#17191d" stroke-width="16"/>
   <circle cx="522" cy="370" r="46" fill="none" stroke="#00c805" stroke-width="16"
-      stroke-dasharray="137.23 151.79" stroke-dashoffset="0.00"
+      stroke-dasharray="140.18 148.85" stroke-dashoffset="0.00"
       transform="rotate(-90 522 370)"/>
     <circle cx="522" cy="370" r="46" fill="none" stroke="#06a830" stroke-width="16"
-      stroke-dasharray="125.67 163.35" stroke-dashoffset="-138.73"
+      stroke-dasharray="123.18 165.85" stroke-dashoffset="-141.68"
       transform="rotate(-90 522 370)"/>
     <circle cx="522" cy="370" r="46" fill="none" stroke="#0c8b3c" stroke-width="16"
-      stroke-dasharray="21.62 267.40" stroke-dashoffset="-265.90"
+      stroke-dasharray="21.17 267.86" stroke-dashoffset="-266.36"
       transform="rotate(-90 522 370)"/>
   <circle class="spin" cx="522" cy="370" r="59" fill="none" stroke="#00c805" stroke-opacity=".5" stroke-width="1" stroke-dasharray="2 10"/>
-  <text x="522" y="373" class="val" text-anchor="middle">50</text>
+  <text x="522" y="373" class="val" text-anchor="middle">51</text>
   <text x="522" y="387" class="tiny" text-anchor="middle">EVENTS</text>
   <g>
     <rect x="600" y="331" width="9" height="9" rx="2" fill="#00c805"/>
     <text x="616" y="339" class="leg">COMMITS</text>
-    <text x="840" y="339" class="num" text-anchor="end">24  ·  48.0%</text>
+    <text x="840" y="339" class="num" text-anchor="end">25  ·  49.0%</text>
   </g>
   <g>
     <rect x="600" y="355" width="9" height="9" rx="2" fill="#06a830"/>
     <text x="616" y="363" class="leg">PULL REQUESTS</text>
-    <text x="840" y="363" class="num" text-anchor="end">22  ·  44.0%</text>
+    <text x="840" y="363" class="num" text-anchor="end">22  ·  43.1%</text>
   </g>
   <g>
     <rect x="600" y="379" width="9" height="9" rx="2" fill="#0c8b3c"/>
     <text x="616" y="387" class="leg">ISSUES</text>
-    <text x="840" y="387" class="num" text-anchor="end">4  ·  8.0%</text>
+    <text x="840" y="387" class="num" text-anchor="end">4  ·  7.8%</text>
   </g>
 
   <g>
@@ -237,7 +237,7 @@
   </g>
 
   <!-- matrice d'activité -->
-  <text x="40" y="494" class="sec">ACTIVITY MATRIX</text><text x="840" y="494" class="lab" text-anchor="end">52W × 7D · PEAK 30/D</text>
+  <text x="40" y="494" class="sec">ACTIVITY MATRIX</text><text x="840" y="494" class="lab" text-anchor="end">52W × 7D · PEAK 31/D</text>
   <text x="62.0" y="510" class="tiny">OCT</text><text x="91.9" y="510" class="tiny">NOV</text><text x="166.7" y="510" class="tiny">DEC</text><text x="226.6" y="510" class="tiny">JAN</text><text x="286.4" y="510" class="tiny">FEB</text><text x="346.3" y="510" class="tiny">MAR</text><text x="421.1" y="510" class="tiny">APR</text><text x="480.9" y="510" class="tiny">MAY</text><text x="555.7" y="510" class="tiny">JUN</text><text x="615.6" y="510" class="tiny">JUL</text><text x="675.4" y="510" class="tiny">AUG</text><text x="750.2" y="510" class="tiny">SEP</text>
   <text x="40" y="528.6" class="tiny">MON</text><text x="40" y="558.5" class="tiny">WED</text><text x="40" y="588.4" class="tiny">FRI</text><text x="40" y="618.3" class="tiny">SUN</text>
   <g>
@@ -339,14 +339,14 @@
   <text x="450" y="674" class="sec">WEEKDAY PROFILE</text><text x="840" y="674" class="lab" text-anchor="end">12M</text>
   <line x1="450" y1="780" x2="840" y2="780" stroke="#2a2d32"/>
   <g>
-    <rect class="grow" x="458.0" y="726.8" width="39.7" height="53.2" rx="2" fill="#17622b" style="animation-delay:0s"/>
+    <rect class="grow" x="458.0" y="728.5" width="39.7" height="51.5" rx="2" fill="#17622b" style="animation-delay:0s"/>
     <text x="477.9" y="794" class="tiny" text-anchor="middle">MON</text>
-    <text x="477.9" y="720.8" class="tiny" text-anchor="middle">21</text>
+    <text x="477.9" y="722.5" class="tiny" text-anchor="middle">21</text>
   </g>
   <g>
-    <rect class="grow" x="513.7" y="752.1" width="39.7" height="27.9" rx="2" fill="#17622b" style="animation-delay:0.3s"/>
+    <rect class="grow" x="513.7" y="753.0" width="39.7" height="27.0" rx="2" fill="#17622b" style="animation-delay:0.3s"/>
     <text x="533.6" y="794" class="tiny" text-anchor="middle">TUE</text>
-    <text x="533.6" y="746.1" class="tiny" text-anchor="middle">11</text>
+    <text x="533.6" y="747.0" class="tiny" text-anchor="middle">11</text>
   </g>
   <g>
     <rect class="grow" x="569.4" y="778.0" width="39.7" height="2.0" rx="2" fill="#17622b" style="animation-delay:0.6s"/>
@@ -359,9 +359,9 @@
     <text x="645.0" y="771.0" class="tiny" text-anchor="middle">1</text>
   </g>
   <g>
-    <rect class="grow" x="680.9" y="749.6" width="39.7" height="30.4" rx="2" fill="#17622b" style="animation-delay:1.2s"/>
+    <rect class="grow" x="680.9" y="750.6" width="39.7" height="29.4" rx="2" fill="#17622b" style="animation-delay:1.2s"/>
     <text x="700.7" y="794" class="tiny" text-anchor="middle">FRI</text>
-    <text x="700.7" y="743.6" class="tiny" text-anchor="middle">12</text>
+    <text x="700.7" y="744.6" class="tiny" text-anchor="middle">12</text>
   </g>
   <g>
     <rect class="grow" x="736.6" y="778.0" width="39.7" height="2.0" rx="2" fill="#17622b" style="animation-delay:1.5s"/>
@@ -371,7 +371,7 @@
   <g>
     <rect class="grow" x="792.3" y="704.0" width="39.7" height="76.0" rx="2" fill="#00c805" style="animation-delay:1.7999999999999998s"/>
     <text x="812.1" y="794" class="tiny" text-anchor="middle">SUN</text>
-    <text x="812.1" y="698.0" class="tiny" text-anchor="middle">30</text>
+    <text x="812.1" y="698.0" class="tiny" text-anchor="middle">31</text>
   </g>
 
   <g>
