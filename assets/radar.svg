@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="428" height="212" viewBox="0 0 428 212" role="img" aria-label="Radar des jours de la semaine : MON 16, TUE 16, WED 0, THU 0, FRI 13, SAT 0, SUN 38.">
+  <title>WEEKDAY RADAR</title>
+  <desc>Les sept jours de la semaine sur sept axes, en contributions sur douze mois : mon 16, tue 16, wed 0, thu 0, fri 13, sat 0, sun 38. L'axe va de 0 à 38. Source : API GraphQL de GitHub, arrêté au 2026-10-11 22:07Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <defs>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00c805" stop-opacity=".32"/><stop offset="1" stop-color="#00c805" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cursor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8dffa0" stop-opacity="0"/><stop offset=".45" stop-color="#8dffa0" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#8dffa0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gloss" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient><radialGradient id="beam" cx="0" cy="0" r="1">
+      <stop offset="0" stop-color="#00c805" stop-opacity=".35"/><stop offset="1" stop-color="#00c805" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .mono, .big, .val, .num { font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace; font-variant-numeric: tabular-nums; }
+      .tick { font-size: 13px; fill: #fff; font-weight: 600; letter-spacing: 1.4px; }
+      .sub  { font-size: 10.5px; fill: #6d7279; letter-spacing: 1.2px; }
+      .sec  { font-size: 10px; fill: #e8eaed; letter-spacing: 1.8px; font-weight: 600; }
+      .lab  { font-size: 9.5px; fill: #6d7279; letter-spacing: 1.5px; }
+      .tiny { font-size: 8.5px; fill: #5d6268; letter-spacing: 1.1px; }
+      .big  { font-size: 44px; fill: #fff; font-weight: 500; letter-spacing: -1.4px; }
+      .chg  { font-size: 12.5px; fill: #00c805; font-weight: 600; }
+      .key  { font-size: 9.5px; fill: #8b9199; letter-spacing: 1.3px; }
+      .val  { font-size: 16px; fill: #fff; font-weight: 500; }
+      .num  { font-size: 11px; fill: #c9ced4; }
+      .leg  { font-size: 10px; fill: #a7adb4; letter-spacing: .6px; }
+      .foot { font-size: 9px; fill: #5d6268; letter-spacing: 1.1px; }
+      .live { font-size: 9.5px; fill: #00c805; letter-spacing: 1.6px; font-weight: 600; }
+
+      .pulse { animation: pulse 2.6s ease-in-out infinite; }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .3; } }
+      .ping  { animation: ping 2.6s ease-out infinite; transform-box: fill-box; transform-origin: 50% 50%; }
+      @keyframes ping { 0% { opacity: .55; transform: scale(1); } 70%, 100% { opacity: 0; transform: scale(3.4); } }
+      .cellule { animation: cellule 6s ease-in-out infinite alternate; }
+      @keyframes cellule { from { opacity: .5; } to { opacity: 1; } }
+      .grow  { animation: grow 5.5s ease-in-out infinite alternate; }
+      @keyframes grow { from { opacity: .55; } to { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) {
+        .pulse, .ping, .cellule, .grow, .scan, .trace, .gloss, .spin, .sheen { animation: none; }
+        .ping, .scan, .trace, .gloss, .sheen { opacity: 0; }
+      }
+      .sweep { animation: sweep 7s linear infinite; transform-origin: 214px 122px; }
+      @keyframes sweep { to { transform: rotate(360deg); } }
+      .vtx { animation: cellule 4s ease-in-out infinite alternate; }
+    </style>
+  </defs>
+  <rect width="428" height="212" rx="12" fill="#0a0a0b"/>
+  <rect x=".5" y=".5" width="427" height="211" rx="11.5" fill="none" stroke="#1a1c1f"/>
+  <text x="20" y="28" class="sec">WEEKDAY RADAR</text>
+  <text x="408" y="28" class="lab" text-anchor="end">12M · CONTRIBUTIONS</text>
+  <line x1="0" y1="42" x2="428" y2="42" stroke="#1a1c1f"/>
+  <polygon points="214.0,107.5 225.3,113.0 228.1,125.2 220.3,135.1 207.7,135.1 199.9,125.2 202.7,113.0" fill="none" stroke="#1a1d21"/>
+  <polygon points="214.0,93.0 236.7,103.9 242.3,128.5 226.6,148.1 201.4,148.1 185.7,128.5 191.3,103.9" fill="none" stroke="#1a1d21"/>
+  <polygon points="214.0,78.5 248.0,94.9 256.4,131.7 232.9,161.2 195.1,161.2 171.6,131.7 180.0,94.9" fill="none" stroke="#1a1d21"/>
+  <polygon points="214.0,64.0 259.3,85.8 270.5,134.9 239.2,174.3 188.8,174.3 157.5,134.9 168.7,85.8" fill="none" stroke="#1a1d21"/>
+  <line x1="214" y1="122" x2="214.0" y2="64.0" stroke="#1a1d21"/>
+  <line x1="214" y1="122" x2="259.3" y2="85.8" stroke="#1a1d21"/>
+  <line x1="214" y1="122" x2="270.5" y2="134.9" stroke="#1a1d21"/>
+  <line x1="214" y1="122" x2="239.2" y2="174.3" stroke="#1a1d21"/>
+  <line x1="214" y1="122" x2="188.8" y2="174.3" stroke="#1a1d21"/>
+  <line x1="214" y1="122" x2="157.5" y2="134.9" stroke="#1a1d21"/>
+  <line x1="214" y1="122" x2="168.7" y2="85.8" stroke="#1a1d21"/>
+  <g class="sweep"><path d="M214 122 L214 64 A58 58 0 0 1 265.7 95.7 Z" fill="url(#beam)"/>
+    <line x1="214" y1="122" x2="214" y2="64" stroke="#4dec6a" stroke-width="1" opacity=".7"/></g>
+  <polygon points="214.0,97.6 233.1,106.8 215.7,122.4 214.8,123.6 205.4,139.9 212.3,122.4 168.7,85.8" fill="#00c805" fill-opacity=".22" stroke="#00c805" stroke-width="1.8" stroke-linejoin="round"/>
+  <circle class="vtx" cx="214.0" cy="97.6" r="2.6" fill="#00c805" style="animation-delay:0s"/>
+  <circle class="vtx" cx="233.1" cy="106.8" r="2.6" fill="#00c805" style="animation-delay:0.25s"/>
+  <circle class="vtx" cx="215.7" cy="122.4" r="2.6" fill="#00c805" style="animation-delay:0.5s"/>
+  <circle class="vtx" cx="214.8" cy="123.6" r="2.6" fill="#00c805" style="animation-delay:0.75s"/>
+  <circle class="vtx" cx="205.4" cy="139.9" r="2.6" fill="#00c805" style="animation-delay:1s"/>
+  <circle class="vtx" cx="212.3" cy="122.4" r="2.6" fill="#00c805" style="animation-delay:1.25s"/>
+  <circle class="vtx" cx="168.7" cy="85.8" r="2.6" fill="#4dec6a" style="animation-delay:1.5s"/>
+  <text x="214.0" y="53.1" class="tiny" text-anchor="middle">MON 16</text>
+  <text x="270.2" y="80.2" class="tiny" text-anchor="start">TUE 16</text>
+  <text x="284.1" y="141.0" class="tiny" text-anchor="start">WED 0</text>
+  <text x="245.2" y="189.8" class="tiny" text-anchor="start">THU 0</text>
+  <text x="182.8" y="189.8" class="tiny" text-anchor="end">FRI 13</text>
+  <text x="143.9" y="141.0" class="tiny" text-anchor="end">SAT 0</text>
+  <text x="157.8" y="80.2" class="tiny" text-anchor="end">SUN 38</text>
+  <text x="20" y="202" class="foot">AXIS 0 → 38 · BUSIEST SUN</text>
+</svg>

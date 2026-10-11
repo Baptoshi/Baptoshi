@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="428" height="212" viewBox="0 0 428 212" role="img" aria-label="Heures d'activité : 0h 22, 9h 26, 10h 20, 11h 1, 12h 12, 17h 8, 19h 6, 21h 2, 22h 31, 23h 10.">
+  <title>PRODUCTIVE HOURS</title>
+  <desc>Les heures où tombent les 138 derniers événements publics (2026-10-05 → 2026-10-11), heure de Paris. Le pic est de 31 à 22 h. Source : API GraphQL de GitHub, arrêté au 2026-10-11 22:07Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <defs>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00c805" stop-opacity=".32"/><stop offset="1" stop-color="#00c805" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cursor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8dffa0" stop-opacity="0"/><stop offset=".45" stop-color="#8dffa0" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#8dffa0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gloss" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .mono, .big, .val, .num { font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace; font-variant-numeric: tabular-nums; }
+      .tick { font-size: 13px; fill: #fff; font-weight: 600; letter-spacing: 1.4px; }
+      .sub  { font-size: 10.5px; fill: #6d7279; letter-spacing: 1.2px; }
+      .sec  { font-size: 10px; fill: #e8eaed; letter-spacing: 1.8px; font-weight: 600; }
+      .lab  { font-size: 9.5px; fill: #6d7279; letter-spacing: 1.5px; }
+      .tiny { font-size: 8.5px; fill: #5d6268; letter-spacing: 1.1px; }
+      .big  { font-size: 44px; fill: #fff; font-weight: 500; letter-spacing: -1.4px; }
+      .chg  { font-size: 12.5px; fill: #00c805; font-weight: 600; }
+      .key  { font-size: 9.5px; fill: #8b9199; letter-spacing: 1.3px; }
+      .val  { font-size: 16px; fill: #fff; font-weight: 500; }
+      .num  { font-size: 11px; fill: #c9ced4; }
+      .leg  { font-size: 10px; fill: #a7adb4; letter-spacing: .6px; }
+      .foot { font-size: 9px; fill: #5d6268; letter-spacing: 1.1px; }
+      .live { font-size: 9.5px; fill: #00c805; letter-spacing: 1.6px; font-weight: 600; }
+
+      .pulse { animation: pulse 2.6s ease-in-out infinite; }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .3; } }
+      .ping  { animation: ping 2.6s ease-out infinite; transform-box: fill-box; transform-origin: 50% 50%; }
+      @keyframes ping { 0% { opacity: .55; transform: scale(1); } 70%, 100% { opacity: 0; transform: scale(3.4); } }
+      .cellule { animation: cellule 6s ease-in-out infinite alternate; }
+      @keyframes cellule { from { opacity: .5; } to { opacity: 1; } }
+      .grow  { animation: grow 5.5s ease-in-out infinite alternate; }
+      @keyframes grow { from { opacity: .55; } to { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) {
+        .pulse, .ping, .cellule, .grow, .scan, .trace, .gloss, .spin, .sheen { animation: none; }
+        .ping, .scan, .trace, .gloss, .sheen { opacity: 0; }
+      }
+      .hand { animation: hand 24s linear infinite; transform-origin: 214px 110px; }
+      @keyframes hand { to { transform: rotate(360deg); } }
+    </style>
+  </defs>
+  <rect width="428" height="212" rx="12" fill="#0a0a0b"/>
+  <rect x=".5" y=".5" width="427" height="211" rx="11.5" fill="none" stroke="#1a1c1f"/>
+  <text x="20" y="28" class="sec">PRODUCTIVE HOURS</text>
+  <text x="408" y="28" class="lab" text-anchor="end">PARIS TIME</text>
+  <line x1="0" y1="42" x2="428" y2="42" stroke="#1a1c1f"/>
+  <circle cx="214" cy="110" r="52" fill="none" stroke="#1a1d21"/>
+  <circle cx="214" cy="110" r="22" fill="none" stroke="#1a1d21"/>
+  <line class="grow" x1="214.0" y1="88.0" x2="214.0" y2="66.7" stroke="#00c805" stroke-width="5" stroke-linecap="round" style="animation-delay:0s"/>
+  <line class="" x1="219.7" y1="88.7" x2="220.1" y2="87.3" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:0.3s"/>
+  <line class="" x1="225.0" y1="90.9" x2="225.8" y2="89.6" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:0.6s"/>
+  <line class="" x1="229.6" y1="94.4" x2="230.6" y2="93.4" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:0.8999999999999999s"/>
+  <line class="" x1="233.1" y1="99.0" x2="234.4" y2="98.3" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:1.2s"/>
+  <line class="" x1="235.3" y1="104.3" x2="236.7" y2="103.9" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:1.5s"/>
+  <line class="" x1="236.0" y1="110.0" x2="237.5" y2="110.0" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:1.7999999999999998s"/>
+  <line class="" x1="235.3" y1="115.7" x2="236.7" y2="116.1" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:2.1s"/>
+  <line class="" x1="233.1" y1="121.0" x2="234.4" y2="121.8" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:0s"/>
+  <line class="grow" x1="229.6" y1="125.6" x2="247.3" y2="143.3" stroke="#00c805" stroke-width="5" stroke-linecap="round" style="animation-delay:0.3s"/>
+  <line class="grow" x1="225.0" y1="129.1" x2="234.7" y2="145.8" stroke="#00c805" stroke-width="5" stroke-linecap="round" style="animation-delay:0.6s"/>
+  <line class="grow" x1="219.7" y1="131.3" x2="220.1" y2="132.7" stroke="#00c805" stroke-width="5" stroke-linecap="round" style="animation-delay:0.8999999999999999s"/>
+  <line class="grow" x1="214.0" y1="132.0" x2="214.0" y2="143.6" stroke="#00c805" stroke-width="5" stroke-linecap="round" style="animation-delay:1.2s"/>
+  <line class="" x1="208.3" y1="131.3" x2="207.9" y2="132.7" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:1.5s"/>
+  <line class="" x1="203.0" y1="129.1" x2="202.3" y2="130.4" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:1.7999999999999998s"/>
+  <line class="" x1="198.4" y1="125.6" x2="197.4" y2="126.6" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:2.1s"/>
+  <line class="" x1="194.9" y1="121.0" x2="193.6" y2="121.8" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:0s"/>
+  <line class="grow" x1="192.7" y1="115.7" x2="185.3" y2="117.7" stroke="#00c805" stroke-width="5" stroke-linecap="round" style="animation-delay:0.3s"/>
+  <line class="" x1="192.0" y1="110.0" x2="190.5" y2="110.0" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:0.6s"/>
+  <line class="grow" x1="192.7" y1="104.3" x2="187.1" y2="102.8" stroke="#00c805" stroke-width="5" stroke-linecap="round" style="animation-delay:0.8999999999999999s"/>
+  <line class="" x1="194.9" y1="99.0" x2="193.6" y2="98.3" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:1.2s"/>
+  <line class="grow" x1="198.4" y1="94.4" x2="197.1" y2="93.1" stroke="#00c805" stroke-width="5" stroke-linecap="round" style="animation-delay:1.5s"/>
+  <line class="grow" x1="203.0" y1="90.9" x2="188.0" y2="65.0" stroke="#4dec6a" stroke-width="5" stroke-linecap="round" style="animation-delay:1.7999999999999998s"/>
+  <line class="grow" x1="208.3" y1="88.7" x2="205.8" y2="79.4" stroke="#00c805" stroke-width="5" stroke-linecap="round" style="animation-delay:2.1s"/>
+  <line class="hand" x1="214" y1="110" x2="214" y2="54" stroke="#4dec6a" stroke-width="1" opacity=".55"/>
+  <text x="214.0" y="49.0" class="tiny" text-anchor="middle">00</text>
+  <text x="278.0" y="113.0" class="tiny" text-anchor="middle">06</text>
+  <text x="214.0" y="177.0" class="tiny" text-anchor="middle">12</text>
+  <text x="150.0" y="113.0" class="tiny" text-anchor="middle">18</text>
+  <text x="214" y="113" class="num" text-anchor="middle">22H</text>
+  <text x="20" y="202" class="foot">138 PUBLIC EVENTS · 2026-10-05 → 2026-10-11</text>
+</svg>

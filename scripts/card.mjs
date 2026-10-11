@@ -119,6 +119,68 @@ const sizes = repos.map((r) => (r.diskUsage ?? 0) / (inMb ? 1024 : 1)).sort((a, 
 const sizeHi = Math.max(0.1, ...sizes);
 const bulk = `${(disk / (inMb ? 1024 : 1)).toFixed(inMb ? 0 : 0)} ${UNIT}`;
 
+/**
+ * Les événements publics, seule source de GitHub qui porte une **heure**. L'API n'en garde que les derniers
+ * (300 au plus, 90 jours au plus) : la fenêtre réellement reçue est affichée sur les cadrans, jamais extrapolée.
+ * Publics par définition — c'est le flux que tout le monde peut lire sur le profil.
+ */
+const events = await (async () => {
+  const out = [];
+  for (let page = 1; page <= 3; page++) {
+    const res = await fetch(`https://api.github.com/users/${LOGIN}/events/public?per_page=100&page=${page}`, {
+      headers: { authorization: `bearer ${TOKEN}`, accept: "application/vnd.github+json", "user-agent": `card/${LOGIN}` },
+    });
+    if (!res.ok) break;
+    const batch = await res.json();
+    if (!Array.isArray(batch) || batch.length === 0) break;
+    out.push(...batch.map((e) => e.created_at).filter(Boolean));
+    if (batch.length < 100) break;
+  }
+  return out;
+})();
+
+const TZ = "Europe/Paris";
+const WHEN = new Intl.DateTimeFormat("en-GB", { timeZone: TZ, hour: "2-digit", hourCycle: "h23", weekday: "short" });
+const clock = Array.from({ length: 24 }, () => 0);
+const punch = Array.from({ length: 7 }, () => Array.from({ length: 24 }, () => 0));
+for (const iso of events) {
+  const parts = WHEN.formatToParts(new Date(iso));
+  const hour = Number(parts.find((x) => x.type === "hour")?.value ?? -1);
+  const wd = WD.indexOf((parts.find((x) => x.type === "weekday")?.value ?? "").toUpperCase());
+  if (hour < 0 || wd < 0) continue;
+  clock[hour]++;
+  punch[wd][hour]++;
+}
+const clockHi = Math.max(1, ...clock);
+const punchHi = Math.max(1, ...punch.flat());
+const window = events.length
+  ? `${events[events.length - 1].slice(0, 10)} → ${events[0].slice(0, 10)}`
+  : "AUCUN ÉVÉNEMENT PUBLIC";
+
+/**
+ * Les séries de jours consécutifs. La journée en cours peut n'être pas finie : une série qui s'arrête hier
+ * court toujours, une série qui s'arrête avant-hier est rompue.
+ */
+const streaks = (() => {
+  let best = 0, bestEnd = null, cur = 0, curEnd = null, run = 0, start = null;
+  for (const d of days) {
+    if (d.contributionCount > 0) {
+      run += 1;
+      start ??= d.date;
+      if (run > best) { best = run; bestEnd = d.date; }
+    } else {
+      run = 0; start = null;
+    }
+  }
+  // La série en cours se compte à rebours depuis le dernier jour, en tolérant une journée du jour encore vide.
+  for (let i = days.length - 1; i >= 0; i--) {
+    if (days[i].contributionCount > 0) { cur += 1; curEnd ??= days[i].date; }
+    else if (i === days.length - 1) continue;
+    else break;
+  }
+  return { best, bestEnd, cur, curEnd };
+})();
+
 /** Portrait embarqué : une image liée par URL ne se charge pas dans un SVG servi comme image. */
 const avatar = await fetch(`${user.avatarUrl}&s=120`).then(async (r) => {
   if (!r.ok) return null;
@@ -360,7 +422,7 @@ const alloc = LANGS.map(([, v], i) => {
 }).join("\n    ");
 
 const languages = widget({
-  w: HALF, h: 190, title: "LANGUAGE ALLOCATION", note: "BY BYTES",
+  w: HALF, h: 212, title: "LANGUAGE ALLOCATION", note: "BY BYTES",
   label: `Répartition par langage : ${LANGS.map(([l, v]) => `${l} ${pct(v, langTotal)}`).join(", ")}.`,
   desc: `Les octets de code des dépôts publics, par langage : ${LANGS.map(([l, v]) => `${l} ${pct(v, langTotal)}`).join(", ")}. ${SOURCE}`,
   css: `
@@ -376,7 +438,7 @@ const languages = widget({
     <text x="${36 + (i % 2) * 196}" y="${104 + Math.floor(i / 2) * 22}" class="leg">${esc(label.toUpperCase())}</text>
     <text x="${176 + (i % 2) * 196}" y="${104 + Math.floor(i / 2) * 22}" class="num" text-anchor="end">${pct(v, langTotal)}</text>
   </g>`).join("\n  ")}
-  <text x="20" y="178" class="foot">${byLang.size} LANGUAGES · ${bulk} ACROSS ${user.repositories.totalCount} PUBLIC REPOS</text>`,
+  <text x="20" y="202" class="foot">${byLang.size} LANGUAGES · ${bulk} ACROSS ${user.repositories.totalCount} PUBLIC REPOS</text>`,
 });
 
 /* ── 6. Le profil hebdomadaire ───────────────────────────────────────────────────────────────────────── */
@@ -435,18 +497,170 @@ const sizeCard = widget({
   <text x="20" y="180" class="foot">${bulk} TOTAL · AGGREGATED, NO NAMES</text>`,
 });
 
+/* ── 9. Le radar : les sept jours sur sept axes ──────────────────────────────────────────────────────── */
+
+const rcx = 214, rcy = 122, rR = 58;
+const axis = (i) => (-Math.PI / 2) + (i * 2 * Math.PI) / 7;
+const at = (i, f) => [rcx + Math.cos(axis(i)) * rR * f, rcy + Math.sin(axis(i)) * rR * f];
+const poly = (f) => WD.map((_, i) => at(i, f).map((n) => n.toFixed(1)).join(",")).join(" ");
+const shape = weekday.map((v, i) => at(i, Math.max(0.03, v / wdHi)).map((n) => n.toFixed(1)).join(",")).join(" ");
+
+const radar = widget({
+  w: HALF, h: 212, title: "WEEKDAY RADAR", note: "12M · CONTRIBUTIONS",
+  label: `Radar des jours de la semaine : ${WD.map((d, i) => `${d} ${weekday[i]}`).join(", ")}.`,
+  desc: `Les sept jours de la semaine sur sept axes, en contributions sur douze mois : ${WD.map((d, i) => `${d.toLowerCase()} ${weekday[i]}`).join(", ")}. L'axe va de 0 à ${wdHi}. ${SOURCE}`,
+  css: `
+      .sweep { animation: sweep 7s linear infinite; transform-origin: ${rcx}px ${rcy}px; }
+      @keyframes sweep { to { transform: rotate(360deg); } }
+      .vtx { animation: cellule 4s ease-in-out infinite alternate; }`,
+  defs: `<radialGradient id="beam" cx="0" cy="0" r="1">
+      <stop offset="0" stop-color="#00c805" stop-opacity=".35"/><stop offset="1" stop-color="#00c805" stop-opacity="0"/>
+    </radialGradient>`,
+  body: `  ${[0.25, 0.5, 0.75, 1].map((f) => `<polygon points="${poly(f)}" fill="none" stroke="#1a1d21"/>`).join("\n  ")}
+  ${WD.map((_, i) => `<line x1="${rcx}" y1="${rcy}" x2="${at(i, 1)[0].toFixed(1)}" y2="${at(i, 1)[1].toFixed(1)}" stroke="#1a1d21"/>`).join("\n  ")}
+  <g class="sweep"><path d="M${rcx} ${rcy} L${rcx} ${rcy - rR} A${rR} ${rR} 0 0 1 ${(rcx + rR * Math.cos(-Math.PI / 2 + 1.1)).toFixed(1)} ${(rcy + rR * Math.sin(-Math.PI / 2 + 1.1)).toFixed(1)} Z" fill="url(#beam)"/>
+    <line x1="${rcx}" y1="${rcy}" x2="${rcx}" y2="${rcy - rR}" stroke="#4dec6a" stroke-width="1" opacity=".7"/></g>
+  <polygon points="${shape}" fill="#00c805" fill-opacity=".22" stroke="#00c805" stroke-width="1.8" stroke-linejoin="round"/>
+  ${weekday.map((v, i) => {
+    const [x, y] = at(i, Math.max(0.03, v / wdHi));
+    return `<circle class="vtx" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="2.6" fill="${v === wdHi ? "#4dec6a" : "#00c805"}" style="animation-delay:${i * 0.25}s"/>`;
+  }).join("\n  ")}
+  ${WD.map((d, i) => {
+    const [x, y] = at(i, 1.24);
+    const anchorX = Math.cos(axis(i));
+    const align = anchorX > 0.3 ? "start" : anchorX < -0.3 ? "end" : "middle";
+    return `<text x="${x.toFixed(1)}" y="${(y + 3).toFixed(1)}" class="tiny" text-anchor="${align}">${d} ${weekday[i]}</text>`;
+  }).join("\n  ")}
+  <text x="20" y="202" class="foot">AXIS 0 → ${wdHi} · BUSIEST ${WD[weekday.indexOf(wdHi)]}</text>`,
+});
+
+/* ── 10. Les séries de jours consécutifs ─────────────────────────────────────────────────────────────── */
+
+const strip = days.slice(-30);
+const stripHi = Math.max(1, ...strip.map((d) => d.contributionCount));
+const streak = widget({
+  w: HALF, h: 212, title: "STREAK", note: "12M · DAYS",
+  label: `Séries de jours consécutifs : ${streaks.cur} en cours, ${streaks.best} au plus long, ${active} jours actifs.`,
+  desc: `Jours consécutifs avec au moins une contribution : ${streaks.cur} en cours, record de ${streaks.best}${streaks.bestEnd ? ` clos le ${streaks.bestEnd}` : ""}, ${active} jours actifs sur 365. ${SOURCE}`,
+  body: `  ${[["CURRENT", streaks.cur], ["LONGEST", streaks.best], ["ACTIVE", active]].map(([label, v], i) => `<g>
+    <text x="${20 + i * 136}" y="76" class="big" style="font-size:34px">${v}</text>
+    <text x="${20 + i * 136}" y="94" class="key">${label}</text>
+  </g>`).join("\n  ")}
+  <line x1="20" y1="112" x2="${HALF - 20}" y2="112" stroke="#1a1c1f"/>
+  <text x="20" y="130" class="lab">LAST 30 DAYS</text>
+  <line x1="20" y1="168" x2="${HALF - 20}" y2="168" stroke="#2a2d32"/>
+  ${strip.map((d, i) => {
+    const bw = (HALF - 40) / 30, h = d.contributionCount ? Math.max(3, (d.contributionCount / stripHi) * 30) : 2;
+    return `<rect class="grow" x="${(20 + i * bw + 1).toFixed(1)}" y="${(168 - h).toFixed(1)}" width="${(bw - 2).toFixed(1)}" height="${h.toFixed(1)}" rx="1.5" fill="${d.contributionCount ? "#00c805" : "#1e2126"}" style="animation-delay:${(i % 10) * 0.3}s"/>`;
+  }).join("\n  ")}
+  <text x="20" y="202" class="foot">${streaks.curEnd ? `LAST CONTRIBUTION ${streaks.curEnd}` : "NO CONTRIBUTION IN WINDOW"}</text>`,
+});
+
+/* ── 11. Le cadran des heures ────────────────────────────────────────────────────────────────────────── */
+
+const kcx = 214, kcy = 110, kIn = 22, kOut = 52;
+const clockCard = widget({
+  w: HALF, h: 212, title: "PRODUCTIVE HOURS", note: "PARIS TIME",
+  label: `Heures d'activité : ${clock.map((v, h) => (v ? `${h}h ${v}` : "")).filter(Boolean).join(", ") || "aucun événement public"}.`,
+  desc: `Les heures où tombent les ${events.length} derniers événements publics (${window}), heure de Paris. Le pic est de ${clockHi} à ${clock.indexOf(clockHi)} h. ${SOURCE}`,
+  css: `
+      .hand { animation: hand 24s linear infinite; transform-origin: ${kcx}px ${kcy}px; }
+      @keyframes hand { to { transform: rotate(360deg); } }`,
+  body: `  <circle cx="${kcx}" cy="${kcy}" r="${kOut}" fill="none" stroke="#1a1d21"/>
+  <circle cx="${kcx}" cy="${kcy}" r="${kIn}" fill="none" stroke="#1a1d21"/>
+  ${clock.map((v, h) => {
+    const a = (-Math.PI / 2) + (h * 2 * Math.PI) / 24;
+    const len = kIn + (v / clockHi) * (kOut - kIn);
+    const x1 = kcx + Math.cos(a) * kIn, y1 = kcy + Math.sin(a) * kIn;
+    const x2 = kcx + Math.cos(a) * Math.max(kIn + 1.5, len), y2 = kcy + Math.sin(a) * Math.max(kIn + 1.5, len);
+    return `<line class="${v ? "grow" : ""}" x1="${x1.toFixed(1)}" y1="${y1.toFixed(1)}" x2="${x2.toFixed(1)}" y2="${y2.toFixed(1)}" stroke="${v === clockHi && v ? "#4dec6a" : v ? "#00c805" : "#1e2126"}" stroke-width="5" stroke-linecap="round" style="animation-delay:${(h % 8) * 0.3}s"/>`;
+  }).join("\n  ")}
+  <line class="hand" x1="${kcx}" y1="${kcy}" x2="${kcx}" y2="${kcy - kOut - 4}" stroke="#4dec6a" stroke-width="1" opacity=".55"/>
+  ${[0, 6, 12, 18].map((h) => {
+    const a = (-Math.PI / 2) + (h * 2 * Math.PI) / 24;
+    return `<text x="${(kcx + Math.cos(a) * (kOut + 12)).toFixed(1)}" y="${(kcy + Math.sin(a) * (kOut + 12) + 3).toFixed(1)}" class="tiny" text-anchor="middle">${String(h).padStart(2, "0")}</text>`;
+  }).join("\n  ")}
+  <text x="${kcx}" y="${kcy + 3}" class="num" text-anchor="middle">${clockHi ? `${String(clock.indexOf(clockHi)).padStart(2, "0")}H` : "—"}</text>
+  <text x="20" y="202" class="foot">${events.length} PUBLIC EVENTS · ${window}</text>`,
+});
+
+/* ── 12. La carte perforée : jour de la semaine × heure ──────────────────────────────────────────────── */
+
+const px0 = 58, pxStep = (FULL - 20 - px0) / 23, py0 = 72, pyStep = 20;
+const punchCard = widget({
+  w: FULL, h: 212, title: "PUNCH CARD", note: `WEEKDAY × HOUR · PARIS TIME · PEAK ${punchHi}`,
+  label: `Carte perforée : quand tombent les ${events.length} derniers événements publics, par jour de la semaine et par heure.`,
+  desc: `Chaque disque dit combien d'événements publics sont tombés ce jour-là à cette heure-là, sur les ${events.length} derniers (${window}), heure de Paris. Le plus gros en vaut ${punchHi}. ${SOURCE}`,
+  body: `  ${[0, 3, 6, 9, 12, 15, 18, 21].map((h) => `<text x="${(px0 + h * pxStep).toFixed(1)}" y="${py0 - 12}" class="tiny" text-anchor="middle">${String(h).padStart(2, "0")}</text>`).join("\n  ")}
+  ${WD.map((d, r) => `<text x="20" y="${(py0 + r * pyStep + 3).toFixed(1)}" class="tiny">${d}</text>`).join("\n  ")}
+  ${punch.map((row, r) => row.map((v, h) => {
+    const cx = px0 + h * pxStep, cy = py0 + r * pyStep;
+    if (!v) return `<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="1.4" fill="#1e2126"/>`;
+    const rad = 2.5 + (v / punchHi) * 6;
+    return `<circle class="cellule" cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${rad.toFixed(1)}" fill="${v === punchHi ? "#4dec6a" : "#00c805"}" fill-opacity=".9" style="animation-delay:${((r * 24 + h) % 17) * 0.3}s"/>`;
+  }).join("")).join("\n  ")}
+  <text x="20" y="${py0 + 7 * pyStep + 12}" class="foot">${events.length} PUBLIC EVENTS · ${window} · AREA ∝ COUNT</text>`,
+});
+
+/* ── 13. L'année en relief ───────────────────────────────────────────────────────────────────────────── */
+
+// Projection cisaillée : les semaines avancent à l'horizontale, les jours en biais. Une vraie isométrie
+// tracerait une diagonale perdue dans le vide — là, le relief occupe tout le cadre.
+const TW = 14.4, TH = 11, SKEW = 7, TOWER = 34;
+const SHADE = [
+  ["#15171a", "#101215", "#0b0d10"],
+  ["#0b4a22", "#083a1b", "#062c14"],
+  ["#0a7a31", "#086026", "#06491d"],
+  ["#00a83d", "#008731", "#006526"],
+  ["#4dec6a", "#35c352", "#27953e"],
+];
+const isoOx = 52, isoOy = 104;
+const face = (pts, fill, cls = "") => `<path${cls} d="M${pts.map(([x, y]) => `${x.toFixed(1)} ${y.toFixed(1)}`).join(" L")} Z" fill="${fill}"/>`;
+const relief = [];
+for (let row = 0; row < 7; row++) {
+  for (let col = 0; col < weeksRaw.length; col++) {
+    const day = weeksRaw[col].contributionDays.find((d) => (d.weekday + 6) % 7 === row);
+    if (!day) continue;
+    const v = day.contributionCount;
+    const h = v ? 3 + (v / dayHi) * TOWER : 0;
+    const bx = isoOx + col * TW + row * SKEW, by = isoOy + row * TH;
+    const top = [[bx, by - h], [bx + TW - 1.4, by - h], [bx + TW - 1.4 + SKEW, by + TH - 1.4 - h], [bx + SKEW, by + TH - 1.4 - h]];
+    const [tc, rc, fc] = SHADE[lvl(v)];
+    if (h > 0) {
+      relief.push(face([top[3], top[2], [top[2][0], top[2][1] + h], [top[3][0], top[3][1] + h]], fc));
+      relief.push(face([top[1], top[2], [top[2][0], top[2][1] + h], [top[1][0], top[1][1] + h]], rc));
+    }
+    relief.push(face(top, tc, h > 0 ? ` class="cellule" style="animation-delay:${((col * 7 + row) % 19) * 0.33}s"` : ""));
+  }
+}
+const isoH = Math.round(isoOy + 7 * TH + 40);
+
+const iso = widget({
+  w: FULL, h: isoH, title: "YEAR IN RELIEF", note: `52W × 7D · HEIGHT ∝ CONTRIBUTIONS · PEAK ${dayHi}/D`,
+  label: `L'année en relief : chaque jour est une tuile, sa hauteur vaut ses contributions, jusqu'à ${dayHi} en un jour.`,
+  desc: `La même année qu'en matrice, vue en relief : une tuile par jour, la hauteur valant les contributions du jour, pic de ${dayHi}. ${active} jours actifs. ${SOURCE}`,
+  body: `  ${["MON", "", "WED", "", "FRI", "", "SUN"].map((d, i) => d ? `<text x="20" y="${(isoOy + i * TH + 8).toFixed(1)}" class="tiny">${d}</text>` : "").join("")}
+  ${relief.join("\n  ")}
+  <text x="20" y="${isoH - 16}" class="foot">${active} ACTIVE DAYS · ${total} CONTRIBUTIONS · 52 WEEKS TO ${days[days.length - 1].date}</text>`,
+});
+
 /* ── Écriture ────────────────────────────────────────────────────────────────────────────────────────── */
 
 mkdirSync("assets", { recursive: true });
 rmSync("assets/card.svg", { force: true });
 rmSync("assets/telemetry.svg", { force: true });
+rmSync("assets/weekday.svg", { force: true });
 const files = {
   "summary.svg": summary,
   "activity.svg": activity,
   "mix.svg": mix,
   "matrix.svg": matrix,
+  "iso.svg": iso,
   "languages.svg": languages,
-  "weekday.svg": weekdayCard,
+  "radar.svg": radar,
+  "streak.svg": streak,
+  "clock.svg": clockCard,
+  "punch.svg": punchCard,
   "vintage.svg": vintageCard,
   "size.svg": sizeCard,
 };
@@ -457,5 +671,6 @@ console.log(
     `public: ${user.repositories.totalCount} repos · ${mergedPr} merged PR · ${byLang.size} langages · ${stars}★ · ${bulk}\n` +
     `mix ${MIX.map(([l, v]) => `${l.toLowerCase()} ${v}`).join(", ")}\n` +
     `langs ${LANGS.map(([l, v]) => `${l} ${pct(v, langTotal)}`).join(", ")}\n` +
+    `streak ${streaks.cur} en cours, record ${streaks.best} · ${events.length} événements publics (${window})\n` +
     Object.entries(files).map(([n, b]) => `${n} ${(b.length / 1024).toFixed(1)} Ko`).join(" · "),
 );
