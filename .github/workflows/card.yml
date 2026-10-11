@@ -1,9 +1,10 @@
 name: fiche
 
-# Le profil se redessine tout seul : une fois par jour, et à la demande.
+# Le profil se redessine tout seul : toutes les deux heures, et à la demande.
+# Un passage dure une dizaine de secondes et ne commite que si un chiffre a bougé.
 on:
   schedule:
-    - cron: "17 5 * * *"
+    - cron: "7 */2 * * *"
   workflow_dispatch:
   push:
     branches: [main]

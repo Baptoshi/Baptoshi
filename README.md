@@ -26,7 +26,7 @@ claude mcp add --transport http siliconfloor https://siliconfloor.com/mcp
 ---
 
 <sub>
-Les widgets sont redessinés une fois par jour par <a href="scripts/card.mjs">scripts/card.mjs</a> depuis l'API GitHub.
+Les widgets sont redessinés toutes les deux heures par <a href="scripts/card.mjs">scripts/card.mjs</a> depuis l'API GitHub.
 Chacun dit la mesure qu'il trace : rien n'est noté, pondéré ni arrondi. Les dépôts y sont <strong>publics
 uniquement</strong> et lus en <strong>agrégat</strong> — langages, millésimes, tailles, étoiles : ni nom, ni contenu,
 ni description. Les contributions sont celles que le profil publie.
