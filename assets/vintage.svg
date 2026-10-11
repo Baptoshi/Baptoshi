@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="428" height="190" viewBox="0 0 428 190" role="img" aria-label="Dépôts publics ouverts par année : 2021 1, 2025 2, 2026 2.">
+  <title>REPOSITORIES BY VINTAGE</title>
+  <desc>Combien de dépôts publics ouverts chaque année : 2021 : 1, 2025 : 2, 2026 : 2. Des comptes, pas des noms. Source : API GraphQL de GitHub, arrêté au 2026-10-11 21:56Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <defs>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00c805" stop-opacity=".32"/><stop offset="1" stop-color="#00c805" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cursor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8dffa0" stop-opacity="0"/><stop offset=".45" stop-color="#8dffa0" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#8dffa0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gloss" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .mono, .big, .val, .num { font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace; font-variant-numeric: tabular-nums; }
+      .tick { font-size: 13px; fill: #fff; font-weight: 600; letter-spacing: 1.4px; }
+      .sub  { font-size: 10.5px; fill: #6d7279; letter-spacing: 1.2px; }
+      .sec  { font-size: 10px; fill: #e8eaed; letter-spacing: 1.8px; font-weight: 600; }
+      .lab  { font-size: 9.5px; fill: #6d7279; letter-spacing: 1.5px; }
+      .tiny { font-size: 8.5px; fill: #5d6268; letter-spacing: 1.1px; }
+      .big  { font-size: 44px; fill: #fff; font-weight: 500; letter-spacing: -1.4px; }
+      .chg  { font-size: 12.5px; fill: #00c805; font-weight: 600; }
+      .key  { font-size: 9.5px; fill: #8b9199; letter-spacing: 1.3px; }
+      .val  { font-size: 16px; fill: #fff; font-weight: 500; }
+      .num  { font-size: 11px; fill: #c9ced4; }
+      .leg  { font-size: 10px; fill: #a7adb4; letter-spacing: .6px; }
+      .foot { font-size: 9px; fill: #5d6268; letter-spacing: 1.1px; }
+      .live { font-size: 9.5px; fill: #00c805; letter-spacing: 1.6px; font-weight: 600; }
+
+      .pulse { animation: pulse 2.6s ease-in-out infinite; }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .3; } }
+      .ping  { animation: ping 2.6s ease-out infinite; transform-box: fill-box; transform-origin: 50% 50%; }
+      @keyframes ping { 0% { opacity: .55; transform: scale(1); } 70%, 100% { opacity: 0; transform: scale(3.4); } }
+      .cellule { animation: cellule 6s ease-in-out infinite alternate; }
+      @keyframes cellule { from { opacity: .5; } to { opacity: 1; } }
+      .grow  { animation: grow 5.5s ease-in-out infinite alternate; }
+      @keyframes grow { from { opacity: .55; } to { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) {
+        .pulse, .ping, .cellule, .grow, .scan, .trace, .gloss, .spin, .sheen { animation: none; }
+        .ping, .scan, .trace, .gloss, .sheen { opacity: 0; }
+      }
+    </style>
+  </defs>
+  <rect width="428" height="190" rx="12" fill="#0a0a0b"/>
+  <rect x=".5" y=".5" width="427" height="189" rx="11.5" fill="none" stroke="#1a1c1f"/>
+  <text x="20" y="28" class="sec">REPOSITORIES BY VINTAGE</text>
+  <text x="408" y="28" class="lab" text-anchor="end">PUBLIC · COUNT</text>
+  <line x1="0" y1="42" x2="428" y2="42" stroke="#1a1c1f"/>
+  <line x1="20" y1="148" x2="408" y2="148" stroke="#2a2d32"/>
+  <g>
+    <rect class="grow" x="30.0" y="111.0" width="109.3" height="37.0" rx="2" fill="#00c805" style="animation-delay:0s"/>
+    <text x="84.7" y="162" class="tiny" text-anchor="middle">2021</text>
+    <text x="84.7" y="105.0" class="tiny" text-anchor="middle">1</text>
+  </g>
+  <g>
+    <rect class="grow" x="159.3" y="74.0" width="109.3" height="74.0" rx="2" fill="#06a830" style="animation-delay:0.35s"/>
+    <text x="214.0" y="162" class="tiny" text-anchor="middle">2025</text>
+    <text x="214.0" y="68.0" class="tiny" text-anchor="middle">2</text>
+  </g>
+  <g>
+    <rect class="grow" x="288.7" y="74.0" width="109.3" height="74.0" rx="2" fill="#0c8b3c" style="animation-delay:0.7s"/>
+    <text x="343.3" y="162" class="tiny" text-anchor="middle">2026</text>
+    <text x="343.3" y="68.0" class="tiny" text-anchor="middle">2</text>
+  </g>
+  <text x="20" y="180" class="foot">SINCE 2020 · 5 PUBLIC REPOS · 2 STARS</text>
+</svg>

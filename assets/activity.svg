@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="428" height="190" viewBox="0 0 428 190" role="img" aria-label="Contributions cumulées sur douze mois : 77 au total.">
+  <title>CUMULATIVE CONTRIBUTIONS</title>
+  <desc>La même série, cumulée semaine après semaine, de 0 à 77. Source : API GraphQL de GitHub, arrêté au 2026-10-11 21:56Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <defs>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00c805" stop-opacity=".32"/><stop offset="1" stop-color="#00c805" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cursor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8dffa0" stop-opacity="0"/><stop offset=".45" stop-color="#8dffa0" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#8dffa0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gloss" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .mono, .big, .val, .num { font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace; font-variant-numeric: tabular-nums; }
+      .tick { font-size: 13px; fill: #fff; font-weight: 600; letter-spacing: 1.4px; }
+      .sub  { font-size: 10.5px; fill: #6d7279; letter-spacing: 1.2px; }
+      .sec  { font-size: 10px; fill: #e8eaed; letter-spacing: 1.8px; font-weight: 600; }
+      .lab  { font-size: 9.5px; fill: #6d7279; letter-spacing: 1.5px; }
+      .tiny { font-size: 8.5px; fill: #5d6268; letter-spacing: 1.1px; }
+      .big  { font-size: 44px; fill: #fff; font-weight: 500; letter-spacing: -1.4px; }
+      .chg  { font-size: 12.5px; fill: #00c805; font-weight: 600; }
+      .key  { font-size: 9.5px; fill: #8b9199; letter-spacing: 1.3px; }
+      .val  { font-size: 16px; fill: #fff; font-weight: 500; }
+      .num  { font-size: 11px; fill: #c9ced4; }
+      .leg  { font-size: 10px; fill: #a7adb4; letter-spacing: .6px; }
+      .foot { font-size: 9px; fill: #5d6268; letter-spacing: 1.1px; }
+      .live { font-size: 9.5px; fill: #00c805; letter-spacing: 1.6px; font-weight: 600; }
+
+      .pulse { animation: pulse 2.6s ease-in-out infinite; }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .3; } }
+      .ping  { animation: ping 2.6s ease-out infinite; transform-box: fill-box; transform-origin: 50% 50%; }
+      @keyframes ping { 0% { opacity: .55; transform: scale(1); } 70%, 100% { opacity: 0; transform: scale(3.4); } }
+      .cellule { animation: cellule 6s ease-in-out infinite alternate; }
+      @keyframes cellule { from { opacity: .5; } to { opacity: 1; } }
+      .grow  { animation: grow 5.5s ease-in-out infinite alternate; }
+      @keyframes grow { from { opacity: .55; } to { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) {
+        .pulse, .ping, .cellule, .grow, .scan, .trace, .gloss, .spin, .sheen { animation: none; }
+        .ping, .scan, .trace, .gloss, .sheen { opacity: 0; }
+      }
+      .trace { animation: trace 9s ease-in-out infinite; }
+      @keyframes trace { 0%, 100% { transform: translateX(0); opacity: 0; } 8% { opacity: 1; } 50% { transform: translateX(388px); opacity: .8; } 92% { opacity: 0; } }
+    </style>
+  </defs>
+  <rect width="428" height="190" rx="12" fill="#0a0a0b"/>
+  <rect x=".5" y=".5" width="427" height="189" rx="11.5" fill="none" stroke="#1a1c1f"/>
+  <text x="20" y="28" class="sec">CUMULATIVE CONTRIBUTIONS</text>
+  <text x="408" y="28" class="lab" text-anchor="end">12M</text>
+  <line x1="0" y1="42" x2="428" y2="42" stroke="#1a1c1f"/>
+  <line x1="20" y1="88.4" x2="408" y2="88.4" stroke="#141619"/>
+  <line x1="20" y1="118.7" x2="408" y2="118.7" stroke="#141619"/>
+  <path d="M20.0 150.0 L27.6 144.0 L35.2 144.0 L42.8 144.0 L50.4 144.0 L58.0 144.0 L65.6 144.0 L73.3 144.0 L80.9 144.0 L88.5 144.0 L96.1 144.0 L103.7 144.0 L111.3 144.0 L118.9 144.0 L126.5 144.0 L134.1 144.0 L141.7 144.0 L149.3 144.0 L156.9 144.0 L164.5 144.0 L172.2 144.0 L179.8 144.0 L187.4 144.0 L195.0 144.0 L202.6 144.0 L210.2 144.0 L217.8 144.0 L225.4 144.0 L233.0 144.0 L240.6 144.0 L248.2 144.0 L255.8 144.0 L263.5 144.0 L271.1 138.1 L278.7 138.1 L286.3 138.1 L293.9 138.1 L301.5 138.1 L309.1 138.1 L316.7 138.1 L324.3 138.1 L331.9 138.1 L339.5 138.1 L347.1 138.1 L354.7 138.1 L362.4 138.1 L370.0 138.1 L377.6 138.1 L385.2 138.1 L392.8 138.1 L400.4 96.2 L408.0 58.0 L408.0 150 L20 150 Z" fill="url(#area)"/>
+  <path d="M20.0 150.0 L27.6 144.0 L35.2 144.0 L42.8 144.0 L50.4 144.0 L58.0 144.0 L65.6 144.0 L73.3 144.0 L80.9 144.0 L88.5 144.0 L96.1 144.0 L103.7 144.0 L111.3 144.0 L118.9 144.0 L126.5 144.0 L134.1 144.0 L141.7 144.0 L149.3 144.0 L156.9 144.0 L164.5 144.0 L172.2 144.0 L179.8 144.0 L187.4 144.0 L195.0 144.0 L202.6 144.0 L210.2 144.0 L217.8 144.0 L225.4 144.0 L233.0 144.0 L240.6 144.0 L248.2 144.0 L255.8 144.0 L263.5 144.0 L271.1 138.1 L278.7 138.1 L286.3 138.1 L293.9 138.1 L301.5 138.1 L309.1 138.1 L316.7 138.1 L324.3 138.1 L331.9 138.1 L339.5 138.1 L347.1 138.1 L354.7 138.1 L362.4 138.1 L370.0 138.1 L377.6 138.1 L385.2 138.1 L392.8 138.1 L400.4 96.2 L408.0 58.0" fill="none" stroke="#00c805" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect class="trace" x="20" y="58" width="2" height="92" fill="url(#cursor)"/>
+  <circle class="ping" cx="408.0" cy="58.0" r="3" fill="#00c805"/>
+  <circle cx="408.0" cy="58.0" r="2.6" fill="#00c805"/>
+  <line x1="20" y1="150" x2="408" y2="150" stroke="#2a2d32"/>
+  <text x="20" y="165" class="lab">0</text>
+  <text x="408" y="165" class="lab" text-anchor="end">77</text>
+  <text x="20" y="182" class="foot">6 ACTIVE DAYS · PEAK 35/W</text>
+</svg>

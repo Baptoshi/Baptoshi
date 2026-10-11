@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="870" height="212" viewBox="0 0 870 212" role="img" aria-label="Baptoshi : 77 contributions sur douze mois, +67 sur sept jours ; 3 merged pr, 5 public repos, 4 languages, 2 stars, 0 forks, 3 followers.">
+  <title>Baptoshi — GitHub</title>
+  <desc>77 contributions sur douze mois (+67 sur sept jours contre les sept précédents), 3 merged pr, 5 public repos, 4 languages, 2 stars, 0 forks, 3 followers. Source : API GraphQL de GitHub, arrêté au 2026-10-11 21:56Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <defs>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00c805" stop-opacity=".32"/><stop offset="1" stop-color="#00c805" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cursor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8dffa0" stop-opacity="0"/><stop offset=".45" stop-color="#8dffa0" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#8dffa0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gloss" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient><clipPath id="face"><rect x="20" y="18" width="26" height="26" rx="7"/></clipPath>
+    <clipPath id="plot"><rect x="470" y="64" width="380" height="84"/></clipPath>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .mono, .big, .val, .num { font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace; font-variant-numeric: tabular-nums; }
+      .tick { font-size: 13px; fill: #fff; font-weight: 600; letter-spacing: 1.4px; }
+      .sub  { font-size: 10.5px; fill: #6d7279; letter-spacing: 1.2px; }
+      .sec  { font-size: 10px; fill: #e8eaed; letter-spacing: 1.8px; font-weight: 600; }
+      .lab  { font-size: 9.5px; fill: #6d7279; letter-spacing: 1.5px; }
+      .tiny { font-size: 8.5px; fill: #5d6268; letter-spacing: 1.1px; }
+      .big  { font-size: 44px; fill: #fff; font-weight: 500; letter-spacing: -1.4px; }
+      .chg  { font-size: 12.5px; fill: #00c805; font-weight: 600; }
+      .key  { font-size: 9.5px; fill: #8b9199; letter-spacing: 1.3px; }
+      .val  { font-size: 16px; fill: #fff; font-weight: 500; }
+      .num  { font-size: 11px; fill: #c9ced4; }
+      .leg  { font-size: 10px; fill: #a7adb4; letter-spacing: .6px; }
+      .foot { font-size: 9px; fill: #5d6268; letter-spacing: 1.1px; }
+      .live { font-size: 9.5px; fill: #00c805; letter-spacing: 1.6px; font-weight: 600; }
+
+      .pulse { animation: pulse 2.6s ease-in-out infinite; }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .3; } }
+      .ping  { animation: ping 2.6s ease-out infinite; transform-box: fill-box; transform-origin: 50% 50%; }
+      @keyframes ping { 0% { opacity: .55; transform: scale(1); } 70%, 100% { opacity: 0; transform: scale(3.4); } }
+      .cellule { animation: cellule 6s ease-in-out infinite alternate; }
+      @keyframes cellule { from { opacity: .5; } to { opacity: 1; } }
+      .grow  { animation: grow 5.5s ease-in-out infinite alternate; }
+      @keyframes grow { from { opacity: .55; } to { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) {
+        .pulse, .ping, .cellule, .grow, .scan, .trace, .gloss, .spin, .sheen { animation: none; }
+        .ping, .scan, .trace, .gloss, .sheen { opacity: 0; }
+      }
+      .scan { animation: scan 9s ease-in-out infinite; }
+      @keyframes scan { 0%, 100% { transform: translateX(0); opacity: 0; } 8% { opacity: 1; } 50% { transform: translateX(380px); opacity: .9; } 92% { opacity: 0; } }
+    </style>
+  </defs>
+  <rect width="870" height="212" rx="12" fill="#0a0a0b"/>
+  <rect x=".5" y=".5" width="869" height="211" rx="11.5" fill="none" stroke="#1a1c1f"/>
+  <image href="data:image/jpeg;base64,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" x="20" y="18" width="26" height="26" clip-path="url(#face)" preserveAspectRatio="xMidYMid slice"/>
+  <text x="58" y="28" class="tick">BAPTOSHI</text>
+  <text x="58" y="42" class="sub">GITHUB · PUBLIC ACTIVITY</text>
+  <rect x="310" y="19" width="62" height="18" rx="4" fill="#0d2a12" stroke="#1d4a24"/>
+  <circle class="ping" cx="322" cy="28" r="3" fill="#00c805"/>
+  <circle class="pulse" cx="322" cy="28" r="3" fill="#00c805"/>
+  <text x="332" y="32" class="live">LIVE</text>
+  <text x="850" y="32" class="sub" text-anchor="end">2026-10-11 21:56Z</text>
+  <line x1="0" y1="58" x2="870" y2="58" stroke="#1a1c1f"/>
+  <text x="20" y="110" class="big">77</text>
+  <text x="20" y="128" class="lab">CONTRIBUTIONS · TRAILING 12M</text>
+  <text x="20" y="150" class="chg mono">▲ +67 <tspan class="lab">7D VS PRIOR 7D</tspan></text>
+  <line x1="440" y1="58" x2="440" y2="162" stroke="#141619"/>
+  <line x1="470" y1="91.7" x2="850" y2="91.7" stroke="#141619"/>
+  <line x1="470" y1="119.4" x2="850" y2="119.4" stroke="#141619"/>
+  <g clip-path="url(#plot)">
+    <rect x="470.0" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="477.3" y="136.6" width="5.3" height="11.4" rx="1" fill="url(#bar)"/>
+    <rect x="484.6" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="491.9" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="499.2" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="506.5" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="513.8" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="521.2" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="528.5" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="535.8" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="543.1" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="550.4" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="557.7" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="565.0" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="572.3" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="579.6" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="586.9" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="594.2" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="601.5" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="608.8" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="616.2" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="623.5" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="630.8" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="638.1" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="645.4" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="652.7" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="660.0" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="667.3" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="674.6" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="681.9" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="689.2" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="696.5" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="703.8" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="711.2" y="136.6" width="5.3" height="11.4" rx="1" fill="url(#bar)"/>
+    <rect x="718.5" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="725.8" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="733.1" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="740.4" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="747.7" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="755.0" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="762.3" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="769.6" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="776.9" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="784.2" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="791.5" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="798.8" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="806.2" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="813.5" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="820.8" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="828.1" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
+    <rect x="835.4" y="68.0" width="5.3" height="80.0" rx="1" fill="url(#bar)"/>
+    <rect x="842.7" y="74.9" width="5.3" height="73.1" rx="1" fill="url(#bar)"/>
+    <rect class="scan" x="470" y="64" width="2" height="84" fill="url(#cursor)"/>
+  </g>
+  <line x1="470" y1="148" x2="850" y2="148" stroke="#2a2d32"/>
+  <text x="470" y="161" class="lab">52W · WEEKLY</text>
+  <text x="850" y="161" class="lab" text-anchor="end">PEAK 35</text>
+  <line x1="0" y1="172" x2="870" y2="172" stroke="#1a1c1f"/>
+  <g>
+    <text x="20" y="190" class="key">MERGED PR</text>
+    <text x="20" y="205" class="val">3</text>
+  </g>
+  <g>
+    <text x="162" y="190" class="key">PUBLIC REPOS</text>
+    <text x="162" y="205" class="val">5</text>
+  </g>
+  <g>
+    <text x="304" y="190" class="key">LANGUAGES</text>
+    <text x="304" y="205" class="val">4</text>
+  </g>
+  <g>
+    <text x="446" y="190" class="key">STARS</text>
+    <text x="446" y="205" class="val">2</text>
+  </g>
+  <g>
+    <text x="588" y="190" class="key">FORKS</text>
+    <text x="588" y="205" class="val">0</text>
+  </g>
+  <g>
+    <text x="730" y="190" class="key">FOLLOWERS</text>
+    <text x="730" y="205" class="val">3</text>
+  </g>
+</svg>

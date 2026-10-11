@@ -1,6 +1,14 @@
 <div align="center">
 
-<img src="assets/card.svg" alt="Fiche GitHub de Baptiste Castiglione : contributions sur douze mois, répartition de l'activité, matrice d'activité, langages, millésimes et tailles des dépôts" width="880">
+<img src="assets/summary.svg" width="98%" alt="Contributions sur douze mois, variation sur sept jours, série hebdomadaire et chiffres publics">
+
+<img src="assets/activity.svg" width="48%" alt="Contributions cumulées sur douze mois"> <img src="assets/mix.svg" width="48%" alt="Répartition de l'activité : commits, pull requests, tickets, revues">
+
+<img src="assets/matrix.svg" width="98%" alt="Matrice d'activité : une case par jour sur cinquante-deux semaines">
+
+<img src="assets/languages.svg" width="48%" alt="Répartition par langage, en octets de code"> <img src="assets/weekday.svg" width="48%" alt="Profil hebdomadaire : ce que pèse chaque jour de la semaine">
+
+<img src="assets/vintage.svg" width="48%" alt="Dépôts publics ouverts par année"> <img src="assets/size.svg" width="48%" alt="Tailles des plus gros dépôts publics, par rang">
 
 </div>
 
@@ -18,9 +26,8 @@ claude mcp add --transport http siliconfloor https://siliconfloor.com/mcp
 ---
 
 <sub>
-La fiche est redessinée une fois par jour par <a href="scripts/card.mjs">scripts/card.mjs</a> depuis l'API GitHub.
-Chaque panneau dit la mesure qu'il trace : rien n'est noté, pondéré ni arrondi. Les dépôts n'y sont lus qu'en
-<strong>agrégat</strong> — langages, millésimes, tailles, étoiles : ni nom, ni contenu, ni description. Les
-contributions aux dépôts privés n'entrent dans les séries que si le profil les publie
-(<em>Settings → Profile → Include private contributions on my profile</em>).
+Les widgets sont redessinés une fois par jour par <a href="scripts/card.mjs">scripts/card.mjs</a> depuis l'API GitHub.
+Chacun dit la mesure qu'il trace : rien n'est noté, pondéré ni arrondi. Les dépôts y sont <strong>publics
+uniquement</strong> et lus en <strong>agrégat</strong> — langages, millésimes, tailles, étoiles : ni nom, ni contenu,
+ni description. Les contributions sont celles que le profil publie.
 </sub>
