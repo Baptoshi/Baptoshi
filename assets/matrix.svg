@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="870" height="217" viewBox="0 0 870 217" role="img" aria-label="Matrice d'activité : 7 jours actifs sur 365, jusqu'à 34 contributions en un jour.">
+<svg xmlns="http://www.w3.org/2000/svg" width="870" height="217" viewBox="0 0 870 217" role="img" aria-label="Matrice d'activité : 7 jours actifs sur 365, jusqu'à 38 contributions en un jour.">
   <title>ACTIVITY MATRIX</title>
-  <desc>Une case par jour sur cinquante-deux semaines ; 7 jours actifs, pic de 34 en un jour. Source : API GraphQL de GitHub, arrêté au 2026-10-11 21:58Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>Une case par jour sur cinquante-deux semaines ; 7 jours actifs, pic de 38 en un jour. Source : API GraphQL de GitHub, arrêté au 2026-10-11 22:00Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
@@ -50,7 +50,7 @@
   <rect width="870" height="217" rx="12" fill="#0a0a0b"/>
   <rect x=".5" y=".5" width="869" height="216" rx="11.5" fill="none" stroke="#1a1c1f"/>
   <text x="20" y="28" class="sec">ACTIVITY MATRIX</text>
-  <text x="850" y="28" class="lab" text-anchor="end">52W × 7D · PEAK 34/D</text>
+  <text x="850" y="28" class="lab" text-anchor="end">52W × 7D · PEAK 38/D</text>
   <line x1="0" y1="42" x2="870" y2="42" stroke="#1a1c1f"/>
   <text x="44.0" y="64" class="tiny">OCT</text><text x="75.0" y="64" class="tiny">NOV</text><text x="152.5" y="64" class="tiny">DEC</text><text x="214.5" y="64" class="tiny">JAN</text><text x="276.5" y="64" class="tiny">FEB</text><text x="338.5" y="64" class="tiny">MAR</text><text x="416.0" y="64" class="tiny">APR</text><text x="478.0" y="64" class="tiny">MAY</text><text x="555.5" y="64" class="tiny">JUN</text><text x="617.5" y="64" class="tiny">JUL</text><text x="679.5" y="64" class="tiny">AUG</text><text x="757.0" y="64" class="tiny">SEP</text>
   <text x="20" y="83.1" class="tiny">MON</text><text x="20" y="114.1" class="tiny">WED</text><text x="20" y="145.1" class="tiny">FRI</text><text x="20" y="176.1" class="tiny">SUN</text>
