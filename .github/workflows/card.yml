@@ -1,0 +1,43 @@
+name: console
+
+# Le profil se redessine tout seul : une fois par jour, et à la demande.
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [scripts/card.mjs, .github/workflows/card.yml]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: console
+  cancel-in-progress: true
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Dessiner les deux écrans
+        # CARD_TOKEN (jeton personnel, lecture seule) fait entrer les contributions privées
+        # quand le profil les publie ; sans lui, le jeton de l'exécution suffit pour le public.
+        env:
+          GITHUB_TOKEN: ${{ secrets.CARD_TOKEN || secrets.GITHUB_TOKEN }}
+        run: node scripts/card.mjs
+
+      - name: Publier si quelque chose a changé
+        run: |
+          set -eu
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git diff --cached --quiet && echo "rien n'a bougé" && exit 0
+          git commit -m "Console du $(date -u +%F)"
+          git push
