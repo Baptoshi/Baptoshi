@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="428" height="190" viewBox="0 0 428 190" role="img" aria-label="Tailles des plus gros dépôts publics, par rang : #1 211.0 KB, #2 111.0 KB, #3 79.0 KB, #4 10.0 KB, #5 4.0 KB.">
+<svg xmlns="http://www.w3.org/2000/svg" width="428" height="190" viewBox="0 0 428 190" role="img" aria-label="Tailles des plus gros dépôts publics, par rang : #1 211.0 KB, #2 116.0 KB, #3 111.0 KB, #4 10.0 KB, #5 4.0 KB.">
   <title>SIZE DISTRIBUTION</title>
-  <desc>La distribution des plus gros dépôts publics, par rang, en kilo-octets : #1 211.0, #2 111.0, #3 79.0, #4 10.0, #5 4.0. Aucun n'est nommé. Source : API GraphQL de GitHub, arrêté au 2026-10-12 06:50Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>La distribution des plus gros dépôts publics, par rang, en kilo-octets : #1 211.0, #2 116.0, #3 111.0, #4 10.0, #5 4.0. Aucun n'est nommé. Source : API GraphQL de GitHub, arrêté au 2026-10-12 08:57Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
@@ -61,14 +61,14 @@
   <g>
     <text x="20" y="84" class="tiny">#2</text>
     <rect x="44" y="76" width="318" height="9" rx="2" fill="#17191d"/>
-    <rect class="grow" x="44" y="76" width="167.3" height="9" rx="2" fill="#06a830" style="animation-delay:0.25s"/>
-    <text x="408" y="84" class="num" text-anchor="end">111.0</text>
+    <rect class="grow" x="44" y="76" width="174.8" height="9" rx="2" fill="#06a830" style="animation-delay:0.25s"/>
+    <text x="408" y="84" class="num" text-anchor="end">116.0</text>
   </g>
   <g>
     <text x="20" y="102" class="tiny">#3</text>
     <rect x="44" y="94" width="318" height="9" rx="2" fill="#17191d"/>
-    <rect class="grow" x="44" y="94" width="119.1" height="9" rx="2" fill="#0c8b3c" style="animation-delay:0.5s"/>
-    <text x="408" y="102" class="num" text-anchor="end">79.0</text>
+    <rect class="grow" x="44" y="94" width="167.3" height="9" rx="2" fill="#0c8b3c" style="animation-delay:0.5s"/>
+    <text x="408" y="102" class="num" text-anchor="end">111.0</text>
   </g>
   <g>
     <text x="20" y="120" class="tiny">#4</text>
@@ -82,5 +82,5 @@
     <rect class="grow" x="44" y="130" width="6.0" height="9" rx="2" fill="#45604f" style="animation-delay:1s"/>
     <text x="408" y="138" class="num" text-anchor="end">4.0</text>
   </g>
-  <text x="20" y="180" class="foot">415 KB TOTAL · AGGREGATED, NO NAMES</text>
+  <text x="20" y="180" class="foot">452 KB TOTAL · AGGREGATED, NO NAMES</text>
 </svg>
