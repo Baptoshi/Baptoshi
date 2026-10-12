@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="870" height="221" viewBox="0 0 870 221" role="img" aria-label="L'année en relief : chaque jour est une tuile, sa hauteur vaut ses contributions, jusqu'à 140 en un jour.">
   <title>YEAR IN RELIEF</title>
-  <desc>La même année qu'en matrice, vue en relief : une tuile par jour, la hauteur valant les contributions du jour, pic de 140. 129 jours actifs. Source : API GraphQL de GitHub, arrêté au 2026-10-12 06:43Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>La même année qu'en matrice, vue en relief : une tuile par jour, la hauteur valant les contributions du jour, pic de 140. 130 jours actifs. Source : API GraphQL de GitHub, arrêté au 2026-10-12 06:44Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
@@ -137,9 +137,9 @@
   <path d="M698.6 100.8 L705.6 110.4 L705.6 113.6 L698.6 104.0 Z" fill="#083a1b"/>
   <path class="cellule" style="animation-delay:1.32s" d="M685.6 100.8 L698.6 100.8 L705.6 110.4 L692.6 110.4 Z" fill="#0b4a22"/>
   <path d="M700.0 104.0 L713.0 104.0 L720.0 113.6 L707.0 113.6 Z" fill="#15171a"/>
-  <path d="M721.4 108.2 L734.4 108.2 L734.4 113.6 L721.4 113.6 Z" fill="#062c14"/>
-  <path d="M727.4 98.6 L734.4 108.2 L734.4 113.6 L727.4 104.0 Z" fill="#083a1b"/>
-  <path class="cellule" style="animation-delay:5.94s" d="M714.4 98.6 L727.4 98.6 L734.4 108.2 L721.4 108.2 Z" fill="#0b4a22"/>
+  <path d="M721.4 107.9 L734.4 107.9 L734.4 113.6 L721.4 113.6 Z" fill="#062c14"/>
+  <path d="M727.4 98.3 L734.4 107.9 L734.4 113.6 L727.4 104.0 Z" fill="#083a1b"/>
+  <path class="cellule" style="animation-delay:5.94s" d="M714.4 98.3 L727.4 98.3 L734.4 107.9 L721.4 107.9 Z" fill="#0b4a22"/>
   <path d="M728.8 104.0 L741.8 104.0 L748.8 113.6 L735.8 113.6 Z" fill="#15171a"/>
   <path d="M750.2 110.1 L763.2 110.1 L763.2 113.6 L750.2 113.6 Z" fill="#062c14"/>
   <path d="M756.2 100.5 L763.2 110.1 L763.2 113.6 L756.2 104.0 Z" fill="#083a1b"/>
@@ -147,12 +147,12 @@
   <path d="M764.6 109.1 L777.6 109.1 L777.6 113.6 L764.6 113.6 Z" fill="#062c14"/>
   <path d="M770.6 99.5 L777.6 109.1 L777.6 113.6 L770.6 104.0 Z" fill="#083a1b"/>
   <path class="cellule" style="animation-delay:0.33s" d="M757.6 99.5 L770.6 99.5 L777.6 109.1 L764.6 109.1 Z" fill="#0b4a22"/>
-  <path d="M779.0 106.7 L792.0 106.7 L792.0 113.6 L779.0 113.6 Z" fill="#062c14"/>
-  <path d="M785.0 97.1 L792.0 106.7 L792.0 113.6 L785.0 104.0 Z" fill="#083a1b"/>
-  <path class="cellule" style="animation-delay:2.64s" d="M772.0 97.1 L785.0 97.1 L792.0 106.7 L779.0 106.7 Z" fill="#0b4a22"/>
-  <path d="M793.4 110.1 L806.4 110.1 L806.4 113.6 L793.4 113.6 Z" fill="#062c14"/>
-  <path d="M799.4 100.5 L806.4 110.1 L806.4 113.6 L799.4 104.0 Z" fill="#083a1b"/>
-  <path class="cellule" style="animation-delay:4.95s" d="M786.4 100.5 L799.4 100.5 L806.4 110.1 L793.4 110.1 Z" fill="#0b4a22"/>
+  <path d="M779.0 105.5 L792.0 105.5 L792.0 113.6 L779.0 113.6 Z" fill="#062c14"/>
+  <path d="M785.0 95.9 L792.0 105.5 L792.0 113.6 L785.0 104.0 Z" fill="#083a1b"/>
+  <path class="cellule" style="animation-delay:2.64s" d="M772.0 95.9 L785.0 95.9 L792.0 105.5 L779.0 105.5 Z" fill="#0b4a22"/>
+  <path d="M793.4 109.9 L806.4 109.9 L806.4 113.6 L793.4 113.6 Z" fill="#062c14"/>
+  <path d="M799.4 100.3 L806.4 109.9 L806.4 113.6 L799.4 104.0 Z" fill="#083a1b"/>
+  <path class="cellule" style="animation-delay:4.95s" d="M786.4 100.3 L799.4 100.3 L806.4 109.9 L793.4 109.9 Z" fill="#0b4a22"/>
   <path d="M59.0 115.0 L72.0 115.0 L79.0 124.6 L66.0 124.6 Z" fill="#15171a"/>
   <path d="M80.4 116.0 L93.4 116.0 L93.4 124.6 L80.4 124.6 Z" fill="#062c14"/>
   <path d="M86.4 106.4 L93.4 116.0 L93.4 124.6 L86.4 115.0 Z" fill="#083a1b"/>
@@ -239,9 +239,9 @@
   <path d="M714.0 117.0 L727.0 117.0 L727.0 124.6 L714.0 124.6 Z" fill="#062c14"/>
   <path d="M720.0 107.4 L727.0 117.0 L727.0 124.6 L720.0 115.0 Z" fill="#083a1b"/>
   <path class="cellule" style="animation-delay:3.96s" d="M707.0 107.4 L720.0 107.4 L727.0 117.0 L714.0 117.0 Z" fill="#0b4a22"/>
-  <path d="M728.4 114.3 L741.4 114.3 L741.4 124.6 L728.4 124.6 Z" fill="#062c14"/>
-  <path d="M734.4 104.7 L741.4 114.3 L741.4 124.6 L734.4 115.0 Z" fill="#083a1b"/>
-  <path class="cellule" style="animation-delay:0s" d="M721.4 104.7 L734.4 104.7 L741.4 114.3 L728.4 114.3 Z" fill="#0b4a22"/>
+  <path d="M728.4 114.6 L741.4 114.6 L741.4 124.6 L728.4 124.6 Z" fill="#062c14"/>
+  <path d="M734.4 105.0 L741.4 114.6 L741.4 124.6 L734.4 115.0 Z" fill="#083a1b"/>
+  <path class="cellule" style="animation-delay:0s" d="M721.4 105.0 L734.4 105.0 L741.4 114.6 L728.4 114.6 Z" fill="#0b4a22"/>
   <path d="M735.8 115.0 L748.8 115.0 L755.8 124.6 L742.8 124.6 Z" fill="#15171a"/>
   <path d="M757.2 120.9 L770.2 120.9 L770.2 124.6 L757.2 124.6 Z" fill="#062c14"/>
   <path d="M763.2 111.3 L770.2 120.9 L770.2 124.6 L763.2 115.0 Z" fill="#083a1b"/>
@@ -249,9 +249,9 @@
   <path d="M771.6 120.9 L784.6 120.9 L784.6 124.6 L771.6 124.6 Z" fill="#062c14"/>
   <path d="M777.6 111.3 L784.6 120.9 L784.6 124.6 L777.6 115.0 Z" fill="#083a1b"/>
   <path class="cellule" style="animation-delay:0.66s" d="M764.6 111.3 L777.6 111.3 L784.6 120.9 L771.6 120.9 Z" fill="#0b4a22"/>
-  <path d="M786.0 117.5 L799.0 117.5 L799.0 124.6 L786.0 124.6 Z" fill="#062c14"/>
-  <path d="M792.0 107.9 L799.0 117.5 L799.0 124.6 L792.0 115.0 Z" fill="#083a1b"/>
-  <path class="cellule" style="animation-delay:2.97s" d="M779.0 107.9 L792.0 107.9 L799.0 117.5 L786.0 117.5 Z" fill="#0b4a22"/>
+  <path d="M786.0 118.7 L799.0 118.7 L799.0 124.6 L786.0 124.6 Z" fill="#062c14"/>
+  <path d="M792.0 109.1 L799.0 118.7 L799.0 124.6 L792.0 115.0 Z" fill="#083a1b"/>
+  <path class="cellule" style="animation-delay:2.97s" d="M779.0 109.1 L792.0 109.1 L799.0 118.7 L786.0 118.7 Z" fill="#0b4a22"/>
   <path d="M66.0 126.0 L79.0 126.0 L86.0 135.6 L73.0 135.6 Z" fill="#15171a"/>
   <path d="M80.4 126.0 L93.4 126.0 L100.4 135.6 L87.4 135.6 Z" fill="#15171a"/>
   <path d="M94.8 126.0 L107.8 126.0 L114.8 135.6 L101.8 135.6 Z" fill="#15171a"/>
@@ -334,7 +334,9 @@
   <path d="M771.6 126.0 L784.6 126.0 L791.6 135.6 L778.6 135.6 Z" fill="#15171a"/>
   <path d="M786.0 126.0 L799.0 126.0 L806.0 135.6 L793.0 135.6 Z" fill="#15171a"/>
   <path d="M73.0 137.0 L86.0 137.0 L93.0 146.6 L80.0 146.6 Z" fill="#15171a"/>
-  <path d="M87.4 137.0 L100.4 137.0 L107.4 146.6 L94.4 146.6 Z" fill="#15171a"/>
+  <path d="M94.4 143.4 L107.4 143.4 L107.4 146.6 L94.4 146.6 Z" fill="#062c14"/>
+  <path d="M100.4 133.8 L107.4 143.4 L107.4 146.6 L100.4 137.0 Z" fill="#083a1b"/>
+  <path class="cellule" style="animation-delay:3.3000000000000003s" d="M87.4 133.8 L100.4 133.8 L107.4 143.4 L94.4 143.4 Z" fill="#0b4a22"/>
   <path d="M101.8 137.0 L114.8 137.0 L121.8 146.6 L108.8 146.6 Z" fill="#15171a"/>
   <path d="M116.2 137.0 L129.2 137.0 L136.2 146.6 L123.2 146.6 Z" fill="#15171a"/>
   <path d="M130.6 137.0 L143.6 137.0 L150.6 146.6 L137.6 146.6 Z" fill="#15171a"/>
@@ -409,9 +411,9 @@
   <path d="M778.6 137.0 L791.6 137.0 L798.6 146.6 L785.6 146.6 Z" fill="#15171a"/>
   <path d="M793.0 137.0 L806.0 137.0 L813.0 146.6 L800.0 146.6 Z" fill="#15171a"/>
   <path d="M80.0 148.0 L93.0 148.0 L100.0 157.6 L87.0 157.6 Z" fill="#15171a"/>
-  <path d="M101.4 153.4 L114.4 153.4 L114.4 157.6 L101.4 157.6 Z" fill="#062c14"/>
-  <path d="M107.4 143.8 L114.4 153.4 L114.4 157.6 L107.4 148.0 Z" fill="#083a1b"/>
-  <path class="cellule" style="animation-delay:3.6300000000000003s" d="M94.4 143.8 L107.4 143.8 L114.4 153.4 L101.4 153.4 Z" fill="#0b4a22"/>
+  <path d="M101.4 153.6 L114.4 153.6 L114.4 157.6 L101.4 157.6 Z" fill="#062c14"/>
+  <path d="M107.4 144.0 L114.4 153.6 L114.4 157.6 L107.4 148.0 Z" fill="#083a1b"/>
+  <path class="cellule" style="animation-delay:3.6300000000000003s" d="M94.4 144.0 L107.4 144.0 L114.4 153.6 L101.4 153.6 Z" fill="#0b4a22"/>
   <path d="M108.8 148.0 L121.8 148.0 L128.8 157.6 L115.8 157.6 Z" fill="#15171a"/>
   <path d="M123.2 148.0 L136.2 148.0 L143.2 157.6 L130.2 157.6 Z" fill="#15171a"/>
   <path d="M137.6 148.0 L150.6 148.0 L157.6 157.6 L144.6 157.6 Z" fill="#15171a"/>
@@ -449,7 +451,9 @@
   <path d="M396.8 148.0 L409.8 148.0 L416.8 157.6 L403.8 157.6 Z" fill="#15171a"/>
   <path d="M411.2 148.0 L424.2 148.0 L431.2 157.6 L418.2 157.6 Z" fill="#15171a"/>
   <path d="M425.6 148.0 L438.6 148.0 L445.6 157.6 L432.6 157.6 Z" fill="#15171a"/>
-  <path d="M440.0 148.0 L453.0 148.0 L460.0 157.6 L447.0 157.6 Z" fill="#15171a"/>
+  <path d="M447.0 154.4 L460.0 154.4 L460.0 157.6 L447.0 157.6 Z" fill="#062c14"/>
+  <path d="M453.0 144.8 L460.0 154.4 L460.0 157.6 L453.0 148.0 Z" fill="#083a1b"/>
+  <path class="cellule" style="animation-delay:2.64s" d="M440.0 144.8 L453.0 144.8 L460.0 154.4 L447.0 154.4 Z" fill="#0b4a22"/>
   <path d="M454.4 148.0 L467.4 148.0 L474.4 157.6 L461.4 157.6 Z" fill="#15171a"/>
   <path d="M475.8 151.9 L488.8 151.9 L488.8 157.6 L475.8 157.6 Z" fill="#062c14"/>
   <path d="M481.8 142.3 L488.8 151.9 L488.8 157.6 L481.8 148.0 Z" fill="#083a1b"/>
@@ -530,9 +534,7 @@
   <path d="M403.8 159.0 L416.8 159.0 L423.8 168.6 L410.8 168.6 Z" fill="#15171a"/>
   <path d="M418.2 159.0 L431.2 159.0 L438.2 168.6 L425.2 168.6 Z" fill="#15171a"/>
   <path d="M432.6 159.0 L445.6 159.0 L452.6 168.6 L439.6 168.6 Z" fill="#15171a"/>
-  <path d="M454.0 165.4 L467.0 165.4 L467.0 168.6 L454.0 168.6 Z" fill="#062c14"/>
-  <path d="M460.0 155.8 L467.0 165.4 L467.0 168.6 L460.0 159.0 Z" fill="#083a1b"/>
-  <path class="cellule" style="animation-delay:2.97s" d="M447.0 155.8 L460.0 155.8 L467.0 165.4 L454.0 165.4 Z" fill="#0b4a22"/>
+  <path d="M447.0 159.0 L460.0 159.0 L467.0 168.6 L454.0 168.6 Z" fill="#15171a"/>
   <path d="M461.4 159.0 L474.4 159.0 L481.4 168.6 L468.4 168.6 Z" fill="#15171a"/>
   <path d="M482.8 162.9 L495.8 162.9 L495.8 168.6 L482.8 168.6 Z" fill="#062c14"/>
   <path d="M488.8 153.3 L495.8 162.9 L495.8 168.6 L488.8 159.0 Z" fill="#083a1b"/>
@@ -668,5 +670,5 @@
   <path d="M835.4 166.2 L848.4 166.2 L848.4 179.6 L835.4 179.6 Z" fill="#06491d"/>
   <path d="M841.4 156.6 L848.4 166.2 L848.4 179.6 L841.4 170.0 Z" fill="#086026"/>
   <path class="cellule" style="animation-delay:0.66s" d="M828.4 156.6 L841.4 156.6 L848.4 166.2 L835.4 166.2 Z" fill="#0a7a31"/>
-  <text x="20" y="205" class="foot">129 ACTIVE DAYS · 2031 CONTRIBUTIONS · 52 WEEKS TO 2026-10-12</text>
+  <text x="20" y="205" class="foot">130 ACTIVE DAYS · 2032 CONTRIBUTIONS · 52 WEEKS TO 2026-10-12</text>
 </svg>
