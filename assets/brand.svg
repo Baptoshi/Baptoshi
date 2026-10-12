@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="870" height="248" viewBox="0 0 870 248" role="img" aria-label="Silicon Floor — the AI and semiconductor stock terminal, siliconfloor.com">
+  <title>Silicon Floor</title>
+  <desc>Silicon Floor : le terminal des valeurs de l'IA et des semi-conducteurs, siliconfloor.com.</desc>
+  <defs>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00c805" stop-opacity=".32"/><stop offset="1" stop-color="#00c805" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cursor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8dffa0" stop-opacity="0"/><stop offset=".45" stop-color="#8dffa0" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#8dffa0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gloss" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .mono, .big, .val, .num { font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace; font-variant-numeric: tabular-nums; }
+      .tick { font-size: 13px; fill: #fff; font-weight: 600; letter-spacing: 1.4px; }
+      .sub  { font-size: 10.5px; fill: #6d7279; letter-spacing: 1.2px; }
+      .sec  { font-size: 10px; fill: #e8eaed; letter-spacing: 1.8px; font-weight: 600; }
+      .lab  { font-size: 9.5px; fill: #6d7279; letter-spacing: 1.5px; }
+      .tiny { font-size: 8.5px; fill: #5d6268; letter-spacing: 1.1px; }
+      .big  { font-size: 44px; fill: #fff; font-weight: 500; letter-spacing: -1.4px; }
+      .chg  { font-size: 12.5px; fill: #00c805; font-weight: 600; }
+      .key  { font-size: 9.5px; fill: #8b9199; letter-spacing: 1.3px; }
+      .val  { font-size: 16px; fill: #fff; font-weight: 500; }
+      .num  { font-size: 11px; fill: #c9ced4; }
+      .leg  { font-size: 10px; fill: #a7adb4; letter-spacing: .6px; }
+      .foot { font-size: 9px; fill: #5d6268; letter-spacing: 1.1px; }
+      .live { font-size: 9.5px; fill: #00c805; letter-spacing: 1.6px; font-weight: 600; }
+
+      .pulse { animation: pulse 2.6s ease-in-out infinite; }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .3; } }
+      .ping  { animation: ping 2.6s ease-out infinite; transform-box: fill-box; transform-origin: 50% 50%; }
+      @keyframes ping { 0% { opacity: .55; transform: scale(1); } 70%, 100% { opacity: 0; transform: scale(3.4); } }
+      .cellule { animation: cellule 6s ease-in-out infinite alternate; }
+      @keyframes cellule { from { opacity: .5; } to { opacity: 1; } }
+      .grow  { animation: grow 5.5s ease-in-out infinite alternate; }
+      @keyframes grow { from { opacity: .55; } to { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) {
+        .pulse, .ping, .cellule, .grow, .scan, .trace, .gloss, .spin, .sheen { animation: none; }
+        .ping, .scan, .trace, .gloss, .sheen { opacity: 0; }
+      }
+      .lit   { animation: lit 7s ease-out infinite; transform-box: fill-box; transform-origin: 50% 50%; }
+      @keyframes lit { 0%, 100% { opacity: 1; transform: none; } 3% { opacity: .2; transform: scale(.55); } 9% { opacity: 1; transform: scale(1.12); } 14% { transform: none; } }
+      .trace { stroke-dasharray: 1; stroke-dashoffset: 0; animation: trace 7s ease-out infinite; }
+      @keyframes trace { 0% { stroke-dashoffset: 1; opacity: .9; } 16% { stroke-dashoffset: 0; opacity: .9; } 40%, 100% { stroke-dashoffset: 0; opacity: 0; } }
+      .wordmark { font-size: 30px; font-weight: 700; letter-spacing: -1.3px; fill: #fff; text-anchor: middle; }
+      .claim { font-size: 13px; fill: #c9ced4; text-anchor: middle; letter-spacing: .2px; }
+      .fine  { font-size: 11.5px; fill: #70757c; text-anchor: middle; letter-spacing: .2px; }
+      .url   { font-size: 12px; fill: #00c805; text-anchor: middle; letter-spacing: 1.4px; font-weight: 600; }
+      @media (prefers-reduced-motion: reduce) { .lit, .trace { animation: none; } .trace { opacity: 0; } }
+    </style>
+  </defs>
+  <rect width="870" height="248" rx="12" fill="#0a0a0b"/>
+  <rect x=".5" y=".5" width="869" height="247" rx="11.5" fill="none" stroke="#1a1c1f"/>
+
+  <g transform="translate(396.6 30) scale(3.2)">
+    <path class="trace" d="M20.4 3.6H3.6V12H20.4V20.4H3.6" pathLength="1" fill="none" stroke="#00c805" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle class="lit" style="animation-delay:0.22s" cx="3.6" cy="3.6" r="1.9" fill="#00c805"/>
+    <circle class="lit" style="animation-delay:0.165s" cx="7.8" cy="3.6" r="1.9" fill="#00c805"/>
+    <circle class="lit" style="animation-delay:0.11s" cx="12.0" cy="3.6" r="1.9" fill="#00c805"/>
+    <circle class="lit" style="animation-delay:0.055s" cx="16.2" cy="3.6" r="1.9" fill="#00c805"/>
+    <circle class="lit" style="animation-delay:0s" cx="20.4" cy="3.6" r="1.9" fill="#00c805"/>
+    <circle class="lit" style="animation-delay:0.275s" cx="3.6" cy="7.8" r="1.9" fill="#00c805"/>
+    <circle opacity=".16" cx="7.8" cy="7.8" r="1.9" fill="#e8eaed"/>
+    <circle opacity=".16" cx="12.0" cy="7.8" r="1.9" fill="#e8eaed"/>
+    <circle opacity=".16" cx="16.2" cy="7.8" r="1.9" fill="#e8eaed"/>
+    <circle opacity=".16" cx="20.4" cy="7.8" r="1.9" fill="#e8eaed"/>
+    <circle class="lit" style="animation-delay:0.33s" cx="3.6" cy="12.0" r="1.9" fill="#00c805"/>
+    <circle class="lit" style="animation-delay:0.385s" cx="7.8" cy="12.0" r="1.9" fill="#00c805"/>
+    <circle class="lit" style="animation-delay:0.44s" cx="12.0" cy="12.0" r="1.9" fill="#00c805"/>
+    <circle class="lit" style="animation-delay:0.495s" cx="16.2" cy="12.0" r="1.9" fill="#00c805"/>
+    <circle class="lit" style="animation-delay:0.55s" cx="20.4" cy="12.0" r="1.9" fill="#00c805"/>
+    <circle opacity=".16" cx="3.6" cy="16.2" r="1.9" fill="#e8eaed"/>
+    <circle opacity=".16" cx="7.8" cy="16.2" r="1.9" fill="#e8eaed"/>
+    <circle opacity=".16" cx="12.0" cy="16.2" r="1.9" fill="#e8eaed"/>
+    <circle opacity=".16" cx="16.2" cy="16.2" r="1.9" fill="#e8eaed"/>
+    <circle class="lit" style="animation-delay:0.605s" cx="20.4" cy="16.2" r="1.9" fill="#00c805"/>
+    <circle class="lit" style="animation-delay:0.88s" cx="3.6" cy="20.4" r="1.9" fill="#00c805"/>
+    <circle class="lit" style="animation-delay:0.825s" cx="7.8" cy="20.4" r="1.9" fill="#00c805"/>
+    <circle class="lit" style="animation-delay:0.77s" cx="12.0" cy="20.4" r="1.9" fill="#00c805"/>
+    <circle class="lit" style="animation-delay:0.715s" cx="16.2" cy="20.4" r="1.9" fill="#00c805"/>
+    <circle class="lit" style="animation-delay:0.66s" cx="20.4" cy="20.4" r="1.9" fill="#00c805"/>
+  </g>
+  <text x="435" y="152" class="wordmark">siliconfloor</text>
+  <text x="435" y="178" class="claim">The AI &amp; semiconductor stock terminal.</text>
+  <text x="435" y="200" class="fine">Ownership, fundamentals, filings — rebuilt from primary sources. Dated, cited, free.</text>
+  <text x="435" y="226" class="url">SILICONFLOOR.COM</text>
+</svg>

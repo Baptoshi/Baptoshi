@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="428" height="212" viewBox="0 0 428 212" role="img" aria-label="Radar des jours de la semaine : MON 628, TUE 392, WED 201, THU 151, FRI 183, SAT 214, SUN 263.">
+<svg xmlns="http://www.w3.org/2000/svg" width="428" height="212" viewBox="0 0 428 212" role="img" aria-label="Radar des jours de la semaine : MON 622, TUE 398, WED 201, THU 150, FRI 183, SAT 215, SUN 263.">
   <title>WEEKDAY RADAR</title>
-  <desc>Les sept jours de la semaine sur sept axes, en contributions sur douze mois : mon 628, tue 392, wed 201, thu 151, fri 183, sat 214, sun 263. L'axe va de 0 à 628. Source : API GraphQL de GitHub, arrêté au 2026-10-12 06:44Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>Les sept jours de la semaine sur sept axes, en contributions sur douze mois : mon 622, tue 398, wed 201, thu 150, fri 183, sat 215, sun 263. L'axe va de 0 à 622. Source : API GraphQL de GitHub, arrêté au 2026-10-12 06:50Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
@@ -70,20 +70,20 @@
   <line x1="214" y1="122" x2="168.7" y2="85.8" stroke="#1a1d21"/>
   <g class="sweep"><path d="M214 122 L214 64 A58 58 0 0 1 265.7 95.7 Z" fill="url(#beam)"/>
     <line x1="214" y1="122" x2="214" y2="64" stroke="#4dec6a" stroke-width="1" opacity=".7"/></g>
-  <polygon points="214.0,64.0 242.3,99.4 232.1,126.1 220.1,134.6 206.7,137.2 194.7,126.4 195.0,106.9" fill="#00c805" fill-opacity=".22" stroke="#00c805" stroke-width="1.8" stroke-linejoin="round"/>
+  <polygon points="214.0,64.0 243.0,98.9 232.3,126.2 220.1,134.6 206.6,137.4 194.5,126.5 194.8,106.7" fill="#00c805" fill-opacity=".22" stroke="#00c805" stroke-width="1.8" stroke-linejoin="round"/>
   <circle class="vtx" cx="214.0" cy="64.0" r="2.6" fill="#4dec6a" style="animation-delay:0s"/>
-  <circle class="vtx" cx="242.3" cy="99.4" r="2.6" fill="#00c805" style="animation-delay:0.25s"/>
-  <circle class="vtx" cx="232.1" cy="126.1" r="2.6" fill="#00c805" style="animation-delay:0.5s"/>
+  <circle class="vtx" cx="243.0" cy="98.9" r="2.6" fill="#00c805" style="animation-delay:0.25s"/>
+  <circle class="vtx" cx="232.3" cy="126.2" r="2.6" fill="#00c805" style="animation-delay:0.5s"/>
   <circle class="vtx" cx="220.1" cy="134.6" r="2.6" fill="#00c805" style="animation-delay:0.75s"/>
-  <circle class="vtx" cx="206.7" cy="137.2" r="2.6" fill="#00c805" style="animation-delay:1s"/>
-  <circle class="vtx" cx="194.7" cy="126.4" r="2.6" fill="#00c805" style="animation-delay:1.25s"/>
-  <circle class="vtx" cx="195.0" cy="106.9" r="2.6" fill="#00c805" style="animation-delay:1.5s"/>
-  <text x="214.0" y="53.1" class="tiny" text-anchor="middle">MON 628</text>
-  <text x="270.2" y="80.2" class="tiny" text-anchor="start">TUE 392</text>
+  <circle class="vtx" cx="206.6" cy="137.4" r="2.6" fill="#00c805" style="animation-delay:1s"/>
+  <circle class="vtx" cx="194.5" cy="126.5" r="2.6" fill="#00c805" style="animation-delay:1.25s"/>
+  <circle class="vtx" cx="194.8" cy="106.7" r="2.6" fill="#00c805" style="animation-delay:1.5s"/>
+  <text x="214.0" y="53.1" class="tiny" text-anchor="middle">MON 622</text>
+  <text x="270.2" y="80.2" class="tiny" text-anchor="start">TUE 398</text>
   <text x="284.1" y="141.0" class="tiny" text-anchor="start">WED 201</text>
-  <text x="245.2" y="189.8" class="tiny" text-anchor="start">THU 151</text>
+  <text x="245.2" y="189.8" class="tiny" text-anchor="start">THU 150</text>
   <text x="182.8" y="189.8" class="tiny" text-anchor="end">FRI 183</text>
-  <text x="143.9" y="141.0" class="tiny" text-anchor="end">SAT 214</text>
+  <text x="143.9" y="141.0" class="tiny" text-anchor="end">SAT 215</text>
   <text x="157.8" y="80.2" class="tiny" text-anchor="end">SUN 263</text>
-  <text x="20" y="202" class="foot">AXIS 0 → 628 · BUSIEST MON</text>
+  <text x="20" y="202" class="foot">AXIS 0 → 622 · BUSIEST MON</text>
 </svg>

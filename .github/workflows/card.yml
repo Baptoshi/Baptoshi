@@ -38,7 +38,7 @@ jobs:
           set -eu
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A assets
+          git add -A assets README.md
           git diff --cached --quiet && echo "rien n'a bougé" && exit 0
           git commit -m "Fiche du $(date -u +%F)"
           git push

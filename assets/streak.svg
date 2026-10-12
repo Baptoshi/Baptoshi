@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="428" height="212" viewBox="0 0 428 212" role="img" aria-label="Séries de jours consécutifs : 2 en cours, 9 au plus long, 130 jours actifs.">
+<svg xmlns="http://www.w3.org/2000/svg" width="428" height="212" viewBox="0 0 428 212" role="img" aria-label="Séries de jours consécutifs : 2 en cours, 9 au plus long, 129 jours actifs.">
   <title>STREAK</title>
-  <desc>Jours consécutifs avec au moins une contribution : 2 en cours, record de 9 clos le 2026-03-11, 130 jours actifs sur 365. Source : API GraphQL de GitHub, arrêté au 2026-10-12 06:44Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>Jours consécutifs avec au moins une contribution : 2 en cours, record de 9 clos le 2026-03-11, 129 jours actifs sur 365. Source : API GraphQL de GitHub, arrêté au 2026-10-12 06:50Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
@@ -61,7 +61,7 @@
     <text x="156" y="94" class="key">LONGEST</text>
   </g>
   <g>
-    <text x="292" y="76" class="big" style="font-size:34px">130</text>
+    <text x="292" y="76" class="big" style="font-size:34px">129</text>
     <text x="292" y="94" class="key">ACTIVE</text>
   </g>
   <line x1="20" y1="112" x2="408" y2="112" stroke="#1a1c1f"/>
@@ -89,8 +89,8 @@
   <rect class="grow" x="266.7" y="166.0" width="10.9" height="2.0" rx="1.5" fill="#1e2126" style="animation-delay:2.6999999999999997s"/>
   <rect class="grow" x="279.7" y="166.0" width="10.9" height="2.0" rx="1.5" fill="#1e2126" style="animation-delay:0s"/>
   <rect class="grow" x="292.6" y="166.0" width="10.9" height="2.0" rx="1.5" fill="#1e2126" style="animation-delay:0.3s"/>
-  <rect class="grow" x="305.5" y="153.3" width="10.9" height="14.7" rx="1.5" fill="#00c805" style="animation-delay:0.6s"/>
-  <rect class="grow" x="318.5" y="159.6" width="10.9" height="8.4" rx="1.5" fill="#00c805" style="animation-delay:0.8999999999999999s"/>
+  <rect class="grow" x="305.5" y="156.8" width="10.9" height="11.2" rx="1.5" fill="#00c805" style="animation-delay:0.6s"/>
+  <rect class="grow" x="318.5" y="156.1" width="10.9" height="11.9" rx="1.5" fill="#00c805" style="animation-delay:0.8999999999999999s"/>
   <rect class="grow" x="331.4" y="166.0" width="10.9" height="2.0" rx="1.5" fill="#1e2126" style="animation-delay:1.2s"/>
   <rect class="grow" x="344.3" y="166.0" width="10.9" height="2.0" rx="1.5" fill="#1e2126" style="animation-delay:1.5s"/>
   <rect class="grow" x="357.3" y="165.0" width="10.9" height="3.0" rx="1.5" fill="#00c805" style="animation-delay:1.7999999999999998s"/>

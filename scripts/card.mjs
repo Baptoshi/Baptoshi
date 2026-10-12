@@ -17,7 +17,7 @@
  * « Include private contributions on my profile », elles comptent aussi l'activité privée, sans rien en dire.
  */
 
-import { writeFileSync, mkdirSync, rmSync } from "node:fs";
+import { writeFileSync, readFileSync, mkdirSync, rmSync } from "node:fs";
 
 const LOGIN = process.env.CARD_LOGIN ?? "Baptoshi";
 const TOKEN = process.env.GITHUB_TOKEN ?? process.env.GH_TOKEN;
@@ -648,6 +648,52 @@ const iso = widget({
   <text x="20" y="${isoH - 16}" class="foot">${active} ACTIVE DAYS · ${total} CONTRIBUTIONS · 52 WEEKS TO ${days[days.length - 1].date}</text>`,
 });
 
+/* ── 14. La marque ───────────────────────────────────────────────────────────────────────────────────── */
+
+// Le monogramme du site, repris tel quel : un S allumé sur une grille de 5 × 5 points (public/index.html).
+// Les points allumés portent leur rang d'allumage ; la vague les reprend dans cet ordre, en boucle.
+const LIT = new Map([
+  ["0,4", 0], ["0,3", 1], ["0,2", 2], ["0,1", 3], ["0,0", 4],
+  ["1,0", 5],
+  ["2,0", 6], ["2,1", 7], ["2,2", 8], ["2,3", 9], ["2,4", 10],
+  ["3,4", 11],
+  ["4,4", 12], ["4,3", 13], ["4,2", 14], ["4,1", 15], ["4,0", 16],
+]);
+const dots = [];
+for (let row = 0; row < 5; row++) {
+  for (let col = 0; col < 5; col++) {
+    const o = LIT.get(`${row},${col}`);
+    dots.push(
+      `<circle${o === undefined ? ' opacity=".16"' : ` class="lit" style="animation-delay:${(o * 55) / 1000}s"`} cx="${(3.6 + col * 4.2).toFixed(1)}" cy="${(3.6 + row * 4.2).toFixed(1)}" r="1.9" fill="${o === undefined ? "#e8eaed" : "#00c805"}"/>`,
+    );
+  }
+}
+
+const brand = widget({
+  w: FULL, h: 248, title: "Silicon Floor",
+  label: "Silicon Floor — the AI and semiconductor stock terminal, siliconfloor.com",
+  desc: "Silicon Floor : le terminal des valeurs de l'IA et des semi-conducteurs, siliconfloor.com.",
+  css: `
+      .lit   { animation: lit 7s ease-out infinite; transform-box: fill-box; transform-origin: 50% 50%; }
+      @keyframes lit { 0%, 100% { opacity: 1; transform: none; } 3% { opacity: .2; transform: scale(.55); } 9% { opacity: 1; transform: scale(1.12); } 14% { transform: none; } }
+      .trace { stroke-dasharray: 1; stroke-dashoffset: 0; animation: trace 7s ease-out infinite; }
+      @keyframes trace { 0% { stroke-dashoffset: 1; opacity: .9; } 16% { stroke-dashoffset: 0; opacity: .9; } 40%, 100% { stroke-dashoffset: 0; opacity: 0; } }
+      .wordmark { font-size: 30px; font-weight: 700; letter-spacing: -1.3px; fill: #fff; text-anchor: middle; }
+      .claim { font-size: 13px; fill: #c9ced4; text-anchor: middle; letter-spacing: .2px; }
+      .fine  { font-size: 11.5px; fill: #70757c; text-anchor: middle; letter-spacing: .2px; }
+      .url   { font-size: 12px; fill: #00c805; text-anchor: middle; letter-spacing: 1.4px; font-weight: 600; }
+      @media (prefers-reduced-motion: reduce) { .lit, .trace { animation: none; } .trace { opacity: 0; } }`,
+  head: "",
+  body: `  <g transform="translate(396.6 30) scale(3.2)">
+    <path class="trace" d="M20.4 3.6H3.6V12H20.4V20.4H3.6" pathLength="1" fill="none" stroke="#00c805" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    ${dots.join("\n    ")}
+  </g>
+  <text x="${FULL / 2}" y="152" class="wordmark">siliconfloor</text>
+  <text x="${FULL / 2}" y="178" class="claim">The AI &amp; semiconductor stock terminal.</text>
+  <text x="${FULL / 2}" y="200" class="fine">Ownership, fundamentals, filings — rebuilt from primary sources. Dated, cited, free.</text>
+  <text x="${FULL / 2}" y="226" class="url">SILICONFLOOR.COM</text>`,
+});
+
 /* ── Écriture ────────────────────────────────────────────────────────────────────────────────────────── */
 
 mkdirSync("assets", { recursive: true });
@@ -667,8 +713,15 @@ const files = {
   "punch.svg": punchCard,
   "vintage.svg": vintageCard,
   "size.svg": sizeCard,
+  "brand.svg": brand,
 };
 for (const [name, body] of Object.entries(files)) writeFileSync(`assets/${name}`, body);
+
+// Chaque image porte la version de ce passage : sans elle, un navigateur qui a gardé la précédente
+// continue de l'afficher (raw.githubusercontent la sert avec max-age=300, le navigateur plus longtemps).
+const version = stamp.replace(/[^0-9]/g, "").slice(0, 12);
+const readme = readFileSync("README.md", "utf8").replace(/(assets\/[a-z]+\.svg)(\?v=\d+)?/g, `$1?v=${version}`);
+writeFileSync("README.md", readme);
 
 console.log(
   `${user.login} — ${total} contributions 12M (7D ${up ? "+" : ""}${delta})\n` +
