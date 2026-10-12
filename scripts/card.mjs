@@ -35,6 +35,7 @@ const QUERY = `query($login: String!, $prq: String!) {
       totalPullRequestContributions
       totalPullRequestReviewContributions
       totalIssueContributions
+      restrictedContributionsCount
       contributionCalendar {
         totalContributions
         weeks { contributionDays { contributionCount date weekday } }
@@ -89,12 +90,15 @@ const prev7 = days.slice(-14, -7).reduce((t, d) => t + d.contributionCount, 0);
 const delta = last7 - prev7;
 const up = delta >= 0;
 
+// Une teinte par nature, tenue quelle que soit sa taille ; les parts se rangent de la plus grosse à la
+// plus petite. La part privée est le nombre seul : aucun dépôt, aucune organisation.
 const MIX = [
-  ["COMMITS", c.totalCommitContributions],
-  ["PULL REQUESTS", c.totalPullRequestContributions],
-  ["ISSUES", c.totalIssueContributions],
-  ["REVIEWS", c.totalPullRequestReviewContributions],
-].filter(([, v]) => v > 0);
+  ["COMMITS", c.totalCommitContributions, "#00c805"],
+  ["PULL REQUESTS", c.totalPullRequestContributions, "#0c8b3c"],
+  ["ISSUES", c.totalIssueContributions, "#2a7248"],
+  ["REVIEWS", c.totalPullRequestReviewContributions, "#45604f"],
+  ["PRIVATE", c.restrictedContributionsCount, "#3a4a52"],
+].filter(([, v]) => v > 0).sort((a, b) => b[1] - a[1]);
 const mixTotal = Math.max(1, MIX.reduce((t, [, v]) => t + v, 0));
 
 const byLang = new Map();
@@ -347,9 +351,9 @@ const activity = widget({
 
 const dcx = 92, dcy = 116, dr = 42, dsw = 15, circ = 2 * Math.PI * dr;
 let off = 0;
-const rings = MIX.map(([, v], i) => {
+const rings = MIX.map(([, v, tint]) => {
   const len = (v / mixTotal) * circ;
-  const seg = `<circle cx="${dcx}" cy="${dcy}" r="${dr}" fill="none" stroke="${RAMP[i]}" stroke-width="${dsw}"
+  const seg = `<circle cx="${dcx}" cy="${dcy}" r="${dr}" fill="none" stroke="${tint}" stroke-width="${dsw}"
       stroke-dasharray="${(len - 1.5).toFixed(2)} ${(circ - len + 1.5).toFixed(2)}" stroke-dashoffset="${(-off).toFixed(2)}"
       transform="rotate(-90 ${dcx} ${dcy})"/>`;
   off += len;
@@ -368,10 +372,10 @@ const mix = widget({
   <circle class="spin" cx="${dcx}" cy="${dcy}" r="${dr + 12}" fill="none" stroke="#00c805" stroke-opacity=".5" stroke-width="1" stroke-dasharray="2 10"/>
   <text x="${dcx}" y="${dcy + 3}" class="val" text-anchor="middle">${mixTotal}</text>
   <text x="${dcx}" y="${dcy + 17}" class="tiny" text-anchor="middle">EVENTS</text>
-  ${MIX.map(([label, v], i) => `<g>
-    <rect x="166" y="${78 + i * 24}" width="9" height="9" rx="2" fill="${RAMP[i]}"/>
-    <text x="182" y="${86 + i * 24}" class="leg">${label}</text>
-    <text x="${HALF - 20}" y="${86 + i * 24}" class="num" text-anchor="end">${v} · ${pct(v, mixTotal)}</text>
+  ${MIX.map(([label, v, tint], i) => `<g>
+    <rect x="166" y="${74 + i * 22}" width="9" height="9" rx="2" fill="${tint}"/>
+    <text x="182" y="${82 + i * 22}" class="leg">${label}</text>
+    <text x="${HALF - 20}" y="${82 + i * 22}" class="num" text-anchor="end">${v} · ${pct(v, mixTotal)}</text>
   </g>`).join("\n  ")}`,
 });
 

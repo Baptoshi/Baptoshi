@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="428" height="212" viewBox="0 0 428 212" role="img" aria-label="Heures d'activité : 0h 22, 9h 26, 10h 20, 11h 1, 12h 12, 17h 8, 19h 6, 21h 2, 22h 31, 23h 10.">
+<svg xmlns="http://www.w3.org/2000/svg" width="428" height="212" viewBox="0 0 428 212" role="img" aria-label="Heures d'activité : 0h 22, 7h 1, 9h 26, 10h 20, 11h 1, 12h 12, 17h 8, 19h 8, 21h 2, 22h 31, 23h 10.">
   <title>PRODUCTIVE HOURS</title>
-  <desc>Les heures où tombent les 138 derniers événements publics (2026-10-05 → 2026-10-11), heure de Paris. Le pic est de 31 à 22 h. Source : API GraphQL de GitHub, arrêté au 2026-10-12 01:07Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>Les heures où tombent les 141 derniers événements publics (2026-10-05 → 2026-10-12), heure de Paris. Le pic est de 31 à 22 h. Source : API GraphQL de GitHub, arrêté au 2026-10-12 06:43Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
@@ -63,7 +63,7 @@
   <line class="" x1="233.1" y1="99.0" x2="234.4" y2="98.3" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:1.2s"/>
   <line class="" x1="235.3" y1="104.3" x2="236.7" y2="103.9" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:1.5s"/>
   <line class="" x1="236.0" y1="110.0" x2="237.5" y2="110.0" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:1.7999999999999998s"/>
-  <line class="" x1="235.3" y1="115.7" x2="236.7" y2="116.1" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:2.1s"/>
+  <line class="grow" x1="235.3" y1="115.7" x2="236.7" y2="116.1" stroke="#00c805" stroke-width="5" stroke-linecap="round" style="animation-delay:2.1s"/>
   <line class="" x1="233.1" y1="121.0" x2="234.4" y2="121.8" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:0s"/>
   <line class="grow" x1="229.6" y1="125.6" x2="247.3" y2="143.3" stroke="#00c805" stroke-width="5" stroke-linecap="round" style="animation-delay:0.3s"/>
   <line class="grow" x1="225.0" y1="129.1" x2="234.7" y2="145.8" stroke="#00c805" stroke-width="5" stroke-linecap="round" style="animation-delay:0.6s"/>
@@ -75,7 +75,7 @@
   <line class="" x1="194.9" y1="121.0" x2="193.6" y2="121.8" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:0s"/>
   <line class="grow" x1="192.7" y1="115.7" x2="185.3" y2="117.7" stroke="#00c805" stroke-width="5" stroke-linecap="round" style="animation-delay:0.3s"/>
   <line class="" x1="192.0" y1="110.0" x2="190.5" y2="110.0" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:0.6s"/>
-  <line class="grow" x1="192.7" y1="104.3" x2="187.1" y2="102.8" stroke="#00c805" stroke-width="5" stroke-linecap="round" style="animation-delay:0.8999999999999999s"/>
+  <line class="grow" x1="192.7" y1="104.3" x2="185.3" y2="102.3" stroke="#00c805" stroke-width="5" stroke-linecap="round" style="animation-delay:0.8999999999999999s"/>
   <line class="" x1="194.9" y1="99.0" x2="193.6" y2="98.3" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:1.2s"/>
   <line class="grow" x1="198.4" y1="94.4" x2="197.1" y2="93.1" stroke="#00c805" stroke-width="5" stroke-linecap="round" style="animation-delay:1.5s"/>
   <line class="grow" x1="203.0" y1="90.9" x2="188.0" y2="65.0" stroke="#4dec6a" stroke-width="5" stroke-linecap="round" style="animation-delay:1.7999999999999998s"/>
@@ -86,5 +86,5 @@
   <text x="214.0" y="177.0" class="tiny" text-anchor="middle">12</text>
   <text x="150.0" y="113.0" class="tiny" text-anchor="middle">18</text>
   <text x="214" y="113" class="num" text-anchor="middle">22H</text>
-  <text x="20" y="202" class="foot">138 PUBLIC EVENTS · 2026-10-05 → 2026-10-11</text>
+  <text x="20" y="202" class="foot">141 PUBLIC EVENTS · 2026-10-05 → 2026-10-12</text>
 </svg>
