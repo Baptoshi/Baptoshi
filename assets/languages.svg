@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="428" height="212" viewBox="0 0 428 212" role="img" aria-label="Répartition par langage : TypeScript 48.9%, JavaScript 39.3%, Python 10.9%, CSS 0.4%, Dockerfile 0.4%, OTHER 0.2%.">
   <title>LANGUAGE ALLOCATION</title>
-  <desc>Les octets de code des dépôts publics, par langage : TypeScript 48.9%, JavaScript 39.3%, Python 10.9%, CSS 0.4%, Dockerfile 0.4%, OTHER 0.2%. Source : API GraphQL de GitHub, arrêté au 2026-10-16 22:42Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>Les octets de code des dépôts publics, par langage : TypeScript 48.9%, JavaScript 39.3%, Python 10.9%, CSS 0.4%, Dockerfile 0.4%, OTHER 0.2%. Source : API GraphQL de GitHub, arrêté au 2026-10-17 03:55Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
@@ -93,5 +93,5 @@
     <text x="232" y="148" class="leg">OTHER</text>
     <text x="372" y="148" class="num" text-anchor="end">0.2%</text>
   </g>
-  <text x="20" y="202" class="foot">6 LANGUAGES · 560 KB ACROSS 5 PUBLIC REPOS</text>
+  <text x="20" y="202" class="foot">6 LANGUAGES · 562 KB ACROSS 5 PUBLIC REPOS</text>
 </svg>
