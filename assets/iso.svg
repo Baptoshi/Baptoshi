@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="870" height="221" viewBox="0 0 870 221" role="img" aria-label="L'année en relief : chaque jour est une tuile, sa hauteur vaut ses contributions, jusqu'à 140 en un jour.">
   <title>YEAR IN RELIEF</title>
-  <desc>La même année qu'en matrice, vue en relief : une tuile par jour, la hauteur valant les contributions du jour, pic de 140. 131 jours actifs. Source : API GraphQL de GitHub, arrêté au 2026-10-18 08:45Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>La même année qu'en matrice, vue en relief : une tuile par jour, la hauteur valant les contributions du jour, pic de 140. 132 jours actifs. Source : API GraphQL de GitHub, arrêté au 2026-10-18 13:52Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
@@ -672,6 +672,8 @@
   <path d="M821.0 166.2 L834.0 166.2 L834.0 179.6 L821.0 179.6 Z" fill="#06491d"/>
   <path d="M827.0 156.6 L834.0 166.2 L834.0 179.6 L827.0 170.0 Z" fill="#086026"/>
   <path class="cellule" style="animation-delay:4.62s" d="M814.0 156.6 L827.0 156.6 L834.0 166.2 L821.0 166.2 Z" fill="#0a7a31"/>
-  <path d="M828.4 170.0 L841.4 170.0 L848.4 179.6 L835.4 179.6 Z" fill="#15171a"/>
-  <text x="20" y="205" class="foot">131 ACTIVE DAYS · 2046 CONTRIBUTIONS · 52 WEEKS TO 2026-10-18</text>
+  <path d="M835.4 176.4 L848.4 176.4 L848.4 179.6 L835.4 179.6 Z" fill="#062c14"/>
+  <path d="M841.4 166.8 L848.4 176.4 L848.4 179.6 L841.4 170.0 Z" fill="#083a1b"/>
+  <path class="cellule" style="animation-delay:0.66s" d="M828.4 166.8 L841.4 166.8 L848.4 176.4 L835.4 176.4 Z" fill="#0b4a22"/>
+  <text x="20" y="205" class="foot">132 ACTIVE DAYS · 2047 CONTRIBUTIONS · 52 WEEKS TO 2026-10-18</text>
 </svg>
