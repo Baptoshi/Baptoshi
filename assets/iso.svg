@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="870" height="221" viewBox="0 0 870 221" role="img" aria-label="L'année en relief : chaque jour est une tuile, sa hauteur vaut ses contributions, jusqu'à 140 en un jour.">
   <title>YEAR IN RELIEF</title>
-  <desc>La même année qu'en matrice, vue en relief : une tuile par jour, la hauteur valant les contributions du jour, pic de 140. 131 jours actifs. Source : API GraphQL de GitHub, arrêté au 2026-10-18 04:02Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>La même année qu'en matrice, vue en relief : une tuile par jour, la hauteur valant les contributions du jour, pic de 140. 131 jours actifs. Source : API GraphQL de GitHub, arrêté au 2026-10-18 08:45Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
