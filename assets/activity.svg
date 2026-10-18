@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="428" height="190" viewBox="0 0 428 190" role="img" aria-label="Contributions cumulées sur douze mois : 2046 au total.">
   <title>CUMULATIVE CONTRIBUTIONS</title>
-  <desc>La même série, cumulée semaine après semaine, de 0 à 2046. Source : API GraphQL de GitHub, arrêté au 2026-10-17 23:54Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>La même série, cumulée semaine après semaine, de 0 à 2046. Source : API GraphQL de GitHub, arrêté au 2026-10-18 04:02Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
@@ -25,7 +25,7 @@
       .lab  { font-size: 9.5px; fill: #6d7279; letter-spacing: 1.5px; }
       .tiny { font-size: 8.5px; fill: #5d6268; letter-spacing: 1.1px; }
       .big  { font-size: 44px; fill: #fff; font-weight: 500; letter-spacing: -1.4px; }
-      .chg  { font-size: 12.5px; fill: #00c805; font-weight: 600; }
+      .chg  { font-size: 12.5px; fill: #ff5000; font-weight: 600; }
       .key  { font-size: 9.5px; fill: #8b9199; letter-spacing: 1.3px; }
       .val  { font-size: 16px; fill: #fff; font-weight: 500; }
       .num  { font-size: 11px; fill: #c9ced4; }
@@ -56,13 +56,13 @@
   <line x1="0" y1="42" x2="428" y2="42" stroke="#1a1c1f"/>
   <line x1="20" y1="88.4" x2="408" y2="88.4" stroke="#141619"/>
   <line x1="20" y1="118.7" x2="408" y2="118.7" stroke="#141619"/>
-  <path d="M20.0 150.0 L27.6 148.7 L35.2 148.2 L42.8 147.6 L50.4 146.0 L58.0 145.1 L65.6 144.2 L73.3 144.2 L80.9 144.1 L88.5 144.0 L96.1 144.0 L103.7 141.9 L111.3 141.7 L118.9 141.3 L126.5 139.8 L134.1 127.1 L141.7 124.2 L149.3 124.0 L156.9 112.4 L164.5 108.3 L172.2 103.1 L179.8 100.0 L187.4 99.8 L195.0 99.2 L202.6 97.7 L210.2 97.7 L217.8 97.5 L225.4 94.8 L233.0 94.0 L240.6 94.0 L248.2 94.0 L255.8 94.0 L263.5 85.4 L271.1 82.7 L278.7 80.9 L286.3 80.7 L293.9 79.6 L301.5 75.9 L309.1 75.8 L316.7 74.2 L324.3 71.7 L331.9 71.7 L339.5 71.7 L347.1 71.7 L354.7 70.9 L362.4 69.1 L370.0 64.2 L377.6 63.4 L385.2 62.9 L392.8 62.5 L400.4 60.8 L408.0 58.1 L408.0 150 L20 150 Z" fill="url(#area)"/>
-  <path d="M20.0 150.0 L27.6 148.7 L35.2 148.2 L42.8 147.6 L50.4 146.0 L58.0 145.1 L65.6 144.2 L73.3 144.2 L80.9 144.1 L88.5 144.0 L96.1 144.0 L103.7 141.9 L111.3 141.7 L118.9 141.3 L126.5 139.8 L134.1 127.1 L141.7 124.2 L149.3 124.0 L156.9 112.4 L164.5 108.3 L172.2 103.1 L179.8 100.0 L187.4 99.8 L195.0 99.2 L202.6 97.7 L210.2 97.7 L217.8 97.5 L225.4 94.8 L233.0 94.0 L240.6 94.0 L248.2 94.0 L255.8 94.0 L263.5 85.4 L271.1 82.7 L278.7 80.9 L286.3 80.7 L293.9 79.6 L301.5 75.9 L309.1 75.8 L316.7 74.2 L324.3 71.7 L331.9 71.7 L339.5 71.7 L347.1 71.7 L354.7 70.9 L362.4 69.1 L370.0 64.2 L377.6 63.4 L385.2 62.9 L392.8 62.5 L400.4 60.8 L408.0 58.1" fill="none" stroke="#00c805" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M20.0 148.7 L27.6 148.2 L35.2 147.6 L42.8 146.0 L50.4 145.1 L58.0 144.2 L65.6 144.2 L73.3 144.1 L80.9 144.0 L88.5 144.0 L96.1 141.9 L103.7 141.7 L111.3 141.3 L118.9 139.8 L126.5 127.1 L134.1 124.2 L141.7 124.0 L149.3 112.4 L156.9 108.3 L164.5 103.1 L172.2 100.0 L179.8 99.8 L187.4 99.2 L195.0 97.7 L202.6 97.7 L210.2 97.5 L217.8 94.8 L225.4 94.0 L233.0 94.0 L240.6 94.0 L248.2 94.0 L255.8 85.4 L263.5 82.7 L271.1 80.9 L278.7 80.7 L286.3 79.6 L293.9 75.9 L301.5 75.8 L309.1 74.2 L316.7 71.7 L324.3 71.7 L331.9 71.7 L339.5 71.7 L347.1 70.9 L354.7 69.1 L362.4 64.2 L370.0 63.4 L377.6 62.9 L385.2 62.5 L392.8 60.8 L400.4 58.1 L408.0 58.1 L408.0 150 L20 150 Z" fill="url(#area)"/>
+  <path d="M20.0 148.7 L27.6 148.2 L35.2 147.6 L42.8 146.0 L50.4 145.1 L58.0 144.2 L65.6 144.2 L73.3 144.1 L80.9 144.0 L88.5 144.0 L96.1 141.9 L103.7 141.7 L111.3 141.3 L118.9 139.8 L126.5 127.1 L134.1 124.2 L141.7 124.0 L149.3 112.4 L156.9 108.3 L164.5 103.1 L172.2 100.0 L179.8 99.8 L187.4 99.2 L195.0 97.7 L202.6 97.7 L210.2 97.5 L217.8 94.8 L225.4 94.0 L233.0 94.0 L240.6 94.0 L248.2 94.0 L255.8 85.4 L263.5 82.7 L271.1 80.9 L278.7 80.7 L286.3 79.6 L293.9 75.9 L301.5 75.8 L309.1 74.2 L316.7 71.7 L324.3 71.7 L331.9 71.7 L339.5 71.7 L347.1 70.9 L354.7 69.1 L362.4 64.2 L370.0 63.4 L377.6 62.9 L385.2 62.5 L392.8 60.8 L400.4 58.1 L408.0 58.1" fill="none" stroke="#00c805" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
   <rect class="trace" x="20" y="58" width="2" height="92" fill="url(#cursor)"/>
   <circle class="ping" cx="408.0" cy="58.1" r="3" fill="#00c805"/>
   <circle cx="408.0" cy="58.1" r="2.6" fill="#00c805"/>
   <line x1="20" y1="150" x2="408" y2="150" stroke="#2a2d32"/>
   <text x="20" y="165" class="lab">0</text>
   <text x="408" y="165" class="lab" text-anchor="end">2046</text>
-  <text x="20" y="182" class="foot">132 ACTIVE DAYS · PEAK 283/W</text>
+  <text x="20" y="182" class="foot">131 ACTIVE DAYS · PEAK 283/W</text>
 </svg>
