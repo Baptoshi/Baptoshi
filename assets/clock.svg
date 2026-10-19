@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="428" height="212" viewBox="0 0 428 212" role="img" aria-label="Heures d'activité : 0h 19, 7h 1, 8h 3, 9h 28, 10h 21, 11h 2, 12h 22, 14h 2, 15h 1, 16h 1, 17h 5, 18h 1, 19h 9, 21h 1, 22h 25, 23h 8.">
+<svg xmlns="http://www.w3.org/2000/svg" width="428" height="212" viewBox="0 0 428 212" role="img" aria-label="Heures d'activité : 0h 17, 7h 1, 8h 3, 9h 28, 10h 21, 11h 2, 12h 22, 14h 2, 15h 1, 16h 1, 17h 5, 18h 1, 19h 9, 21h 1, 22h 25, 23h 8.">
   <title>PRODUCTIVE HOURS</title>
-  <desc>Les heures où tombent les 149 derniers événements publics (2026-10-05 → 2026-10-18), heure de Paris. Le pic est de 28 à 9 h. Source : API GraphQL de GitHub, arrêté au 2026-10-19 04:26Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>Les heures où tombent les 147 derniers événements publics (2026-10-05 → 2026-10-18), heure de Paris. Le pic est de 28 à 9 h. Source : API GraphQL de GitHub, arrêté au 2026-10-19 12:46Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
@@ -56,7 +56,7 @@
   <line x1="0" y1="42" x2="428" y2="42" stroke="#1a1c1f"/>
   <circle cx="214" cy="110" r="52" fill="none" stroke="#1a1d21"/>
   <circle cx="214" cy="110" r="22" fill="none" stroke="#1a1d21"/>
-  <line class="grow" x1="214.0" y1="88.0" x2="214.0" y2="67.6" stroke="#00c805" stroke-width="5" stroke-linecap="round" style="animation-delay:0s"/>
+  <line class="grow" x1="214.0" y1="88.0" x2="214.0" y2="69.8" stroke="#00c805" stroke-width="5" stroke-linecap="round" style="animation-delay:0s"/>
   <line class="" x1="219.7" y1="88.7" x2="220.1" y2="87.3" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:0.3s"/>
   <line class="" x1="225.0" y1="90.9" x2="225.8" y2="89.6" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:0.6s"/>
   <line class="" x1="229.6" y1="94.4" x2="230.6" y2="93.4" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:0.8999999999999999s"/>
@@ -86,5 +86,5 @@
   <text x="214.0" y="177.0" class="tiny" text-anchor="middle">12</text>
   <text x="150.0" y="113.0" class="tiny" text-anchor="middle">18</text>
   <text x="214" y="113" class="num" text-anchor="middle">09H</text>
-  <text x="20" y="202" class="foot">149 PUBLIC EVENTS · 2026-10-05 → 2026-10-18</text>
+  <text x="20" y="202" class="foot">147 PUBLIC EVENTS · 2026-10-05 → 2026-10-18</text>
 </svg>
