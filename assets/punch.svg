@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="870" height="212" viewBox="0 0 870 212" role="img" aria-label="Carte perforée : quand tombent les 140 derniers événements publics, par jour de la semaine et par heure.">
   <title>PUNCH CARD</title>
-  <desc>Chaque disque dit combien d'événements publics sont tombés ce jour-là à cette heure-là, sur les 140 derniers (2026-10-05 → 2026-10-19), heure de Paris. Le plus gros en vaut 27. Source : API GraphQL de GitHub, arrêté au 2026-10-21 13:38Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>Chaque disque dit combien d'événements publics sont tombés ce jour-là à cette heure-là, sur les 140 derniers (2026-10-05 → 2026-10-19), heure de Paris. Le plus gros en vaut 27. Source : API GraphQL de GitHub, arrêté au 2026-10-21 18:31Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
