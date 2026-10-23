@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="428" height="190" viewBox="0 0 428 190" role="img" aria-label="Répartition de l'activité : 1944 private, 46 commits, 24 pull requests, 5 issues.">
   <title>ACTIVITY MIX</title>
-  <desc>Les natures que l'API compte séparément : private 1944 (96.3%), commits 46 (2.3%), pull requests 24 (1.2%), issues 5 (0.2%). Source : API GraphQL de GitHub, arrêté au 2026-10-22 21:24Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>Les natures que l'API compte séparément : private 1944 (96.3%), commits 46 (2.3%), pull requests 24 (1.2%), issues 5 (0.2%). Source : API GraphQL de GitHub, arrêté au 2026-10-23 00:29Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
