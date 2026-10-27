@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="428" height="212" viewBox="0 0 428 212" role="img" aria-label="Heures d'activité : 0h 16, 7h 1, 8h 3, 9h 29, 10h 18, 11h 3, 12h 15, 14h 2, 15h 1, 16h 1, 17h 5, 18h 1, 19h 9, 20h 2, 21h 1, 22h 25, 23h 8.">
+<svg xmlns="http://www.w3.org/2000/svg" width="428" height="212" viewBox="0 0 428 212" role="img" aria-label="Heures d'activité : 0h 16, 7h 1, 8h 3, 9h 29, 10h 19, 11h 4, 12h 15, 14h 2, 15h 1, 16h 1, 17h 5, 18h 1, 19h 9, 20h 2, 21h 1, 22h 25, 23h 8.">
   <title>PRODUCTIVE HOURS</title>
-  <desc>Les heures où tombent les 140 derniers événements publics (2026-10-05 → 2026-10-27), heure de Paris. Le pic est de 29 à 9 h. Source : API GraphQL de GitHub, arrêté au 2026-10-27 17:50Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>Les heures où tombent les 142 derniers événements publics (2026-10-05 → 2026-10-27), heure de Paris. Le pic est de 29 à 9 h. Source : API GraphQL de GitHub, arrêté au 2026-10-27 22:01Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
@@ -66,8 +66,8 @@
   <line class="grow" x1="235.3" y1="115.7" x2="236.7" y2="116.1" stroke="#00c805" stroke-width="5" stroke-linecap="round" style="animation-delay:2.1s"/>
   <line class="grow" x1="233.1" y1="121.0" x2="235.7" y2="122.6" stroke="#00c805" stroke-width="5" stroke-linecap="round" style="animation-delay:0s"/>
   <line class="grow" x1="229.6" y1="125.6" x2="250.8" y2="146.8" stroke="#4dec6a" stroke-width="5" stroke-linecap="round" style="animation-delay:0.3s"/>
-  <line class="grow" x1="225.0" y1="129.1" x2="234.3" y2="145.2" stroke="#00c805" stroke-width="5" stroke-linecap="round" style="animation-delay:0.6s"/>
-  <line class="grow" x1="219.7" y1="131.3" x2="220.5" y2="134.2" stroke="#00c805" stroke-width="5" stroke-linecap="round" style="animation-delay:0.8999999999999999s"/>
+  <line class="grow" x1="225.0" y1="129.1" x2="234.8" y2="146.1" stroke="#00c805" stroke-width="5" stroke-linecap="round" style="animation-delay:0.6s"/>
+  <line class="grow" x1="219.7" y1="131.3" x2="220.8" y2="135.2" stroke="#00c805" stroke-width="5" stroke-linecap="round" style="animation-delay:0.8999999999999999s"/>
   <line class="grow" x1="214.0" y1="132.0" x2="214.0" y2="147.5" stroke="#00c805" stroke-width="5" stroke-linecap="round" style="animation-delay:1.2s"/>
   <line class="" x1="208.3" y1="131.3" x2="207.9" y2="132.7" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:1.5s"/>
   <line class="grow" x1="203.0" y1="129.1" x2="202.0" y2="130.8" stroke="#00c805" stroke-width="5" stroke-linecap="round" style="animation-delay:1.7999999999999998s"/>
@@ -86,5 +86,5 @@
   <text x="214.0" y="177.0" class="tiny" text-anchor="middle">12</text>
   <text x="150.0" y="113.0" class="tiny" text-anchor="middle">18</text>
   <text x="214" y="113" class="num" text-anchor="middle">09H</text>
-  <text x="20" y="202" class="foot">140 PUBLIC EVENTS · 2026-10-05 → 2026-10-27</text>
+  <text x="20" y="202" class="foot">142 PUBLIC EVENTS · 2026-10-05 → 2026-10-27</text>
 </svg>
