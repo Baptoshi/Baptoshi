@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="428" height="190" viewBox="0 0 428 190" role="img" aria-label="Dépôts publics ouverts par année : 2021 1, 2025 2, 2026 2.">
   <title>REPOSITORIES BY VINTAGE</title>
-  <desc>Combien de dépôts publics ouverts chaque année : 2021 : 1, 2025 : 2, 2026 : 2. Des comptes, pas des noms. Source : API GraphQL de GitHub, arrêté au 2026-10-28 01:04Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>Combien de dépôts publics ouverts chaque année : 2021 : 1, 2025 : 2, 2026 : 2. Des comptes, pas des noms. Source : API GraphQL de GitHub, arrêté au 2026-10-28 08:09Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
@@ -25,7 +25,7 @@
       .lab  { font-size: 9.5px; fill: #6d7279; letter-spacing: 1.5px; }
       .tiny { font-size: 8.5px; fill: #5d6268; letter-spacing: 1.1px; }
       .big  { font-size: 44px; fill: #fff; font-weight: 500; letter-spacing: -1.4px; }
-      .chg  { font-size: 12.5px; fill: #ff5000; font-weight: 600; }
+      .chg  { font-size: 12.5px; fill: #00c805; font-weight: 600; }
       .key  { font-size: 9.5px; fill: #8b9199; letter-spacing: 1.3px; }
       .val  { font-size: 16px; fill: #fff; font-weight: 500; }
       .num  { font-size: 11px; fill: #c9ced4; }
