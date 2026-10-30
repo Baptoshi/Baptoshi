@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="428" height="212" viewBox="0 0 428 212" role="img" aria-label="Heures d'activité : 0h 14, 7h 1, 8h 5, 9h 26, 10h 19, 11h 6, 12h 15, 14h 4, 15h 1, 16h 1, 17h 5, 18h 1, 19h 9, 20h 2, 21h 1, 22h 26, 23h 15.">
   <title>PRODUCTIVE HOURS</title>
-  <desc>Les heures où tombent les 151 derniers événements publics (2026-10-05 → 2026-10-28), heure de Paris. Le pic est de 26 à 9 h. Source : API GraphQL de GitHub, arrêté au 2026-10-30 12:35Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>Les heures où tombent les 151 derniers événements publics (2026-10-05 → 2026-10-28), heure de Paris. Le pic est de 26 à 9 h. Source : API GraphQL de GitHub, arrêté au 2026-10-30 19:06Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
