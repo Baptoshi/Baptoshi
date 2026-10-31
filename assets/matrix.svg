@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="870" height="217" viewBox="0 0 870 217" role="img" aria-label="Matrice d'activité : 137 jours actifs sur 365, jusqu'à 140 contributions en un jour.">
   <title>ACTIVITY MATRIX</title>
-  <desc>Une case par jour sur cinquante-deux semaines ; 137 jours actifs, pic de 140 en un jour. Source : API GraphQL de GitHub, arrêté au 2026-10-31 05:00Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>Une case par jour sur cinquante-deux semaines ; 137 jours actifs, pic de 140 en un jour. Source : API GraphQL de GitHub, arrêté au 2026-10-31 12:00Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
