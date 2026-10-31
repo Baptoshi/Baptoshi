@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="870" height="221" viewBox="0 0 870 221" role="img" aria-label="L'année en relief : chaque jour est une tuile, sa hauteur vaut ses contributions, jusqu'à 140 en un jour.">
   <title>YEAR IN RELIEF</title>
-  <desc>La même année qu'en matrice, vue en relief : une tuile par jour, la hauteur valant les contributions du jour, pic de 140. 137 jours actifs. Source : API GraphQL de GitHub, arrêté au 2026-10-30 23:33Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>La même année qu'en matrice, vue en relief : une tuile par jour, la hauteur valant les contributions du jour, pic de 140. 137 jours actifs. Source : API GraphQL de GitHub, arrêté au 2026-10-31 05:00Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
@@ -586,6 +586,7 @@
   <path d="M778.2 159.0 L791.2 159.0 L798.2 168.6 L785.2 168.6 Z" fill="#15171a"/>
   <path d="M792.6 159.0 L805.6 159.0 L812.6 168.6 L799.6 168.6 Z" fill="#15171a"/>
   <path d="M807.0 159.0 L820.0 159.0 L827.0 168.6 L814.0 168.6 Z" fill="#15171a"/>
+  <path d="M821.4 159.0 L834.4 159.0 L841.4 168.6 L828.4 168.6 Z" fill="#15171a"/>
   <path d="M101.0 176.1 L114.0 176.1 L114.0 179.6 L101.0 179.6 Z" fill="#062c14"/>
   <path d="M107.0 166.5 L114.0 176.1 L114.0 179.6 L107.0 170.0 Z" fill="#083a1b"/>
   <path class="cellule" style="animation-delay:1.98s" d="M94.0 166.5 L107.0 166.5 L114.0 176.1 L101.0 176.1 Z" fill="#0b4a22"/>
@@ -684,5 +685,5 @@
   <path d="M827.0 166.8 L834.0 176.4 L834.0 179.6 L827.0 170.0 Z" fill="#083a1b"/>
   <path class="cellule" style="animation-delay:4.62s" d="M814.0 166.8 L827.0 166.8 L834.0 176.4 L821.0 176.4 Z" fill="#0b4a22"/>
   <path d="M828.4 170.0 L841.4 170.0 L848.4 179.6 L835.4 179.6 Z" fill="#15171a"/>
-  <text x="20" y="205" class="foot">137 ACTIVE DAYS · 2058 CONTRIBUTIONS · 52 WEEKS TO 2026-10-30</text>
+  <text x="20" y="205" class="foot">137 ACTIVE DAYS · 2058 CONTRIBUTIONS · 52 WEEKS TO 2026-10-31</text>
 </svg>
