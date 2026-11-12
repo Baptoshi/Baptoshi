@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="428" height="212" viewBox="0 0 428 212" role="img" aria-label="Séries de jours consécutifs : 11 en cours, 11 au plus long, 142 jours actifs.">
   <title>STREAK</title>
-  <desc>Jours consécutifs avec au moins une contribution : 11 en cours, record de 11 clos le 2026-11-12, 142 jours actifs sur 365. Source : API GraphQL de GitHub, arrêté au 2026-11-12 12:26Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>Jours consécutifs avec au moins une contribution : 11 en cours, record de 11 clos le 2026-11-12, 142 jours actifs sur 365. Source : API GraphQL de GitHub, arrêté au 2026-11-12 21:22Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
@@ -86,16 +86,16 @@
   <rect class="grow" x="227.9" y="166.0" width="10.9" height="2.0" rx="1.5" fill="#1e2126" style="animation-delay:1.7999999999999998s"/>
   <rect class="grow" x="240.9" y="166.0" width="10.9" height="2.0" rx="1.5" fill="#1e2126" style="animation-delay:2.1s"/>
   <rect class="grow" x="253.8" y="166.0" width="10.9" height="2.0" rx="1.5" fill="#1e2126" style="animation-delay:2.4s"/>
-  <rect class="grow" x="266.7" y="153.7" width="10.9" height="14.3" rx="1.5" fill="#00c805" style="animation-delay:2.6999999999999997s"/>
-  <rect class="grow" x="279.7" y="145.0" width="10.9" height="23.0" rx="1.5" fill="#00c805" style="animation-delay:0s"/>
+  <rect class="grow" x="266.7" y="156.8" width="10.9" height="11.3" rx="1.5" fill="#00c805" style="animation-delay:2.6999999999999997s"/>
+  <rect class="grow" x="279.7" y="149.9" width="10.9" height="18.1" rx="1.5" fill="#00c805" style="animation-delay:0s"/>
   <rect class="grow" x="292.6" y="165.0" width="10.9" height="3.0" rx="1.5" fill="#00c805" style="animation-delay:0.3s"/>
-  <rect class="grow" x="305.5" y="161.0" width="10.9" height="7.0" rx="1.5" fill="#00c805" style="animation-delay:0.6s"/>
-  <rect class="grow" x="318.5" y="162.8" width="10.9" height="5.2" rx="1.5" fill="#00c805" style="animation-delay:0.8999999999999999s"/>
-  <rect class="grow" x="331.4" y="158.9" width="10.9" height="9.1" rx="1.5" fill="#00c805" style="animation-delay:1.2s"/>
-  <rect class="grow" x="344.3" y="146.7" width="10.9" height="21.3" rx="1.5" fill="#00c805" style="animation-delay:1.5s"/>
-  <rect class="grow" x="357.3" y="154.1" width="10.9" height="13.9" rx="1.5" fill="#00c805" style="animation-delay:1.7999999999999998s"/>
-  <rect class="grow" x="370.2" y="138.0" width="10.9" height="30.0" rx="1.5" fill="#00c805" style="animation-delay:2.1s"/>
-  <rect class="grow" x="383.1" y="153.2" width="10.9" height="14.8" rx="1.5" fill="#00c805" style="animation-delay:2.4s"/>
-  <rect class="grow" x="396.1" y="141.9" width="10.9" height="26.1" rx="1.5" fill="#00c805" style="animation-delay:2.6999999999999997s"/>
+  <rect class="grow" x="305.5" y="162.5" width="10.9" height="5.5" rx="1.5" fill="#00c805" style="animation-delay:0.6s"/>
+  <rect class="grow" x="318.5" y="163.9" width="10.9" height="4.1" rx="1.5" fill="#00c805" style="animation-delay:0.8999999999999999s"/>
+  <rect class="grow" x="331.4" y="160.8" width="10.9" height="7.2" rx="1.5" fill="#00c805" style="animation-delay:1.2s"/>
+  <rect class="grow" x="344.3" y="151.3" width="10.9" height="16.7" rx="1.5" fill="#00c805" style="animation-delay:1.5s"/>
+  <rect class="grow" x="357.3" y="157.1" width="10.9" height="10.9" rx="1.5" fill="#00c805" style="animation-delay:1.7999999999999998s"/>
+  <rect class="grow" x="370.2" y="144.5" width="10.9" height="23.5" rx="1.5" fill="#00c805" style="animation-delay:2.1s"/>
+  <rect class="grow" x="383.1" y="156.4" width="10.9" height="11.6" rx="1.5" fill="#00c805" style="animation-delay:2.4s"/>
+  <rect class="grow" x="396.1" y="138.0" width="10.9" height="30.0" rx="1.5" fill="#00c805" style="animation-delay:2.6999999999999997s"/>
   <text x="20" y="202" class="foot">LAST CONTRIBUTION 2026-11-12</text>
 </svg>
