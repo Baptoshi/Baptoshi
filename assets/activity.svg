@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="428" height="190" viewBox="0 0 428 190" role="img" aria-label="Contributions cumulées sur douze mois : 2431 au total.">
+<svg xmlns="http://www.w3.org/2000/svg" width="428" height="190" viewBox="0 0 428 190" role="img" aria-label="Contributions cumulées sur douze mois : 2444 au total.">
   <title>CUMULATIVE CONTRIBUTIONS</title>
-  <desc>La même série, cumulée semaine après semaine, de 0 à 2431. Source : API GraphQL de GitHub, arrêté au 2026-11-12 21:22Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>La même série, cumulée semaine après semaine, de 0 à 2444. Source : API GraphQL de GitHub, arrêté au 2026-11-13 02:29Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
@@ -56,13 +56,13 @@
   <line x1="0" y1="42" x2="428" y2="42" stroke="#1a1c1f"/>
   <line x1="20" y1="88.4" x2="408" y2="88.4" stroke="#141619"/>
   <line x1="20" y1="118.7" x2="408" y2="118.7" stroke="#141619"/>
-  <path d="M20.0 148.7 L27.6 147.9 L35.2 147.2 L42.8 147.2 L50.4 147.1 L58.0 147.0 L65.6 147.0 L73.3 145.2 L80.9 145.0 L88.5 144.7 L96.1 143.5 L103.7 132.8 L111.3 130.3 L118.9 130.2 L126.5 120.4 L134.1 116.9 L141.7 112.6 L149.3 109.9 L156.9 109.8 L164.5 109.3 L172.2 108.0 L179.8 108.0 L187.4 107.9 L195.0 105.6 L202.6 104.9 L210.2 104.9 L217.8 104.9 L225.4 104.9 L233.0 97.7 L240.6 95.4 L248.2 93.9 L255.8 93.7 L263.5 92.8 L271.1 89.6 L278.7 89.6 L286.3 88.2 L293.9 86.2 L301.5 86.1 L309.1 86.1 L316.7 86.1 L324.3 85.4 L331.9 84.0 L339.5 79.8 L347.1 79.2 L354.7 78.7 L362.4 78.4 L370.0 77.0 L377.6 74.7 L385.2 74.6 L392.8 74.2 L400.4 68.8 L408.0 58.5 L408.0 150 L20 150 Z" fill="url(#area)"/>
-  <path d="M20.0 148.7 L27.6 147.9 L35.2 147.2 L42.8 147.2 L50.4 147.1 L58.0 147.0 L65.6 147.0 L73.3 145.2 L80.9 145.0 L88.5 144.7 L96.1 143.5 L103.7 132.8 L111.3 130.3 L118.9 130.2 L126.5 120.4 L134.1 116.9 L141.7 112.6 L149.3 109.9 L156.9 109.8 L164.5 109.3 L172.2 108.0 L179.8 108.0 L187.4 107.9 L195.0 105.6 L202.6 104.9 L210.2 104.9 L217.8 104.9 L225.4 104.9 L233.0 97.7 L240.6 95.4 L248.2 93.9 L255.8 93.7 L263.5 92.8 L271.1 89.6 L278.7 89.6 L286.3 88.2 L293.9 86.2 L301.5 86.1 L309.1 86.1 L316.7 86.1 L324.3 85.4 L331.9 84.0 L339.5 79.8 L347.1 79.2 L354.7 78.7 L362.4 78.4 L370.0 77.0 L377.6 74.7 L385.2 74.6 L392.8 74.2 L400.4 68.8 L408.0 58.5" fill="none" stroke="#00c805" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M20.0 148.7 L27.6 147.9 L35.2 147.2 L42.8 147.2 L50.4 147.1 L58.0 147.0 L65.6 147.0 L73.3 145.2 L80.9 145.1 L88.5 144.7 L96.1 143.5 L103.7 132.9 L111.3 130.4 L118.9 130.3 L126.5 120.6 L134.1 117.1 L141.7 112.8 L149.3 110.1 L156.9 110.0 L164.5 109.5 L172.2 108.3 L179.8 108.2 L187.4 108.1 L195.0 105.8 L202.6 105.2 L210.2 105.2 L217.8 105.2 L225.4 105.1 L233.0 97.9 L240.6 95.7 L248.2 94.2 L255.8 94.0 L263.5 93.1 L271.1 90.0 L278.7 89.9 L286.3 88.6 L293.9 86.5 L301.5 86.5 L309.1 86.5 L316.7 86.5 L324.3 85.8 L331.9 84.3 L339.5 80.2 L347.1 79.5 L354.7 79.1 L362.4 78.7 L370.0 77.3 L377.6 75.1 L385.2 75.0 L392.8 74.6 L400.4 69.2 L408.0 58.5 L408.0 150 L20 150 Z" fill="url(#area)"/>
+  <path d="M20.0 148.7 L27.6 147.9 L35.2 147.2 L42.8 147.2 L50.4 147.1 L58.0 147.0 L65.6 147.0 L73.3 145.2 L80.9 145.1 L88.5 144.7 L96.1 143.5 L103.7 132.9 L111.3 130.4 L118.9 130.3 L126.5 120.6 L134.1 117.1 L141.7 112.8 L149.3 110.1 L156.9 110.0 L164.5 109.5 L172.2 108.3 L179.8 108.2 L187.4 108.1 L195.0 105.8 L202.6 105.2 L210.2 105.2 L217.8 105.2 L225.4 105.1 L233.0 97.9 L240.6 95.7 L248.2 94.2 L255.8 94.0 L263.5 93.1 L271.1 90.0 L278.7 89.9 L286.3 88.6 L293.9 86.5 L301.5 86.5 L309.1 86.5 L316.7 86.5 L324.3 85.8 L331.9 84.3 L339.5 80.2 L347.1 79.5 L354.7 79.1 L362.4 78.7 L370.0 77.3 L377.6 75.1 L385.2 75.0 L392.8 74.6 L400.4 69.2 L408.0 58.5" fill="none" stroke="#00c805" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
   <rect class="trace" x="20" y="58" width="2" height="92" fill="url(#cursor)"/>
   <circle class="ping" cx="408.0" cy="58.5" r="3" fill="#00c805"/>
   <circle cx="408.0" cy="58.5" r="2.6" fill="#00c805"/>
   <line x1="20" y1="150" x2="408" y2="150" stroke="#2a2d32"/>
   <text x="20" y="165" class="lab">0</text>
-  <text x="408" y="165" class="lab" text-anchor="end">2431</text>
-  <text x="20" y="182" class="foot">142 ACTIVE DAYS · PEAK 283/W</text>
+  <text x="408" y="165" class="lab" text-anchor="end">2444</text>
+  <text x="20" y="182" class="foot">143 ACTIVE DAYS · PEAK 285/W</text>
 </svg>
