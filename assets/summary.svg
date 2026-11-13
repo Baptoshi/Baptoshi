@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="870" height="212" viewBox="0 0 870 212" role="img" aria-label="Baptoshi : 2467 contributions sur douze mois, +208 sur sept jours ; 7 merged pr, 5 public repos, 6 languages, 2 stars, 0 forks, 3 followers.">
+<svg xmlns="http://www.w3.org/2000/svg" width="870" height="212" viewBox="0 0 870 212" role="img" aria-label="Baptoshi : 2469 contributions sur douze mois, +210 sur sept jours ; 7 merged pr, 5 public repos, 6 languages, 2 stars, 0 forks, 3 followers.">
   <title>Baptoshi — GitHub</title>
-  <desc>2467 contributions sur douze mois (+208 sur sept jours contre les sept précédents), 7 merged pr, 5 public repos, 6 languages, 2 stars, 0 forks, 3 followers. Source : API GraphQL de GitHub, arrêté au 2026-11-13 12:00Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>2469 contributions sur douze mois (+210 sur sept jours contre les sept précédents), 7 merged pr, 5 public repos, 6 languages, 2 stars, 0 forks, 3 followers. Source : API GraphQL de GitHub, arrêté au 2026-11-13 19:27Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
@@ -59,72 +59,72 @@
   <circle class="ping" cx="322" cy="28" r="3" fill="#00c805"/>
   <circle class="pulse" cx="322" cy="28" r="3" fill="#00c805"/>
   <text x="332" y="32" class="live">LIVE</text>
-  <text x="850" y="32" class="sub" text-anchor="end">2026-11-13 12:00Z</text>
+  <text x="850" y="32" class="sub" text-anchor="end">2026-11-13 19:27Z</text>
   <line x1="0" y1="58" x2="870" y2="58" stroke="#1a1c1f"/>
-  <text x="20" y="110" class="big">2467</text>
+  <text x="20" y="110" class="big">2469</text>
   <text x="20" y="128" class="lab">CONTRIBUTIONS · TRAILING 12M</text>
-  <text x="20" y="150" class="chg mono">▲ +208 <tspan class="lab">7D VS PRIOR 7D</tspan></text>
+  <text x="20" y="150" class="chg mono">▲ +210 <tspan class="lab">7D VS PRIOR 7D</tspan></text>
   <line x1="440" y1="58" x2="440" y2="162" stroke="#141619"/>
   <line x1="470" y1="91.7" x2="850" y2="91.7" stroke="#141619"/>
   <line x1="470" y1="119.4" x2="850" y2="119.4" stroke="#141619"/>
   <g clip-path="url(#plot)">
-    <rect x="470.0" y="138.9" width="5.3" height="9.1" rx="1" fill="url(#bar)"/>
+    <rect x="470.0" y="139.0" width="5.3" height="9.0" rx="1" fill="url(#bar)"/>
     <rect x="477.3" y="142.8" width="5.3" height="5.2" rx="1" fill="url(#bar)"/>
     <rect x="484.6" y="142.8" width="5.3" height="5.2" rx="1" fill="url(#bar)"/>
     <rect x="491.9" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
     <rect x="499.2" y="146.0" width="5.3" height="2.0" rx="1" fill="url(#bar)"/>
     <rect x="506.5" y="146.0" width="5.3" height="2.0" rx="1" fill="url(#bar)"/>
     <rect x="513.8" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
-    <rect x="521.2" y="135.5" width="5.3" height="12.5" rx="1" fill="url(#bar)"/>
+    <rect x="521.2" y="135.6" width="5.3" height="12.4" rx="1" fill="url(#bar)"/>
     <rect x="528.5" y="146.0" width="5.3" height="2.0" rx="1" fill="url(#bar)"/>
     <rect x="535.8" y="145.7" width="5.3" height="2.3" rx="1" fill="url(#bar)"/>
     <rect x="543.1" y="139.7" width="5.3" height="8.3" rx="1" fill="url(#bar)"/>
-    <rect x="550.4" y="74.5" width="5.3" height="73.5" rx="1" fill="url(#bar)"/>
-    <rect x="557.7" y="131.1" width="5.3" height="16.9" rx="1" fill="url(#bar)"/>
+    <rect x="550.4" y="75.0" width="5.3" height="73.0" rx="1" fill="url(#bar)"/>
+    <rect x="557.7" y="131.2" width="5.3" height="16.8" rx="1" fill="url(#bar)"/>
     <rect x="565.0" y="146.0" width="5.3" height="2.0" rx="1" fill="url(#bar)"/>
-    <rect x="572.3" y="81.0" width="5.3" height="67.0" rx="1" fill="url(#bar)"/>
-    <rect x="579.6" y="124.1" width="5.3" height="23.9" rx="1" fill="url(#bar)"/>
-    <rect x="586.9" y="118.1" width="5.3" height="29.9" rx="1" fill="url(#bar)"/>
-    <rect x="594.2" y="129.8" width="5.3" height="18.2" rx="1" fill="url(#bar)"/>
+    <rect x="572.3" y="81.4" width="5.3" height="66.6" rx="1" fill="url(#bar)"/>
+    <rect x="579.6" y="124.3" width="5.3" height="23.7" rx="1" fill="url(#bar)"/>
+    <rect x="586.9" y="118.3" width="5.3" height="29.7" rx="1" fill="url(#bar)"/>
+    <rect x="594.2" y="129.9" width="5.3" height="18.1" rx="1" fill="url(#bar)"/>
     <rect x="601.5" y="146.0" width="5.3" height="2.0" rx="1" fill="url(#bar)"/>
     <rect x="608.8" y="144.6" width="5.3" height="3.4" rx="1" fill="url(#bar)"/>
-    <rect x="616.2" y="139.4" width="5.3" height="8.6" rx="1" fill="url(#bar)"/>
+    <rect x="616.2" y="139.5" width="5.3" height="8.5" rx="1" fill="url(#bar)"/>
     <rect x="623.5" y="146.0" width="5.3" height="2.0" rx="1" fill="url(#bar)"/>
     <rect x="630.8" y="146.0" width="5.3" height="2.0" rx="1" fill="url(#bar)"/>
-    <rect x="638.1" y="132.4" width="5.3" height="15.6" rx="1" fill="url(#bar)"/>
-    <rect x="645.4" y="143.3" width="5.3" height="4.7" rx="1" fill="url(#bar)"/>
+    <rect x="638.1" y="132.5" width="5.3" height="15.5" rx="1" fill="url(#bar)"/>
+    <rect x="645.4" y="143.4" width="5.3" height="4.6" rx="1" fill="url(#bar)"/>
     <rect x="652.7" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
     <rect x="660.0" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
     <rect x="667.3" y="146.0" width="5.3" height="2.0" rx="1" fill="url(#bar)"/>
-    <rect x="674.6" y="98.4" width="5.3" height="49.6" rx="1" fill="url(#bar)"/>
-    <rect x="681.9" y="132.4" width="5.3" height="15.6" rx="1" fill="url(#bar)"/>
-    <rect x="689.2" y="137.6" width="5.3" height="10.4" rx="1" fill="url(#bar)"/>
+    <rect x="674.6" y="98.7" width="5.3" height="49.3" rx="1" fill="url(#bar)"/>
+    <rect x="681.9" y="132.5" width="5.3" height="15.5" rx="1" fill="url(#bar)"/>
+    <rect x="689.2" y="137.7" width="5.3" height="10.3" rx="1" fill="url(#bar)"/>
     <rect x="696.5" y="146.0" width="5.3" height="2.0" rx="1" fill="url(#bar)"/>
     <rect x="703.8" y="141.5" width="5.3" height="6.5" rx="1" fill="url(#bar)"/>
-    <rect x="711.2" y="126.4" width="5.3" height="21.6" rx="1" fill="url(#bar)"/>
+    <rect x="711.2" y="126.6" width="5.3" height="21.4" rx="1" fill="url(#bar)"/>
     <rect x="718.5" y="146.0" width="5.3" height="2.0" rx="1" fill="url(#bar)"/>
-    <rect x="725.8" y="138.6" width="5.3" height="9.4" rx="1" fill="url(#bar)"/>
-    <rect x="733.1" y="133.7" width="5.3" height="14.3" rx="1" fill="url(#bar)"/>
+    <rect x="725.8" y="138.7" width="5.3" height="9.3" rx="1" fill="url(#bar)"/>
+    <rect x="733.1" y="133.8" width="5.3" height="14.2" rx="1" fill="url(#bar)"/>
     <rect x="740.4" y="146.0" width="5.3" height="2.0" rx="1" fill="url(#bar)"/>
     <rect x="747.7" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
     <rect x="755.0" y="146.5" width="5.3" height="1.5" rx="1" fill="#1e2126"/>
-    <rect x="762.3" y="143.3" width="5.3" height="4.7" rx="1" fill="url(#bar)"/>
+    <rect x="762.3" y="143.4" width="5.3" height="4.6" rx="1" fill="url(#bar)"/>
     <rect x="769.6" y="137.9" width="5.3" height="10.1" rx="1" fill="url(#bar)"/>
-    <rect x="776.9" y="119.4" width="5.3" height="28.6" rx="1" fill="url(#bar)"/>
+    <rect x="776.9" y="119.6" width="5.3" height="28.4" rx="1" fill="url(#bar)"/>
     <rect x="784.2" y="143.6" width="5.3" height="4.4" rx="1" fill="url(#bar)"/>
     <rect x="791.5" y="144.9" width="5.3" height="3.1" rx="1" fill="url(#bar)"/>
     <rect x="798.8" y="145.7" width="5.3" height="2.3" rx="1" fill="url(#bar)"/>
-    <rect x="806.2" y="138.4" width="5.3" height="9.6" rx="1" fill="url(#bar)"/>
-    <rect x="813.5" y="132.4" width="5.3" height="15.6" rx="1" fill="url(#bar)"/>
+    <rect x="806.2" y="138.5" width="5.3" height="9.5" rx="1" fill="url(#bar)"/>
+    <rect x="813.5" y="132.5" width="5.3" height="15.5" rx="1" fill="url(#bar)"/>
     <rect x="820.8" y="146.0" width="5.3" height="2.0" rx="1" fill="url(#bar)"/>
-    <rect x="828.1" y="145.1" width="5.3" height="2.9" rx="1" fill="url(#bar)"/>
-    <rect x="835.4" y="111.1" width="5.3" height="36.9" rx="1" fill="url(#bar)"/>
+    <rect x="828.1" y="145.2" width="5.3" height="2.8" rx="1" fill="url(#bar)"/>
+    <rect x="835.4" y="111.4" width="5.3" height="36.6" rx="1" fill="url(#bar)"/>
     <rect x="842.7" y="68.0" width="5.3" height="80.0" rx="1" fill="url(#bar)"/>
     <rect class="scan" x="470" y="64" width="2" height="84" fill="url(#cursor)"/>
   </g>
   <line x1="470" y1="148" x2="850" y2="148" stroke="#2a2d32"/>
   <text x="470" y="161" class="lab">52W · WEEKLY</text>
-  <text x="850" y="161" class="lab" text-anchor="end">PEAK 308</text>
+  <text x="850" y="161" class="lab" text-anchor="end">PEAK 310</text>
   <line x1="0" y1="172" x2="870" y2="172" stroke="#1a1c1f"/>
   <g>
     <text x="20" y="190" class="key">MERGED PR</text>
