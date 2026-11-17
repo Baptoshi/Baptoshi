@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="870" height="221" viewBox="0 0 870 221" role="img" aria-label="L'année en relief : chaque jour est une tuile, sa hauteur vaut ses contributions, jusqu'à 140 en un jour.">
   <title>YEAR IN RELIEF</title>
-  <desc>La même année qu'en matrice, vue en relief : une tuile par jour, la hauteur valant les contributions du jour, pic de 140. 145 jours actifs. Source : API GraphQL de GitHub, arrêté au 2026-11-16 15:25Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>La même année qu'en matrice, vue en relief : une tuile par jour, la hauteur valant les contributions du jour, pic de 140. 145 jours actifs. Source : API GraphQL de GitHub, arrêté au 2026-11-17 00:06Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
@@ -156,9 +156,9 @@
   <path d="M779.0 102.8 L792.0 102.8 L792.0 113.6 L779.0 113.6 Z" fill="#062c14"/>
   <path d="M785.0 93.2 L792.0 102.8 L792.0 113.6 L785.0 104.0 Z" fill="#083a1b"/>
   <path class="cellule" style="animation-delay:2.64s" d="M772.0 93.2 L785.0 93.2 L792.0 102.8 L779.0 102.8 Z" fill="#0b4a22"/>
-  <path d="M793.4 109.6 L806.4 109.6 L806.4 113.6 L793.4 113.6 Z" fill="#062c14"/>
-  <path d="M799.4 100.0 L806.4 109.6 L806.4 113.6 L799.4 104.0 Z" fill="#083a1b"/>
-  <path class="cellule" style="animation-delay:4.95s" d="M786.4 100.0 L799.4 100.0 L806.4 109.6 L793.4 109.6 Z" fill="#0b4a22"/>
+  <path d="M793.4 101.9 L806.4 101.9 L806.4 113.6 L793.4 113.6 Z" fill="#06491d"/>
+  <path d="M799.4 92.3 L806.4 101.9 L806.4 113.6 L799.4 104.0 Z" fill="#086026"/>
+  <path class="cellule" style="animation-delay:4.95s" d="M786.4 92.3 L799.4 92.3 L806.4 101.9 L793.4 101.9 Z" fill="#0a7a31"/>
   <path d="M59.0 115.0 L72.0 115.0 L79.0 124.6 L66.0 124.6 Z" fill="#15171a"/>
   <path d="M73.4 115.0 L86.4 115.0 L93.4 124.6 L80.4 124.6 Z" fill="#15171a"/>
   <path d="M87.8 115.0 L100.8 115.0 L107.8 124.6 L94.8 124.6 Z" fill="#15171a"/>
@@ -260,6 +260,7 @@
   <path d="M786.0 104.8 L799.0 104.8 L799.0 124.6 L786.0 124.6 Z" fill="#06491d"/>
   <path d="M792.0 95.2 L799.0 104.8 L799.0 124.6 L792.0 115.0 Z" fill="#086026"/>
   <path class="cellule" style="animation-delay:2.97s" d="M779.0 95.2 L792.0 95.2 L799.0 104.8 L786.0 104.8 Z" fill="#0a7a31"/>
+  <path d="M793.4 115.0 L806.4 115.0 L813.4 124.6 L800.4 124.6 Z" fill="#15171a"/>
   <path d="M66.0 126.0 L79.0 126.0 L86.0 135.6 L73.0 135.6 Z" fill="#15171a"/>
   <path d="M80.4 126.0 L93.4 126.0 L100.4 135.6 L87.4 135.6 Z" fill="#15171a"/>
   <path d="M94.8 126.0 L107.8 126.0 L114.8 135.6 L101.8 135.6 Z" fill="#15171a"/>
@@ -696,5 +697,5 @@
   <path d="M835.4 170.0 L848.4 170.0 L848.4 179.6 L835.4 179.6 Z" fill="#062c14"/>
   <path d="M841.4 160.4 L848.4 170.0 L848.4 179.6 L841.4 170.0 Z" fill="#083a1b"/>
   <path class="cellule" style="animation-delay:0.66s" d="M828.4 160.4 L841.4 160.4 L848.4 170.0 L835.4 170.0 Z" fill="#0b4a22"/>
-  <text x="20" y="205" class="foot">145 ACTIVE DAYS · 2500 CONTRIBUTIONS · 52 WEEKS TO 2026-11-16</text>
+  <text x="20" y="205" class="foot">145 ACTIVE DAYS · 2532 CONTRIBUTIONS · 52 WEEKS TO 2026-11-17</text>
 </svg>
