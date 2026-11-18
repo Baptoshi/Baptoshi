@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="428" height="212" viewBox="0 0 428 212" role="img" aria-label="Radar des jours de la semaine : MON 730, TUE 535, WED 246, THU 264, FRI 225, SAT 234, SUN 338.">
+<svg xmlns="http://www.w3.org/2000/svg" width="428" height="212" viewBox="0 0 428 212" role="img" aria-label="Radar des jours de la semaine : MON 730, TUE 535, WED 254, THU 264, FRI 225, SAT 234, SUN 338.">
   <title>WEEKDAY RADAR</title>
-  <desc>Les sept jours de la semaine sur sept axes, en contributions sur douze mois : mon 730, tue 535, wed 246, thu 264, fri 225, sat 234, sun 338. L'axe va de 0 à 730. Source : API GraphQL de GitHub, arrêté au 2026-11-18 00:50Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>Les sept jours de la semaine sur sept axes, en contributions sur douze mois : mon 730, tue 535, wed 254, thu 264, fri 225, sat 234, sun 338. L'axe va de 0 à 730. Source : API GraphQL de GitHub, arrêté au 2026-11-18 09:57Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
@@ -70,17 +70,17 @@
   <line x1="214" y1="122" x2="168.7" y2="85.8" stroke="#1a1d21"/>
   <g class="sweep"><path d="M214 122 L214 64 A58 58 0 0 1 265.7 95.7 Z" fill="url(#beam)"/>
     <line x1="214" y1="122" x2="214" y2="64" stroke="#4dec6a" stroke-width="1" opacity=".7"/></g>
-  <polygon points="214.0,64.0 247.2,95.5 233.1,126.3 223.1,140.9 206.2,138.1 195.9,126.1 193.0,105.3" fill="#00c805" fill-opacity=".22" stroke="#00c805" stroke-width="1.8" stroke-linejoin="round"/>
+  <polygon points="214.0,64.0 247.2,95.5 233.7,126.5 223.1,140.9 206.2,138.1 195.9,126.1 193.0,105.3" fill="#00c805" fill-opacity=".22" stroke="#00c805" stroke-width="1.8" stroke-linejoin="round"/>
   <circle class="vtx" cx="214.0" cy="64.0" r="2.6" fill="#4dec6a" style="animation-delay:0s"/>
   <circle class="vtx" cx="247.2" cy="95.5" r="2.6" fill="#00c805" style="animation-delay:0.25s"/>
-  <circle class="vtx" cx="233.1" cy="126.3" r="2.6" fill="#00c805" style="animation-delay:0.5s"/>
+  <circle class="vtx" cx="233.7" cy="126.5" r="2.6" fill="#00c805" style="animation-delay:0.5s"/>
   <circle class="vtx" cx="223.1" cy="140.9" r="2.6" fill="#00c805" style="animation-delay:0.75s"/>
   <circle class="vtx" cx="206.2" cy="138.1" r="2.6" fill="#00c805" style="animation-delay:1s"/>
   <circle class="vtx" cx="195.9" cy="126.1" r="2.6" fill="#00c805" style="animation-delay:1.25s"/>
   <circle class="vtx" cx="193.0" cy="105.3" r="2.6" fill="#00c805" style="animation-delay:1.5s"/>
   <text x="214.0" y="53.1" class="tiny" text-anchor="middle">MON 730</text>
   <text x="270.2" y="80.2" class="tiny" text-anchor="start">TUE 535</text>
-  <text x="284.1" y="141.0" class="tiny" text-anchor="start">WED 246</text>
+  <text x="284.1" y="141.0" class="tiny" text-anchor="start">WED 254</text>
   <text x="245.2" y="189.8" class="tiny" text-anchor="start">THU 264</text>
   <text x="182.8" y="189.8" class="tiny" text-anchor="end">FRI 225</text>
   <text x="143.9" y="141.0" class="tiny" text-anchor="end">SAT 234</text>
