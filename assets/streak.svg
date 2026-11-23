@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="428" height="212" viewBox="0 0 428 212" role="img" aria-label="Séries de jours consécutifs : 1 en cours, 20 au plus long, 148 jours actifs.">
   <title>STREAK</title>
-  <desc>Jours consécutifs avec au moins une contribution : 1 en cours, record de 20 clos le 2026-11-21, 148 jours actifs sur 365. Source : API GraphQL de GitHub, arrêté au 2026-11-23 07:00Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>Jours consécutifs avec au moins une contribution : 1 en cours, record de 20 clos le 2026-11-21, 148 jours actifs sur 365. Source : API GraphQL de GitHub, arrêté au 2026-11-23 20:00Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
@@ -96,6 +96,6 @@
   <rect class="grow" x="357.3" y="150.4" width="10.9" height="17.6" rx="1.5" fill="#00c805" style="animation-delay:1.7999999999999998s"/>
   <rect class="grow" x="370.2" y="165.0" width="10.9" height="3.0" rx="1.5" fill="#00c805" style="animation-delay:2.1s"/>
   <rect class="grow" x="383.1" y="166.0" width="10.9" height="2.0" rx="1.5" fill="#1e2126" style="animation-delay:2.4s"/>
-  <rect class="grow" x="396.1" y="165.0" width="10.9" height="3.0" rx="1.5" fill="#00c805" style="animation-delay:2.6999999999999997s"/>
+  <rect class="grow" x="396.1" y="156.2" width="10.9" height="11.8" rx="1.5" fill="#00c805" style="animation-delay:2.6999999999999997s"/>
   <text x="20" y="202" class="foot">LAST CONTRIBUTION 2026-11-23</text>
 </svg>
