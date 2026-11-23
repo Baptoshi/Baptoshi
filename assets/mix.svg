@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="428" height="190" viewBox="0 0 428 190" role="img" aria-label="Répartition de l'activité : 2656 private, 53 commits, 24 pull requests, 5 issues.">
+<svg xmlns="http://www.w3.org/2000/svg" width="428" height="190" viewBox="0 0 428 190" role="img" aria-label="Répartition de l'activité : 2626 private, 53 commits, 24 pull requests, 5 issues.">
   <title>ACTIVITY MIX</title>
-  <desc>Les natures que l'API compte séparément : private 2656 (97.0%), commits 53 (1.9%), pull requests 24 (0.9%), issues 5 (0.2%). Source : API GraphQL de GitHub, arrêté au 2026-11-22 23:28Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>Les natures que l'API compte séparément : private 2626 (97.0%), commits 53 (2.0%), pull requests 24 (0.9%), issues 5 (0.2%). Source : API GraphQL de GitHub, arrêté au 2026-11-23 07:00Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
@@ -56,29 +56,29 @@
   <line x1="0" y1="42" x2="428" y2="42" stroke="#1a1c1f"/>
   <circle cx="92" cy="116" r="42" fill="none" stroke="#17191d" stroke-width="15"/>
   <circle cx="92" cy="116" r="42" fill="none" stroke="#3a4a52" stroke-width="15"
-      stroke-dasharray="254.49 9.40" stroke-dashoffset="0.00"
+      stroke-dasharray="254.40 9.49" stroke-dashoffset="0.00"
       transform="rotate(-90 92 116)"/>
   <circle cx="92" cy="116" r="42" fill="none" stroke="#00c805" stroke-width="15"
-      stroke-dasharray="3.61 260.29" stroke-dashoffset="-255.99"
+      stroke-dasharray="3.66 260.23" stroke-dashoffset="-255.90"
       transform="rotate(-90 92 116)"/>
   <circle cx="92" cy="116" r="42" fill="none" stroke="#0c8b3c" stroke-width="15"
-      stroke-dasharray="0.81 263.08" stroke-dashoffset="-261.10"
+      stroke-dasharray="0.84 263.05" stroke-dashoffset="-261.07"
       transform="rotate(-90 92 116)"/>
   <circle cx="92" cy="116" r="42" fill="none" stroke="#2a7248" stroke-width="15"
-      stroke-dasharray="-1.02 264.91" stroke-dashoffset="-263.41"
+      stroke-dasharray="-1.01 264.91" stroke-dashoffset="-263.41"
       transform="rotate(-90 92 116)"/>
   <circle class="spin" cx="92" cy="116" r="54" fill="none" stroke="#00c805" stroke-opacity=".5" stroke-width="1" stroke-dasharray="2 10"/>
-  <text x="92" y="119" class="val" text-anchor="middle">2738</text>
+  <text x="92" y="119" class="val" text-anchor="middle">2708</text>
   <text x="92" y="133" class="tiny" text-anchor="middle">EVENTS</text>
   <g>
     <rect x="166" y="74" width="9" height="9" rx="2" fill="#3a4a52"/>
     <text x="182" y="82" class="leg">PRIVATE</text>
-    <text x="408" y="82" class="num" text-anchor="end">2656 · 97.0%</text>
+    <text x="408" y="82" class="num" text-anchor="end">2626 · 97.0%</text>
   </g>
   <g>
     <rect x="166" y="96" width="9" height="9" rx="2" fill="#00c805"/>
     <text x="182" y="104" class="leg">COMMITS</text>
-    <text x="408" y="104" class="num" text-anchor="end">53 · 1.9%</text>
+    <text x="408" y="104" class="num" text-anchor="end">53 · 2.0%</text>
   </g>
   <g>
     <rect x="166" y="118" width="9" height="9" rx="2" fill="#0c8b3c"/>
