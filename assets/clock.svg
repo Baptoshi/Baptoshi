@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="428" height="212" viewBox="0 0 428 212" role="img" aria-label="Heures d'activité : 8h 1, 10h 1, 11h 1, 14h 1, 23h 5.">
+<svg xmlns="http://www.w3.org/2000/svg" width="428" height="212" viewBox="0 0 428 212" role="img" aria-label="Heures d'activité : 8h 1, 10h 1, 11h 1, 14h 1.">
   <title>PRODUCTIVE HOURS</title>
-  <desc>Les heures où tombent les 9 derniers événements publics (2026-10-27 → 2026-10-28), heure de Paris. Le pic est de 5 à 23 h. Source : API GraphQL de GitHub, arrêté au 2026-11-27 02:43Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>Les heures où tombent les 4 derniers événements publics (2026-10-28 → 2026-10-28), heure de Paris. Le pic est de 1 à 8 h. Source : API GraphQL de GitHub, arrêté au 2026-11-27 13:39Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
@@ -25,7 +25,7 @@
       .lab  { font-size: 9.5px; fill: #6d7279; letter-spacing: 1.5px; }
       .tiny { font-size: 8.5px; fill: #5d6268; letter-spacing: 1.1px; }
       .big  { font-size: 44px; fill: #fff; font-weight: 500; letter-spacing: -1.4px; }
-      .chg  { font-size: 12.5px; fill: #ff5000; font-weight: 600; }
+      .chg  { font-size: 12.5px; fill: #00c805; font-weight: 600; }
       .key  { font-size: 9.5px; fill: #8b9199; letter-spacing: 1.3px; }
       .val  { font-size: 16px; fill: #fff; font-weight: 500; }
       .num  { font-size: 11px; fill: #c9ced4; }
@@ -64,13 +64,13 @@
   <line class="" x1="235.3" y1="104.3" x2="236.7" y2="103.9" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:1.5s"/>
   <line class="" x1="236.0" y1="110.0" x2="237.5" y2="110.0" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:1.7999999999999998s"/>
   <line class="" x1="235.3" y1="115.7" x2="236.7" y2="116.1" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:2.1s"/>
-  <line class="grow" x1="233.1" y1="121.0" x2="238.2" y2="124.0" stroke="#00c805" stroke-width="5" stroke-linecap="round" style="animation-delay:0s"/>
+  <line class="grow" x1="233.1" y1="121.0" x2="259.0" y2="136.0" stroke="#4dec6a" stroke-width="5" stroke-linecap="round" style="animation-delay:0s"/>
   <line class="" x1="229.6" y1="125.6" x2="230.6" y2="126.6" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:0.3s"/>
-  <line class="grow" x1="225.0" y1="129.1" x2="228.0" y2="134.2" stroke="#00c805" stroke-width="5" stroke-linecap="round" style="animation-delay:0.6s"/>
-  <line class="grow" x1="219.7" y1="131.3" x2="221.2" y2="137.0" stroke="#00c805" stroke-width="5" stroke-linecap="round" style="animation-delay:0.8999999999999999s"/>
+  <line class="grow" x1="225.0" y1="129.1" x2="240.0" y2="155.0" stroke="#4dec6a" stroke-width="5" stroke-linecap="round" style="animation-delay:0.6s"/>
+  <line class="grow" x1="219.7" y1="131.3" x2="227.5" y2="160.2" stroke="#4dec6a" stroke-width="5" stroke-linecap="round" style="animation-delay:0.8999999999999999s"/>
   <line class="" x1="214.0" y1="132.0" x2="214.0" y2="133.5" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:1.2s"/>
   <line class="" x1="208.3" y1="131.3" x2="207.9" y2="132.7" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:1.5s"/>
-  <line class="grow" x1="203.0" y1="129.1" x2="200.0" y2="134.2" stroke="#00c805" stroke-width="5" stroke-linecap="round" style="animation-delay:1.7999999999999998s"/>
+  <line class="grow" x1="203.0" y1="129.1" x2="188.0" y2="155.0" stroke="#4dec6a" stroke-width="5" stroke-linecap="round" style="animation-delay:1.7999999999999998s"/>
   <line class="" x1="198.4" y1="125.6" x2="197.4" y2="126.6" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:2.1s"/>
   <line class="" x1="194.9" y1="121.0" x2="193.6" y2="121.8" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:0s"/>
   <line class="" x1="192.7" y1="115.7" x2="191.3" y2="116.1" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:0.3s"/>
@@ -79,12 +79,12 @@
   <line class="" x1="194.9" y1="99.0" x2="193.6" y2="98.3" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:1.2s"/>
   <line class="" x1="198.4" y1="94.4" x2="197.4" y2="93.4" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:1.5s"/>
   <line class="" x1="203.0" y1="90.9" x2="202.3" y2="89.6" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:1.7999999999999998s"/>
-  <line class="grow" x1="208.3" y1="88.7" x2="200.5" y2="59.8" stroke="#4dec6a" stroke-width="5" stroke-linecap="round" style="animation-delay:2.1s"/>
+  <line class="" x1="208.3" y1="88.7" x2="207.9" y2="87.3" stroke="#1e2126" stroke-width="5" stroke-linecap="round" style="animation-delay:2.1s"/>
   <line class="hand" x1="214" y1="110" x2="214" y2="54" stroke="#4dec6a" stroke-width="1" opacity=".55"/>
   <text x="214.0" y="49.0" class="tiny" text-anchor="middle">00</text>
   <text x="278.0" y="113.0" class="tiny" text-anchor="middle">06</text>
   <text x="214.0" y="177.0" class="tiny" text-anchor="middle">12</text>
   <text x="150.0" y="113.0" class="tiny" text-anchor="middle">18</text>
-  <text x="214" y="113" class="num" text-anchor="middle">23H</text>
-  <text x="20" y="202" class="foot">9 PUBLIC EVENTS · 2026-10-27 → 2026-10-28</text>
+  <text x="214" y="113" class="num" text-anchor="middle">08H</text>
+  <text x="20" y="202" class="foot">4 PUBLIC EVENTS · 2026-10-28 → 2026-10-28</text>
 </svg>
