@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="428" height="212" viewBox="0 0 428 212" role="img" aria-label="Radar des jours de la semaine : MON 751, TUE 621, WED 363, THU 394, FRI 354, SAT 241, SUN 335.">
   <title>WEEKDAY RADAR</title>
-  <desc>Les sept jours de la semaine sur sept axes, en contributions sur douze mois : mon 751, tue 621, wed 363, thu 394, fri 354, sat 241, sun 335. L'axe va de 0 à 751. Source : API GraphQL de GitHub, arrêté au 2026-11-28 07:18Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
+  <desc>Les sept jours de la semaine sur sept axes, en contributions sur douze mois : mon 751, tue 621, wed 363, thu 394, fri 354, sat 241, sun 335. L'axe va de 0 à 751. Source : API GraphQL de GitHub, arrêté au 2026-11-28 16:45Z. Dépôts publics seulement, lus en agrégat : ni nom, ni contenu, ni description.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00c805"/><stop offset="1" stop-color="#00c805" stop-opacity=".45"/>
